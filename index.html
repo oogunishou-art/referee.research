@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--
+  © 2026 大國将 (Shou Ooguni). All Rights Reserved.
+  本アプリ「#77 加藤誉樹レフェリー 試合一覧 (referee.research)」の著作権は大國将個人に帰属します。
+  無断複製・改変・再配布・リバースエンジニアリングを禁じます。
+
+  This application is the proprietary work of Shou Ooguni.
+  Unauthorized copying, modification, redistribution, or
+  reverse-engineering is strictly prohibited and may be
+  subject to legal action.
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,user-scalable=yes,viewport-fit=cover">
+<title>#77 加藤誉樹レフェリー 試合一覧</title>
+<meta name="author" content="大國将 (Shou Ooguni)">
+<meta name="copyright" content="© 2026 大國将 (Shou Ooguni). All Rights Reserved.">
+<meta name="rights" content="Proprietary. Unauthorized copying, modification, redistribution, or reverse-engineering is prohibited.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="googlebot" content="noindex,nofollow">
+<style>
+:root{
+  --bg:#f0f2f5;--bg2:#fff;--bg3:#f9fafb;
+  --text1:#1d2939;--text2:#344054;--text3:#667085;--text4:#98a2b3;
+  --border:#e4e7ec;--border2:#d0d5dd;
+  --card-shadow:0 2px 8px rgba(0,0,0,.07);
+  --navy:#0b1d4a;--red:#c8102e;--gold:#d4af37;
+  --ok:#039855;--blue:#3b5bdb;
+}
+body.dark{
+  --bg:#0f1117;--bg2:#1a1d2e;--bg3:#22263a;
+  --text1:#e8eaf0;--text2:#c5c9d8;--text3:#8e94b0;--text4:#5c6280;
+  --border:#2d3148;--border2:#3d4360;
+  --card-shadow:0 2px 8px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;margin:0;padding:0;transition:background-color .2s,color .2s,border-color .2s}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif;
+  background:var(--bg);color:var(--text1);min-height:100vh;padding-bottom:40px;
+  -webkit-text-size-adjust:100%;
+}
+button,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.app{max-width:580px;margin:0 auto;padding:12px}
+
+/* ヘッダー */
+.header{
+  background:linear-gradient(135deg,#0b1d4a 0%,#1a3a7c 100%);
+  color:#fff;border-radius:16px;padding:16px;margin-bottom:12px;
+  border:2px solid var(--gold);box-shadow:0 4px 16px rgba(11,29,74,.35);
+}
+.header-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}
+.badge-77{background:var(--red);color:var(--gold);border:1px solid var(--gold);font-size:11px;font-weight:900;padding:3px 9px;border-radius:6px;letter-spacing:1px}
+.title{font-size:17px;font-weight:900;letter-spacing:.5px;flex:1;margin-left:6px}
+.icon-btn{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.25);padding:6px 10px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer}
+
+/* ステータス集計 */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat-box{background:rgba(0,0,0,.28);border:1px solid rgba(212,175,55,.3);border-radius:10px;padding:8px 4px;text-align:center}
+.stat-n{font-size:20px;font-weight:900;line-height:1}
+.stat-l{font-size:10px;color:#f5e9c8;margin-top:3px;opacity:.9}
+
+/* 自動更新バー */
+.sync-card{
+  background:var(--bg2);border-radius:13px;padding:12px;margin-bottom:12px;
+  box-shadow:var(--card-shadow);border:1px solid var(--border);
+}
+.sync-row{display:flex;gap:6px;align-items:center}
+.btn{
+  border:none;border-radius:10px;padding:11px 12px;font-size:13px;font-weight:800;
+  cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:5px;
+  text-decoration:none;transition:transform .1s,opacity .15s;
+}
+.btn:active{transform:scale(.97)}
+.btn-sync{background:#3b5bdb;color:#fff;width:100%}
+.btn-sync:disabled{opacity:.6;cursor:default}
+.sync-status{font-size:11px;color:var(--text3);margin-top:7px;line-height:1.4}
+.quick-add-row{display:flex;gap:6px;margin-top:8px;padding-top:8px;border-top:1px dashed var(--border)}
+.quick-input{
+  flex:1;padding:8px 10px;border-radius:8px;border:1.5px solid var(--border2);
+  background:var(--bg3);color:var(--text1);font-size:12px;outline:none;
+}
+.quick-input:focus{border-color:#3b5bdb}
+
+/* フィルタ */
+.filter-bar{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.f-chips{display:flex;gap:5px}
+.fbtn{
+  font-size:12px;padding:6px 13px;border-radius:99px;border:1.5px solid var(--border2);
+  background:var(--bg2);color:var(--text3);cursor:pointer;font-weight:700;
+}
+.fbtn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+body.dark .fbtn.active{background:#3b5bdb;border-color:#3b5bdb}
+
+/* 試合カード */
+.game-card{
+  background:var(--bg2);border-radius:14px;padding:14px;margin-bottom:10px;
+  box-shadow:var(--card-shadow);border:1.5px solid var(--border);
+  border-left:6px solid var(--red);
+}
+.game-card.watched{border-left-color:var(--ok);opacity:.9}
+.gc-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.gc-date{font-size:12px;font-weight:800;color:var(--text3)}
+.gc-match{font-size:17px;font-weight:900;color:var(--text1);margin-bottom:4px;line-height:1.3}
+.gc-venue{font-size:11px;color:var(--text3);margin-bottom:6px}
+.gc-crew{
+  font-size:12px;color:var(--text2);background:var(--bg3);
+  padding:7px 10px;border-radius:8px;margin-bottom:11px;border:1px solid var(--border);
+}
+.gc-crew b{color:var(--red)}
+body.dark .gc-crew b{color:#fbbf24}
+
+/* 視聴チェックボタン */
+.watch-check-btn{
+  padding:8px 15px;border-radius:99px;font-size:13px;font-weight:900;cursor:pointer;
+  border:2px solid;display:inline-flex;align-items:center;gap:5px;flex-shrink:0;
+}
+.watch-check-btn.unwatched{background:#fff4e6;color:#d9480f;border-color:#fd7e14}
+.watch-check-btn.watched{background:#ecfdf3;color:#027a48;border-color:#12b76a}
+body.dark .watch-check-btn.unwatched{background:rgba(253,126,20,.15);color:#fdba74}
+body.dark .watch-check-btn.watched{background:rgba(18,183,106,.15);color:#6ee7b7}
+
+/* バスケットLIVE見逃し配信ボタン */
+.gc-btns{display:flex;gap:8px}
+.btn-live{background:linear-gradient(135deg,#c8102e,#991b1b);color:#fff;flex:1.3}
+.btn-app{background:linear-gradient(135deg,#ea580c,#c2410c);color:#fff;flex:1}
+
+.toast{
+  position:fixed;bottom:18px;left:50%;transform:translateX(-50%);
+  background:#1d2939;color:#fff;font-size:12px;font-weight:700;
+  padding:8px 16px;border-radius:99px;opacity:0;transition:opacity .25s;
+  pointer-events:none;z-index:9999;box-shadow:0 4px 12px rgba(0,0,0,.3);
+}
+.toast.show{opacity:1}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js').then(function(reg) {
+      reg.addEventListener('updatefound', function() {
+        var newWorker = reg.installing;
+        newWorker.addEventListener('statechange', function() {
+          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+            window.location.reload(true);
+          }
+        });
+      });
+    }).catch(function(err) {});
+  });
+}
+</script>
+</head>
+<body>
+
+<div class="app">
+  <!-- ヘッダー -->
+  <div class="header">
+    <div class="header-top">
+      <span class="badge-77">#77 CC</span>
+      <div class="title">加藤 誉樹レフェリー 試合一覧</div>
+      <button class="icon-btn" onclick="toggleDark()" id="dark-btn">🌙 暗色</button>
+    </div>
+    <div class="stats">
+      <div class="stat-box"><div class="stat-n" id="st-total">0</div><div class="stat-l">全試合</div></div>
+      <div class="stat-box"><div class="stat-n" id="st-unwatched" style="color:#fde047">0</div><div class="stat-l">未視聴</div></div>
+      <div class="stat-box"><div class="stat-n" id="st-watched" style="color:#6ee7b7">0</div><div class="stat-l">✔ 視聴済</div></div>
+    </div>
+  </div>
+
+  <!-- 最新試合の自動更新バー -->
+  <div class="sync-card">
+    <div class="sync-row">
+      <button class="btn btn-sync" id="sync-btn" onclick="autoSyncNewGames(true)">
+        🔄 最新試合を自動更新
+      </button>
+    </div>
+    <div class="sync-status" id="sync-status">
+      📡 最新試合データを自動チェック中...
+    </div>
+    <div class="quick-add-row">
+      <input type="text" id="quick-key" class="quick-input" placeholder="6桁の試合ID(例:506520)またはURLで手動追加も可" oninput="extractKeyInput(this)">
+      <button class="btn" style="background:var(--navy);color:#fff;padding:8px 12px;font-size:12px" onclick="addByScheduleKey()">＋追加</button>
+    </div>
+  </div>
+
+  <!-- フィルタ切り替え -->
+  <div class="filter-bar">
+    <div class="f-chips">
+      <button class="fbtn active" id="f-all" onclick="setFilter('all')">すべて</button>
+      <button class="fbtn" id="f-unwatched" onclick="setFilter('unwatched')">☐ 未視聴のみ</button>
+      <button class="fbtn" id="f-watched" onclick="setFilter('watched')">☑ 視聴済のみ</button>
+    </div>
+    <span style="font-size:11px;color:var(--text4);font-weight:700" id="count-label">0試合</span>
+  </div>
+
+  <!-- 試合一覧リスト -->
+  <div id="game-list"></div>
+</div>
+
+<div class="toast" id="toast">保存しました</div>
+
+<script>
+console.warn("%cSTOP! © 2026 大國将 (Shou Ooguni). All Rights Reserved.", "color: #c8102e; font-size: 14px; font-weight: bold;");
+
+const STORAGE_WATCHED = "ooguni_ref77_watched_v3";
+const STORAGE_EXTRA   = "ooguni_ref77_extra_games_v3";
+const STORAGE_DARK    = "ooguni_ref77_dark_v3";
+
+// 2026-27 B.PREMIER 加藤誉樹レフェリー(#77) 判明済みベースライン試合リスト
+// key はバスケットLIVEの見逃し配信URL (https://basketball.mb.softbank.jp/lives/{key}) と完全一致
+const BASE_GAMES = [
+  { key: "506503", date: "2026-10-24 (土)", match: "A東京 vs 三河", venue: "TOYOTA ARENA TOKYO", crew: "加藤 誉樹 ／ 石田 祐二 ／ 佐久間 奈々" },
+  { key: "506486", date: "2026-10-21 (水)", match: "北海道 vs 富山", venue: "北海きたえーる", crew: "加藤 誉樹 ／ 冨士 将史 ／ 山田 俊" },
+  { key: "506479", date: "2026-10-19 (月)", match: "千葉J vs 東京SR", venue: "LaLa arena TOKYO-BAY", crew: "加藤 誉樹 ／ 大井 陽平 ／ 田中 充" },
+  { key: "506471", date: "2026-10-17 (土)", match: "千葉J vs 島根", venue: "LaLa arena TOKYO-BAY", crew: "加藤 誉樹 ／ 加藤 暁生 ／ 岩城 和利" },
+  { key: "506457", date: "2026-10-11 (日)", match: "東京SR vs 仙台", venue: "青山学院記念館", crew: "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史" },
+  { key: "506445", date: "2026-10-09 (金)", match: "東京SR vs 富山", venue: "青山学院記念館", crew: "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史" },
+  { key: "506428", date: "2026-10-04 (日)", match: "島根 vs 名古屋D", venue: "バンダイナムコアリーナ松江", crew: "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子", defaultWatched: true },
+  { key: "506416", date: "2026-10-03 (土)", match: "島根 vs 名古屋D", venue: "バンダイナムコアリーナ松江", crew: "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子", defaultWatched: true }
+];
+
+let watchedMap = {};
+let extraGames = [];
+let currentFilter = "all";
+
+function init() {
+  if (localStorage.getItem(STORAGE_DARK) === "1") {
+    document.body.classList.add("dark");
+    document.getElementById("dark-btn").textContent = "☀️ 明色";
+  }
+
+  try {
+    const rawW = localStorage.getItem(STORAGE_WATCHED);
+    if (rawW) {
+      watchedMap = JSON.parse(rawW);
+    } else {
+      BASE_GAMES.forEach(g => { if (g.defaultWatched) watchedMap[g.key] = true; });
+      saveWatched();
+    }
+  } catch (e) { watchedMap = {}; }
+
+  try {
+    extraGames = JSON.parse(localStorage.getItem(STORAGE_EXTRA) || "[]");
+  } catch (e) { extraGames = []; }
+
+  render();
+  autoSyncNewGames(false);
+}
+
+function getAllGames() {
+  const map = new Map();
+  [...extraGames, ...BASE_GAMES].forEach(g => {
+    if (g && g.key && !map.has(String(g.key))) {
+      map.set(String(g.key), g);
+    }
+  });
+  return Array.from(map.values()).sort((a, b) => Number(b.key) - Number(a.key));
+}
+
+function saveWatched() {
+  localStorage.setItem(STORAGE_WATCHED, JSON.stringify(watchedMap));
+}
+
+function saveExtraGames() {
+  localStorage.setItem(STORAGE_EXTRA, JSON.stringify(extraGames));
+}
+
+function toggleWatch(key) {
+  watchedMap[key] = !watchedMap[key];
+  saveWatched();
+  render();
+  showToast(watchedMap[key] ? "☑「視聴済」にチェックしました" : "☐「未視聴」に戻しました");
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  ["all", "unwatched", "watched"].forEach(k => {
+    document.getElementById("f-" + k).classList.toggle("active", k === f);
+  });
+  render();
+}
+
+// バスケットLIVEアプリ起動（スマホ用ディープリンク＋ブラウザ見逃し配信フォールバック）
+function openBasketLiveApp(key) {
+  const webUrl = `https://basketball.mb.softbank.jp/lives/${encodeURIComponent(key)}`;
+  const ua = navigator.userAgent || "";
+  if (/Android/i.test(ua)) {
+    window.location.href = `intent://basketball.mb.softbank.jp/lives/${encodeURIComponent(key)}#Intent;scheme=https;package=jp.softbank.mb.basketball;S.browser_fallback_url=${encodeURIComponent(webUrl)};end`;
+  } else {
+    window.open(webUrl, "_blank", "noopener");
+  }
+}
+
+function render() {
+  const all = getAllGames();
+  const total = all.length;
+  const watchedCount = all.filter(g => !!watchedMap[g.key]).length;
+  const unwatchedCount = total - watchedCount;
+
+  document.getElementById("st-total").textContent = total;
+  document.getElementById("st-unwatched").textContent = unwatchedCount;
+  document.getElementById("st-watched").textContent = watchedCount;
+
+  const filtered = all.filter(g => {
+    const isW = !!watchedMap[g.key];
+    if (currentFilter === "unwatched") return !isW;
+    if (currentFilter === "watched") return isW;
+    return true;
+  });
+
+  document.getElementById("count-label").textContent = `${filtered.length}試合`;
+  const listEl = document.getElementById("game-list");
+
+  if (filtered.length === 0) {
+    listEl.innerHTML = `<div class="sync-card" style="text-align:center;color:var(--text3);padding:28px">該当する試合はありません。</div>`;
+    return;
+  }
+
+  listEl.innerHTML = filtered.map(g => {
+    const isW = !!watchedMap[g.key];
+    const liveUrl = `https://basketball.mb.softbank.jp/lives/${encodeURIComponent(g.key)}`;
+
+    return `
+      <div class="game-card ${isW ? 'watched' : ''}">
+        <div class="gc-top">
+          <span class="gc-date">📅 ${esc(g.date)} <span style="opacity:.6">(ID:${esc(g.key)})</span></span>
+          <button class="watch-check-btn ${isW ? 'watched' : 'unwatched'}" onclick="toggleWatch('${esc(g.key)}')">
+            ${isW ? '☑ 視聴済' : '☐ 未視聴'}
+          </button>
+        </div>
+        <div class="gc-match">${esc(g.match)}</div>
+        ${g.venue ? `<div class="gc-venue">📍 ${esc(g.venue)}</div>` : ''}
+        <div class="gc-crew">
+          👨‍⚖️ 審判：${esc(g.crew).replace(/加藤\s*誉樹/g, '<b>加藤 誉樹(#77)</b>')}
+        </div>
+        <div class="gc-btns">
+          <a class="btn btn-live" href="${liveUrl}" target="_blank" rel="noopener">
+            🏀 見逃し配信を開く
+          </a>
+          <button class="btn btn-app" onclick="openBasketLiveApp('${esc(g.key)}')">
+            📱 アプリで開く
+          </button>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+// =========================================================================
+// 自動更新エンジン：検索＆Bリーグ公式データから加藤誉樹レフェリーの最新試合を自動取得
+// =========================================================================
+async function fetchTextWithFallback(targetUrl) {
+  const proxies = [
+    u => `https://r.jina.ai/${u}`,
+    u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+    u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`
+  ];
+  for (const buildUrl of proxies) {
+    try {
+      const ctrl = new AbortController();
+      const id = setTimeout(() => ctrl.abort(), 6500);
+      const res = await fetch(buildUrl(targetUrl), { signal: ctrl.signal });
+      clearTimeout(id);
+      if (res.ok) {
+        const txt = await res.text();
+        if (txt && txt.length > 80) return txt;
+      }
+    } catch (e) {}
+  }
+  return null;
+}
+
+function parseBLeagueGameDetail(text, scheduleKey) {
+  if (!text) return null;
+  if (!/加藤[\s　]*誉樹/.test(text)) return null;
+
+  let crew = "加藤 誉樹";
+  const refMatch = text.match(/レフェリー[：:]\s*([^
+<]+)/);
+  if (refMatch && refMatch[1]) {
+    crew = refMatch[1].trim();
+  }
+
+  let dateStr = "2026-27シーズン";
+  const dm = text.match(/(202[67])[.\/年](\d{1,2})[.\/月](\d{1,2})/);
+  if (dm) {
+    dateStr = `${dm[1]}-${dm[2].padStart(2, '0')}-${dm[3].padStart(2, '0')}`;
+  }
+
+  let matchStr = `B.PREMIER 試合 (ID:${scheduleKey})`;
+  const titleMatch = text.match(/([^\s|｜<]{2,15})\s*(?:vs|VS|対)\s*([^\s|｜>]{2,15})/);
+  if (titleMatch) {
+    matchStr = `${titleMatch[1]} vs ${titleMatch[2]}`;
+  }
+
+  return {
+    key: String(scheduleKey),
+    date: dateStr,
+    match: matchStr,
+    venue: "",
+    crew: crew
+  };
+}
+
+async function autoSyncNewGames(isManual) {
+  const statusEl = document.getElementById("sync-status");
+  const btnEl = document.getElementById("sync-btn");
+  if (btnEl) btnEl.disabled = true;
+  statusEl.textContent = "🔄 最新試合データをスキャン中...";
+
+  let addedCount = 0;
+  const existingKeys = new Set(getAllGames().map(g => String(g.key)));
+
+  try {
+    const searchUrls = [
+      "https://www.bing.com/search?q=" + encodeURIComponent('site:bleague.jp/game_detail/ "加藤 誉樹" "2026"'),
+      "https://html.duckduckgo.com/html/?q=" + encodeURIComponent('site:bleague.jp/game_detail/ "加藤 誉樹"')
+    ];
+
+    const candidateKeys = new Set();
+    for (const sUrl of searchUrls) {
+      const searchTxt = await fetchTextWithFallback(sUrl);
+      if (searchTxt) {
+        const matches = searchTxt.matchAll(/ScheduleKey=(\d{6})/gi);
+        for (const m of matches) {
+          if (!existingKeys.has(m[1])) candidateKeys.add(m[1]);
+        }
+      }
+    }
+
+    for (const k of candidateKeys) {
+      const detailUrl = `https://www.bleague.jp/game_detail/?ScheduleKey=${k}&tab=4`;
+      const pageTxt = await fetchTextWithFallback(detailUrl);
+      const parsed = parseBLeagueGameDetail(pageTxt, k);
+      if (parsed) {
+        extraGames.unshift(parsed);
+        existingKeys.add(k);
+        addedCount++;
+      }
+    }
+
+    if (addedCount > 0) {
+      saveExtraGames();
+      render();
+      statusEl.textContent = `✅ 新しく ${addedCount} 試合を自動追加しました！`;
+      showToast(`🎉 新着 ${addedCount} 試合を追加しました！`);
+    } else {
+      const now = new Date();
+      const timeStr = `${now.getMonth()+1}/${now.getDate()} ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+      statusEl.textContent = `✔ 最新状態（最終チェック: ${timeStr}）`;
+      if (isManual) showToast("✔ 最新状態です");
+    }
+  } catch (e) {
+    statusEl.textContent = "✔ 保存済みの最新一覧を表示しています";
+  } finally {
+    if (btnEl) btnEl.disabled = false;
+  }
+}
+
+function extractKeyInput(el) {
+  const m = el.value.match(/ScheduleKey=(\d{6})/i) || el.value.match(/\/lives\/(\d{6})/i) || el.value.match(/(\d{6})/);
+  if (m && m[1]) el.value = m[1];
+}
+
+async function addByScheduleKey() {
+  const inp = document.getElementById("quick-key");
+  extractKeyInput(inp);
+  const key = inp.value.trim();
+  if (!/^\d{6}$/.test(key)) {
+    alert("6桁の試合ID（例：506520）またはURLを入力してください。");
+    return;
+  }
+
+  if (getAllGames().some(g => String(g.key) === key)) {
+    showToast("すでに一覧にあります");
+    inp.value = "";
+    return;
+  }
+
+  const statusEl = document.getElementById("sync-status");
+  statusEl.textContent = `⏳ 試合ID:${key} の情報を取得中...`;
+
+  const detailUrl = `https://www.bleague.jp/game_detail/?ScheduleKey=${key}&tab=4`;
+  const txt = await fetchTextWithFallback(detailUrl);
+  let newGame = parseBLeagueGameDetail(txt, key);
+
+  if (!newGame) {
+    const today = new Date().toISOString().slice(0, 10);
+    newGame = {
+      key: key,
+      date: today,
+      match: `B.PREMIER 担当試合 (ID:${key})`,
+      venue: "",
+      crew: "加藤 誉樹 ほか"
+    };
+  }
+
+  extraGames.unshift(newGame);
+  saveExtraGames();
+  inp.value = "";
+  render();
+  statusEl.textContent = `✅ 試合 (ID:${key}) を一覧に追加しました！`;
+  showToast("➕ 一覧に追加しました！");
+}
+
+function toggleDark() {
+  document.body.classList.toggle("dark");
+  const isD = document.body.classList.contains("dark");
+  localStorage.setItem(STORAGE_DARK, isD ? "1" : "0");
+  document.getElementById("dark-btn").textContent = isD ? "☀️ 明色" : "🌙 暗色";
+}
+
+function showToast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  setTimeout(() => t.classList.remove("show"), 2200);
+}
+
+function esc(s) {
+  return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+window.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>

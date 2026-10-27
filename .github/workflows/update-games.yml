@@ -44,5 +44,6 @@ jobs:
             echo "変更なし"
           else
             git commit -m "試合一覧を自動更新"
+            git pull --rebase
             git push
           fi

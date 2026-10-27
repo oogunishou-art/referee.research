@@ -1,0 +1,71 @@
+{
+  "referee": "加藤 誉樹",
+  "updated": "2026-10-27T00:00:00+09:00",
+  "status": "seed",
+  "games": [
+    {
+      "key": "506503",
+      "date": "2026-10-24 (土)",
+      "match": "A東京 vs 三河",
+      "venue": "TOYOTA ARENA TOKYO",
+      "crew": "加藤 誉樹 ／ 石田 祐二 ／ 佐久間 奈々",
+      "status": "final"
+    },
+    {
+      "key": "506486",
+      "date": "2026-10-21 (水)",
+      "match": "北海道 vs 富山",
+      "venue": "北海きたえーる",
+      "crew": "加藤 誉樹 ／ 冨士 将史 ／ 山田 俊",
+      "status": "final"
+    },
+    {
+      "key": "506479",
+      "date": "2026-10-19 (月)",
+      "match": "千葉J vs 東京SR",
+      "venue": "LaLa arena TOKYO-BAY",
+      "crew": "加藤 誉樹 ／ 大井 陽平 ／ 田中 充",
+      "status": "final"
+    },
+    {
+      "key": "506471",
+      "date": "2026-10-17 (土)",
+      "match": "千葉J vs 島根",
+      "venue": "LaLa arena TOKYO-BAY",
+      "crew": "加藤 誉樹 ／ 加藤 暁生 ／ 岩城 和利",
+      "status": "final"
+    },
+    {
+      "key": "506457",
+      "date": "2026-10-11 (日)",
+      "match": "東京SR vs 仙台",
+      "venue": "青山学院記念館",
+      "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
+      "status": "final"
+    },
+    {
+      "key": "506445",
+      "date": "2026-10-09 (金)",
+      "match": "東京SR vs 富山",
+      "venue": "青山学院記念館",
+      "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
+      "status": "final"
+    },
+    {
+      "key": "506428",
+      "date": "2026-10-04 (日)",
+      "match": "島根 vs 名古屋D",
+      "venue": "バンダイナムコアリーナ松江",
+      "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
+      "status": "final"
+    },
+    {
+      "key": "506416",
+      "date": "2026-10-03 (土)",
+      "match": "島根 vs 名古屋D",
+      "venue": "バンダイナムコアリーナ松江",
+      "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
+      "status": "final"
+    }
+  ]
+}

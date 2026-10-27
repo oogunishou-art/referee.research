@@ -1,6 +1,6 @@
 {
   "referee": "加藤 誉樹",
-  "updated": "2026-10-27T11:17:34+09:00",
+  "updated": "2026-10-27T13:17:06+09:00",
   "status": "ok",
   "games": [
     {
@@ -9,7 +9,8 @@
       "match": "A東京 vs 三河",
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 石田 祐二 ／ 佐久間 奈々",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506486",
@@ -17,7 +18,8 @@
       "match": "北海道 vs 富山",
       "venue": "北海きたえーる",
       "crew": "加藤 誉樹 ／ 冨士 将史 ／ 山田 俊",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506479",
@@ -25,7 +27,8 @@
       "match": "千葉J vs 東京SR",
       "venue": "LaLa arena TOKYO-BAY",
       "crew": "加藤 誉樹 ／ 大井 陽平 ／ 田中 充",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506471",
@@ -33,7 +36,8 @@
       "match": "千葉J vs 島根",
       "venue": "LaLa arena TOKYO-BAY",
       "crew": "加藤 誉樹 ／ 加藤 暁生 ／ 岩城 和利",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506457",
@@ -41,7 +45,8 @@
       "match": "東京SR vs 仙台",
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506445",
@@ -49,7 +54,8 @@
       "match": "東京SR vs 富山",
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506428",
@@ -57,7 +63,8 @@
       "match": "島根 vs 名古屋D",
       "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
       "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
-      "status": "final"
+      "status": "final",
+      "verified": true
     },
     {
       "key": "506416",
@@ -65,7 +72,8 @@
       "match": "島根 vs 名古屋D",
       "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
       "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
-      "status": "final"
+      "status": "final",
+      "verified": true
     }
   ]
 }

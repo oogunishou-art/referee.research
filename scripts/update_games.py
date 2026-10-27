@@ -26,7 +26,9 @@ STATE_PATH = os.path.join(ROOT, "scan_state.json")
 DEBUG_DIR = os.path.join(ROOT, "debug")
 
 PAGE_URL = os.environ.get("PAGE_URL", "https://www.bleague.jp/game_detail/?ScheduleKey={key}&tab=4")
-START_KEY = int(os.environ.get("START_KEY", "506300"))  # 今シーズン序盤の試合IDより少し前
+START_KEY = int(os.environ.get("START_KEY", "506200"))  # 今シーズン開幕より前の試合ID（取りこぼし防止に余裕をみる）
+STATE_VERSION = 2                   # 読み取りルールを変えたら上げる → 次回に全件を確認し直す
+RETRY_LIMIT = 3                     # 日付が読めないページは3回まで確認し直す（一時的な表示エラー対策）
 SEASON_START = date(2026, 9, 1)     # これより前の試合は対象外
 DONE_AFTER_DAYS = 2                 # 試合日から2日たったら「調査済み」にする（審判情報の掲載待ち）
 STOP_AFTER_FUTURE = 25              # 未来の試合がこれだけ続いたら終了
@@ -135,8 +137,12 @@ def extract_crew(lines):
     # 1) 1行に複数名が並んでいる場合（例：審判：加藤 誉樹 / ○○ ○○ / ○○ ○○）
     line = lines[idx]
     body = re.sub(r"^.*?(?:審判員?|レフェリー|クルーチーフ)\s*[:：]?\s*", "", line)
-    parts = [p for p in re.split(r"[／/、,・|｜]", body) if p.strip()]
-    names = [as_name(p) for p in parts if as_name(p)]
+    parts = [strip_role(p) for p in re.split(r"[／/、,|｜]", body) if p.strip()]
+    names = []
+    for p in parts:
+        n = as_name(p) or (p if 2 <= len(p) <= 20 and not re.search(r"\d", p) else None)
+        if n:
+            names.append(re.sub(r"\s+", " ", n.replace("\u3000", " ")))
     if len(names) >= 2:
         return " ／ ".join(names[:4])
 
@@ -231,11 +237,17 @@ def main():
     games = {str(g["key"]): g for g in games_doc.get("games", []) if g.get("key")}
 
     state = load_json(STATE_PATH, None)
-    if state is None:
-        # 初回：手入力で登録済みの試合も公式ページで確かめ直す
-        state = {"done": [], "max_seen": START_KEY}
+    if state is None or state.get("version") != STATE_VERSION:
+        # 初回、または読み取りルールを変えたとき：最初から全件を確認し直す
+        print("確認記録を作り直します（全件を確認）")
+        state = {"done": [], "max_seen": START_KEY, "retry": {}}
     done = set(str(k) for k in state.get("done", []))
     max_seen = int(state.get("max_seen", START_KEY))
+    retry = {str(k): int(v) for k, v in state.get("retry", {}).items()}
+    # 公式ページでまだ確認できていない登録試合は、もう一度確認する
+    for k, g in games.items():
+        if g.get("verified") is not True and g.get("verified") is not False:
+            done.discard(k)
 
     stats = {"pages": 0, "new": 0, "updated": 0}
     future_run = missing_run = error_run = 0
@@ -245,6 +257,8 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         ctx = browser.new_context(locale="ja-JP", timezone_id="Asia/Tokyo")
+        ctx.route("**/*", lambda route: route.abort()
+                  if route.request.resource_type in ("image", "media", "font") else route.continue_())
         page = ctx.new_page()
 
         key = START_KEY
@@ -273,15 +287,23 @@ def main():
 
             if status == "missing" or gdate is None:
                 missing_run += 1
-                if key < max_seen:
-                    done.add(k)  # 後ろに試合があるIDは、今後も存在しないとみなす
-                print(f"  - {k}: 試合なし")
+                if status == "missing":
+                    if key < max_seen:
+                        done.add(k)  # 404：後ろに試合があるIDは、今後も存在しないとみなす
+                    print(f"  - {k}: 試合なし")
+                else:
+                    # 表示の失敗かもしれないので、すぐには諦めず次回また確認する
+                    retry[k] = retry.get(k, 0) + 1
+                    if key < max_seen and retry[k] >= RETRY_LIMIT:
+                        done.add(k)
+                    print(f"  ? {k}: 日付を読み取れず（{retry[k]}回目）")
                 if missing_run >= STOP_AFTER_MISSING and key > max_seen:
                     print("存在しないIDが続いたので終了")
                     break
                 key += 1
                 page.wait_for_timeout(WAIT_MS)
                 continue
+            retry.pop(k, None)
 
             missing_run = 0
             max_seen = max(max_seen, key)
@@ -297,8 +319,9 @@ def main():
                 save_debug("sample_unclear.txt", k, url, title, text)  # 読み取りルール調整用
                 saved_loose = True
 
-            if not hit and not loose and k in games:
-                print(f"  ※ {k}: 一覧にあるが、公式ページでは加藤さんの名前を確認できず（一覧には残します）")
+            if not hit and not loose and k in games and gdate <= today:
+                games[k]["verified"] = False
+                print(f"  ※ {k}: 一覧にあるが、公式ページでは加藤さんの名前を確認できず（「公式未確認」として残します）")
 
             if hit and gdate >= SEASON_START:
                 g = {
@@ -308,6 +331,7 @@ def main():
                     "venue": extract_venue(lines),
                     "crew": extract_crew(lines),
                     "status": "upcoming" if gdate > today else "final",
+                    "verified": True,
                 }
                 if k in games:
                     if games[k] != g:
@@ -343,7 +367,8 @@ def main():
         "games": sorted(games.values(), key=lambda g: int(g["key"]), reverse=True),
     }
     save_json(GAMES_PATH, games_doc)
-    save_json(STATE_PATH, {"done": sorted(done, key=int), "max_seen": max_seen, "last_run": now})
+    save_json(STATE_PATH, {"version": STATE_VERSION, "done": sorted(done, key=int), "max_seen": max_seen,
+                           "retry": retry, "last_run": now})
 
     print(f"確認ページ数: {stats['pages']} / 新着: {stats['new']} / 更新: {stats['updated']} / 合計: {len(games)}試合")
     return 0

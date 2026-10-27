@@ -507,6 +507,7 @@ function render() {
       +   '<span class="gc-date">📅 ' + esc(item.date) + ' <span style="opacity:.6">(ID:' + key + ')</span>'
       +   (newKeys[item.key] ? '<span class="tag-new">NEW</span>' : '')
       +   (upcoming ? '<span class="tag-upcoming">これから</span>' : '')
+      +   (item.verified === false ? '<span class="tag-upcoming" title="公式ページで加藤さんの名前を確認できなかった試合です">公式未確認</span>' : '')
       +   (extra ? '<span class="tag-added">手動追加</span>' : '') + '</span>'
       +   '<button type="button" class="watch-check-btn ' + (w ? 'watched' : 'unwatched') + '" data-act="watch" data-key="' + key + '" aria-pressed="' + (w ? 'true' : 'false') + '">'
       +     (w ? '☑ 視聴済' : '☐ 未視聴')

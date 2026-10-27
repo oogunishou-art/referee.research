@@ -1,0 +1,48 @@
+# © 2026 大國将 (Shou Ooguni). All Rights Reserved.
+# 加藤誉樹レフェリーの担当試合をB.LEAGUE公式から探して games.json に保存する
+name: 試合一覧を更新
+
+on:
+  schedule:
+    - cron: "30 14 * * *"   # 毎日 23:30（日本時間）
+    - cron: "0 22 * * *"    # 毎日 7:00（日本時間）
+  workflow_dispatch:         # Actions画面の「Run workflow」で今すぐ実行
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-games
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ブラウザ部品（Playwright）を準備
+        run: |
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+
+      - name: 加藤誉樹さんの担当試合を探す
+        run: python scripts/update_games.py
+
+      - name: 結果を保存
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add games.json scan_state.json
+          if [ -d debug ]; then git add debug; fi
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "試合一覧を自動更新"
+            git push
+          fi

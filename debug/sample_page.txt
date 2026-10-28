@@ -1,7 +1,7 @@
-# ScheduleKey=506510
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506510&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/10/26 宇都宮 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
-# 取得: 2026-10-28T04:32:35+09:00
+# ScheduleKey=506519
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506519&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/10/30 秋田 VS A千葉 | B.LEAGUE（Bリーグ）公式サイト
+# 取得: 2026-10-28T10:05:06+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,48 +22,38 @@ B.LEAGUE
 
 WEBサイト緊急メンテナンスの影響に関するお知らせ
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/10/26 宇都宮 VS 川崎
-2026.10.26（月）
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/10/30 秋田 VS A千葉
+2026.10.30（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-宇都宮ブレックス
+秋田ノーザンハピネッツ
 
-B.PREMIER｜東地区 7位
-89
+B.PREMIER｜東地区 12位
+--
 HOME
 
-栃木県｜ブレアリ
+秋田県｜CNA
 
-19:05 TIP OFF
+19:30 TIP OFF
 
-26
-1Q
-17
-20
-2Q
-24
-25
-3Q
-22
-18
-4Q
-29
+VS
 
-FINAL
+アルティーリ千葉
 
-川崎ブレイブサンダース
-
-B.PREMIER｜東地区 10位
-92
+B.PREMIER｜東地区 13位
+--
 AWAY
-会場：とちぎん・ブレックスアリーナ宇都宮
-人数：4232人
-レフェリー：大河原 則人／加川 真／佐藤 浩太
-ハイライト
-試合情報
+会場：CNAアリーナ☆あきた
+
+チケット購入
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
+Amazon Prime Video
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -73,16 +63,10 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-宇都宮ブレックス
+秋田ノーザンハピネッツ
 HOME
-
-試合レポート
-
-川崎ブレイブサンダース
+アルティーリ千葉
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

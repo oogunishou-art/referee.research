@@ -53,7 +53,7 @@ BL_SHORT_LOOKBACK = 3               # 2回目以降の実行で見直す日数�
 WL_DETAIL_URL = os.environ.get(
     "WL_DETAIL_URL",
     "https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id={key}")
-WL_START_ID = int(os.environ.get("WL_START_ID", "8000"))    # 2026-27シーズンより少し前の試合ID
+WL_START_ID = int(os.environ.get("WL_START_ID", "7950"))    # 2026-27シーズン開幕戦（ID 8000前後）より少し前
 WL_STOP_AFTER_MISSING = int(os.environ.get("WL_STOP_AFTER_MISSING", "40"))
 
 LIVE_URL = "https://basketball.mb.softbank.jp/lives/{id}"
@@ -227,6 +227,22 @@ def extract_venue(lines):
     return ""
 
 
+SCORE_RE = re.compile(r"^(\d{1,3})?\s*[-－]\s*(\d{1,3})?$")
+
+
+def wl_match(lines):
+    """Wリーグ：『ホーム / 点数（または -） / アウェー』の並びから対戦カードを作る"""
+    for i, l in enumerate(lines):
+        if SCORE_RE.match(l) and 0 < i < len(lines) - 1:
+            home = lines[i - 1]
+            away = lines[i + 1]
+            if i + 2 < len(lines) and lines[i + 2] and lines[i + 2] in away and len(lines[i + 2]) < len(away):
+                away = lines[i + 2]   # 正式名称の次の行にある略称を使う
+            if 1 <= len(home) <= 20 and 1 <= len(away) <= 20 and not SCORE_RE.match(away):
+                return f"{home} vs {away}"
+    return ""
+
+
 def bl_league(title, fallback):
     t = title or ""
     if re.search(r"B\.LEAGUE\s*PREMIER", t, re.I):
@@ -247,10 +263,11 @@ def wl_league(text):
     return "Wリーグ"
 
 
-def save_debug(name, sid, url, title, text):
+def save_debug(name, sid, url, title, text, links=None):
     os.makedirs(DEBUG_DIR, exist_ok=True)
     with open(os.path.join(DEBUG_DIR, name), "w", encoding="utf-8") as f:
-        f.write(f"# ID={sid}\n# URL={url}\n# TITLE={title}\n# 取得: {datetime.now(JST).isoformat(timespec='seconds')}\n\n")
+        f.write(f"# ID={sid}\n# URL={url}\n# TITLE={title}\n# LIVEリンク={links or []}\n"
+                f"# 取得: {datetime.now(JST).isoformat(timespec='seconds')}\n\n")
         f.write(text[:20000])
 
 
@@ -286,15 +303,18 @@ def fetch_page(page, url):
         title = page.title()
     except Exception:  # noqa: BLE001
         title = ""
-    live_ids = []
+    live_ids, live_links = [], []
     try:
         hrefs = page.eval_on_selector_all("a[href*='basketball.mb.softbank.jp']", "els => els.map(e => e.href)")
         for h in hrefs:
             m = re.search(r"/lives/(\d+)", h) or re.search(r"game_id=(\d+)", h)
             if m and m.group(1) not in live_ids:
                 live_ids.append(m.group(1))
+        live_links = page.eval_on_selector_all(
+            "a", "els => els.filter(e => /LIVE|ライブ/.test(e.innerText || '')).map(e => e.href).slice(0, 5)")
     except Exception:  # noqa: BLE001
         pass
+    fetch_page.last_links = live_links
     return "ok", title, text, live_ids
 
 
@@ -399,8 +419,9 @@ def main():
             done = gdate < SEASON_START or gdate <= TODAY - timedelta(days=DONE_AFTER_DAYS)
             known[sid] = {"d": gdate.isoformat(), "done": done, "lg": lg}
 
+            links = getattr(fetch_page, "last_links", [])
             if src + "_page" not in debug_saved:
-                save_debug(f"{src}_page.txt", sid, url, title, text)
+                save_debug(f"{src}_page.txt", sid, url, title, text, links)
                 debug_saved.add(src + "_page")
 
             hit = is_referee_hit(lines, text)
@@ -422,7 +443,8 @@ def main():
                     "key": key,
                     "league": lg,
                     "date": fmt_date(gdate),
-                    "match": extract_match(title, lines) or f"{lg} 試合 (ID:{num})",
+                    "match": (extract_match(title, lines) if src == "bl" else (wl_match(lines) or extract_match(title, lines)))
+                             or f"{lg} 試合 (ID:{num})",
                     "venue": extract_venue(lines),
                     "crew": extract_crew(lines, text),
                     "status": "upcoming" if gdate > TODAY else "final",
@@ -438,7 +460,7 @@ def main():
                     games[key] = g
                     stats["new"] += 1
                 if src + "_hit" not in debug_saved:
-                    save_debug(f"{src}_hit.txt", sid, url, title, text)
+                    save_debug(f"{src}_hit.txt", sid, url, title, text, links)
                     debug_saved.add(src + "_hit")
             return "ok"
 

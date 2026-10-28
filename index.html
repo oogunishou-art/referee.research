@@ -142,10 +142,17 @@ body.dark .tag-added{background:rgba(59,91,219,.22);color:#a5b4fc}
 body.dark .tool-btn.danger{color:#fca5a5;border-color:#7f1d1d}
 
 .tag-new{font-size:10px;font-weight:900;padding:2px 7px;border-radius:99px;background:var(--red);color:#fff;margin-left:4px;vertical-align:middle;white-space:nowrap}
+.tag-league{font-size:10px;font-weight:800;padding:2px 7px;border-radius:99px;background:var(--navy);color:#fff;margin-right:2px;vertical-align:middle;white-space:nowrap}
+.tag-league.wl{background:#9d174d}
+.tag-left{font-size:10px;font-weight:800;padding:2px 7px;border-radius:99px;background:#ecfdf3;color:#067647;margin-left:4px;vertical-align:middle;white-space:nowrap}
+.tag-left.soon{background:#fff4e5;color:#b54708}
+.tag-left.last{background:#fef3f2;color:#b42318}
+body.dark .tag-left{background:rgba(6,118,71,.25);color:#6ee7b7}
+body.dark .tag-left.soon{background:rgba(181,71,8,.25);color:#fdba74}
+body.dark .tag-left.last{background:rgba(180,35,24,.3);color:#fca5a5}
+.game-card.expired{opacity:.55}
+.exp-toggle{display:block;width:100%;margin:4px 0 14px;padding:10px;border-radius:10px;border:1px dashed var(--border2);background:transparent;color:var(--text3);font-size:12px;font-weight:700;cursor:pointer}
 .tag-upcoming{font-size:10px;font-weight:800;padding:2px 7px;border-radius:99px;background:var(--bg3);color:var(--text3);border:1px solid var(--border2);margin-left:4px;vertical-align:middle;white-space:nowrap}
-.sync-link{display:inline-block;margin-top:6px;font-size:11px;font-weight:700;color:var(--blue);text-decoration:none}
-body.dark .sync-link{color:#a5b4fc}
-.sync-link[hidden]{display:none}
 
 /* 編集シート */
 .modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:flex-end;justify-content:center;z-index:9000;padding:12px}
@@ -187,7 +194,7 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
       <button type="button" class="icon-btn" id="dark-btn">🌙 暗色</button>
     </div>
     <div class="stats">
-      <div class="stat-box"><div class="stat-n" id="st-total">–</div><div class="stat-l">全試合</div></div>
+      <div class="stat-box"><div class="stat-n" id="st-total">–</div><div class="stat-l">視聴できる試合</div></div>
       <div class="stat-box"><div class="stat-n" id="st-unwatched" style="color:#fde047">–</div><div class="stat-l">未視聴</div></div>
       <div class="stat-box"><div class="stat-n" id="st-watched" style="color:#6ee7b7">–</div><div class="stat-l">✔ 視聴済</div></div>
     </div>
@@ -196,10 +203,9 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
   <!-- 最新試合の自動更新バー -->
   <div class="sync-card">
     <div class="sync-row">
-      <button type="button" class="btn btn-sync" id="sync-btn">🔄 最新の一覧に更新</button>
+      <button type="button" class="btn btn-sync" id="sync-btn">🔄 最新の一覧を読み込む</button>
     </div>
     <div class="sync-status" id="sync-status">読み込み中...</div>
-    <a class="sync-link" id="run-link" href="#" target="_blank" rel="noopener" hidden>今すぐ公式サイトを探しに行く（GitHub・約10〜20分）</a>
     <div class="quick-add-row">
       <input type="text" id="quick-key" class="quick-input" style="font-size:16px" inputmode="url" autocomplete="off" placeholder="試合ID（6桁）またはURL">
       <button type="button" class="btn" id="add-btn" style="background:var(--navy);color:#fff;padding:8px 12px;font-size:12px">＋追加</button>
@@ -297,7 +303,11 @@ var STORAGE_DARK    = "ooguni_ref77_dark_v6";
 var STORAGE_SERVER  = "ooguni_ref77_server_cache_v7";  // 前回取得した games.json（オフライン用）
 var STORAGE_SEEN    = "ooguni_ref77_seen_v7";          // 既に見た試合ID（NEW表示用）
 
-var WORKFLOW_FILE = "update-games.yml";
+var VOD_DAYS = 30;                   // バスケットLIVEの見逃し配信期間（ライブ配信終了後30日間）
+var LIVE_TOP = "https://basketball.mb.softbank.jp/";
+var showExpired = false;
+var CHECKS_PER_DAY = 8;              // GitHub側の自動確認の回数（update-games.yml と合わせる）
+var STALE_HOURS = 12;                // これ以上確認が止まっていたら注意を出す
 var FETCH_TIMEOUT = 8000;
 var REFETCH_AFTER = 10 * 60 * 1000; // アプリに戻ってきたとき、10分以上たっていれば自動で読み直す
 
@@ -422,7 +432,11 @@ function getAllGames() {
       list.push(g);
     }
   }
-  list.sort(function (a, b) { return Number(b.key) - Number(a.key); });
+  list.sort(function (a, b) {
+    var da = isoPart(a.date), db = isoPart(b.date);
+    if (da !== db) return da < db ? 1 : -1;
+    return String(b.key) < String(a.key) ? -1 : 1;
+  });
   return list;
 }
 
@@ -477,7 +491,10 @@ function statusText() {
   var t = shortTime(serverDoc.updated);
   if (serverDoc.status === "error") return "⚠ 前回の自動確認で公式サイトに接続できませんでした（" + t + "）。次回の自動確認で再挑戦します。";
   if (serverDoc.status === "seed") return "✔ 初期データを表示中。初回の自動確認が終わると最新になります。";
-  return (serverFresh ? "✔ 最新の一覧です" : "📴 前回取得した一覧を表示中") + "（公式サイト最終確認: " + t + "）";
+  var age = (Date.now() - new Date(serverDoc.updated).getTime()) / 3600000;
+  if (age > STALE_HOURS) return "⚠ 公式サイトの自動確認が止まっているようです（最終確認: " + t + "）。";
+  return (serverFresh ? "✔ 最新の一覧です" : "📴 前回取得した一覧を表示中")
+    + "（B.LEAGUE・Wリーグの公式サイトを1日" + CHECKS_PER_DAY + "回自動確認／最終: " + t + "）";
 }
 
 function loadServer(isManual) {
@@ -506,28 +523,58 @@ function loadServer(isManual) {
     if (isManual) {
       if (!doc) showToast("📴 通信できませんでした。前回の一覧を表示しています");
       else if (added > 0) showToast("🎉 新着 " + added + " 試合");
-      else showToast("✔ 最新の一覧です");
+      else showToast("✔ 新しい試合はありません（最終確認 " + shortTime(serverDoc.updated) + "）");
     } else if (added > 0) {
       showToast("🎉 新着 " + added + " 試合");
     }
   }).then(function () {
     loading = false;
     btn.disabled = false;
-    btn.textContent = "🔄 最新の一覧に更新";
+    btn.textContent = "🔄 最新の一覧を読み込む";
   });
+}
+
+/* ---------------- 視聴期限・配信先 ---------------- */
+function daysSince(g) {
+  var iso = isoPart(g.date);
+  if (!iso) return null;
+  var p = iso.split("-");
+  var gd = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]));
+  var n = new Date();
+  var today = new Date(n.getFullYear(), n.getMonth(), n.getDate());
+  return Math.round((today - gd) / 86400000);
+}
+// 見逃し配信の残り日数（目安）。これからの試合は null
+function vodLeft(g) {
+  if (g.status === "upcoming") return null;
+  var d = daysSince(g);
+  if (d === null || d < 0) return null;
+  return VOD_DAYS - d;
+}
+function isExpired(g) { var l = vodLeft(g); return l !== null && l < 0; }
+function isWLeague(g) { return /^W/.test(String(g.key)) || /Wリーグ/.test(g.league || ""); }
+function leagueOf(g) { return g.league || (isWLeague(g) ? "Wリーグ" : "B.LEAGUE"); }
+// バスケットLIVEの試合ページ（わからない場合は空）
+function liveUrlOfGame(g) {
+  if (g && g.live_url) return g.live_url;
+  if (g && /^\d{6}$/.test(String(g.key))) return "https://basketball.mb.softbank.jp/lives/" + encodeURIComponent(g.key);
+  return "";
 }
 
 /* ---------------- 表示 ---------------- */
 function render() {
   var all = getAllGames();
+  var viewable = all.filter(function (g) { return !isExpired(g); });
+  var expiredCount = all.length - viewable.length;
   var watchedCount = 0;
-  for (var i = 0; i < all.length; i++) if (watchedMap[all[i].key]) watchedCount++;
+  for (var i = 0; i < viewable.length; i++) if (watchedMap[viewable[i].key]) watchedCount++;
 
-  $("st-total").textContent = all.length;
-  $("st-unwatched").textContent = all.length - watchedCount;
+  $("st-total").textContent = viewable.length;
+  $("st-unwatched").textContent = viewable.length - watchedCount;
   $("st-watched").textContent = watchedCount;
 
-  var filtered = all.filter(function (g) {
+  var base = showExpired ? all : viewable;
+  var filtered = base.filter(function (g) {
     var w = !!watchedMap[g.key];
     if (currentFilter === "unwatched") return !w;
     if (currentFilter === "watched") return w;
@@ -536,12 +583,16 @@ function render() {
 
   $("count-label").textContent = filtered.length + "試合";
   var listEl = $("game-list");
+  var toggle = expiredCount > 0
+    ? '<button type="button" class="exp-toggle" data-act="toggle-expired">'
+      + (showExpired ? "見逃し配信が終わった試合を隠す" : "見逃し配信が終わった試合（" + expiredCount + "）も表示する") + '</button>'
+    : "";
 
   if (filtered.length === 0) {
-    var msg = currentFilter === "unwatched" ? "未視聴の試合はありません。全試合チェック済みです。"
+    var msg = currentFilter === "unwatched" ? "視聴できる未視聴の試合はありません。"
             : currentFilter === "watched" ? "視聴済の試合はまだありません。観た試合の「☐ 未視聴」をタップするとチェックできます。"
-            : "試合がありません。上の欄に試合IDを入れて追加できます。";
-    listEl.innerHTML = '<div class="sync-card" style="text-align:center;color:var(--text3);padding:28px;font-size:13px;line-height:1.6">' + esc(msg) + '</div>';
+            : "視聴できる試合がありません。";
+    listEl.innerHTML = '<div class="sync-card" style="text-align:center;color:var(--text3);padding:28px;font-size:13px;line-height:1.6">' + esc(msg) + '</div>' + toggle;
     return;
   }
 
@@ -552,14 +603,22 @@ function render() {
     var w = !!watchedMap[item.key];
     var extra = isExtra(item.key);
     var upcoming = item.status === "upcoming";
-    var liveUrl = "https://basketball.mb.softbank.jp/lives/" + encodeURIComponent(item.key);
+    var expired = isExpired(item);
+    var left = vodLeft(item);
+    var liveUrl = liveUrlOfGame(item);
     var crewHtml = esc(item.crew).replace(/加藤\s*誉樹(?:\s*\(#77\))?/g, "<b>加藤 誉樹(#77)</b>");
+    var leftTag = "";
+    if (upcoming) leftTag = '<span class="tag-upcoming">これから</span>';
+    else if (expired) leftTag = '<span class="tag-upcoming">配信終了（目安）</span>';
+    else if (left !== null) leftTag = '<span class="tag-left' + (left <= 3 ? ' last' : left <= 7 ? ' soon' : '') + '">'
+      + (left === 0 ? '見逃し配信 今日まで' : '見逃し配信 あと' + left + '日') + '</span>';
+    var webLabel = !liveUrl ? '🔎 Webで探す' : upcoming ? '🏀 Webでライブ' : '🏀 Webで見逃し';
 
-    html += '<div class="game-card' + (w ? ' watched' : '') + '">'
+    html += '<div class="game-card' + (w ? ' watched' : '') + (expired ? ' expired' : '') + '">'
       + '<div class="gc-top">'
-      +   '<span class="gc-date">📅 ' + esc(item.date) + ' <span style="opacity:.6">(ID:' + key + ')</span>'
+      +   '<span class="gc-date"><span class="tag-league' + (isWLeague(item) ? ' wl' : '') + '">' + esc(leagueOf(item)) + '</span> 📅 ' + esc(item.date)
       +   (newKeys[item.key] ? '<span class="tag-new">NEW</span>' : '')
-      +   (upcoming ? '<span class="tag-upcoming">これから</span>' : '')
+      +   leftTag
       +   (item.verified === false ? '<span class="tag-upcoming" title="公式ページで加藤さんの名前を確認できなかった試合です">公式未確認</span>' : '')
       +   (extra ? '<span class="tag-added">手動追加</span>' : '') + '</span>'
       +   '<button type="button" class="watch-check-btn ' + (w ? 'watched' : 'unwatched') + '" data-act="watch" data-key="' + key + '" aria-pressed="' + (w ? 'true' : 'false') + '">'
@@ -570,7 +629,7 @@ function render() {
       + (item.venue ? '<div class="gc-venue">📍 ' + esc(item.venue) + '</div>' : '')
       + '<div class="gc-crew">👨‍⚖️ 審判：' + crewHtml + '</div>'
       + '<div class="gc-btns">'
-      +   '<a class="btn btn-live" href="' + esc(liveUrl) + '" target="_blank" rel="noopener">🏀 ' + (upcoming ? 'Webでライブ' : 'Webで見逃し') + '</a>'
+      +   '<a class="btn btn-live" href="' + esc(liveUrl || LIVE_TOP) + '" target="_blank" rel="noopener">' + webLabel + '</a>'
       +   '<button type="button" class="btn btn-app" data-act="app" data-key="' + key + '">📱 アプリで開く</button>'
       + '</div>'
       + (extra
@@ -581,7 +640,7 @@ function render() {
           : '')
       + '</div>';
   }
-  listEl.innerHTML = html;
+  listEl.innerHTML = html + toggle;
 }
 
 /* ---------------- 操作 ---------------- */
@@ -605,7 +664,7 @@ function setFilter(f) {
 var SHORTCUT_NAME = "バスケットLIVE";  // iPhoneの「ショートカット」アプリで作る起動用ショートカットの名前
 
 function liveUrlOf(key) {
-  return "https://basketball.mb.softbank.jp/lives/" + encodeURIComponent(key);
+  return liveUrlOfGame(findGame(key)) || LIVE_TOP;
 }
 function findGame(key) {
   var all = getAllGames();
@@ -636,7 +695,7 @@ function showOpenSheet(key) {
   } else {
     link.href = liveUrlOf(key);
     link.setAttribute("target", "_blank");
-    link.textContent = "📱 この試合をアプリで開く";
+    link.textContent = liveUrlOfGame(g) ? "📱 この試合をアプリで開く" : "📱 バスケットLIVEを開く";
   }
   $("open-shortcut").href = "shortcuts://run-shortcut?name=" + encodeURIComponent(SHORTCUT_NAME);
   var d = g ? String(g.date || "").match(/\d{4}-(\d{2})-(\d{2})/) : null;
@@ -658,9 +717,10 @@ function openBasketLiveApp(key) {
     // iPhoneは「リンクを指で直接タップ」したときだけアプリに渡せるので、専用の画面を出す
     showOpenSheet(key);
   } else if (PLATFORM === "android") {
-    window.location.href = "intent://basketball.mb.softbank.jp/lives/" + encodeURIComponent(key)
+    var u = liveUrlOf(key);
+    window.location.href = "intent://" + u.replace(/^https?:\/\//, "")
       + "#Intent;scheme=https;package=jp.softbank.mb.basketball;S.browser_fallback_url="
-      + encodeURIComponent(liveUrlOf(key)) + ";end";
+      + encodeURIComponent(u) + ";end";
   } else {
     window.open(liveUrlOf(key), "_blank", "noopener");
   }
@@ -668,7 +728,7 @@ function openBasketLiveApp(key) {
 
 // Safariに切り替えて開かれたとき（?open=試合ID）は、そのまま専用ボタンを出す
 function handleOpenParam() {
-  var m = location.search.match(/[?&]open=(\d{6})/);
+  var m = location.search.match(/[?&]open=(W?\d{4,7})/);
   if (!m) return;
   try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
   showOpenSheet(m[1]);
@@ -837,6 +897,7 @@ function bindEvents() {
     else if (act === "app") openBasketLiveApp(key);
     else if (act === "edit") openEditor(key);
     else if (act === "del") deleteGame(key);
+    else if (act === "toggle-expired") { showExpired = !showExpired; render(); }
   });
 
   $("open-close").addEventListener("click", closeOpenSheet);
@@ -862,13 +923,6 @@ function init() {
   var stored = lsGet(STORAGE_DARK);
   var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   applyDark(stored === "1" || (stored === null && prefersDark));
-
-  var info = repoInfo();
-  if (info) {
-    var link = $("run-link");
-    link.href = "https://github.com/" + info.owner + "/" + info.repo + "/actions/workflows/" + WORKFLOW_FILE;
-    link.hidden = false;
-  }
 
   loadState();
   bindEvents();

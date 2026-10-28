@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=507299&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/10/29 東京U VS 静岡 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-10-29T04:55:30+09:00
+# 取得: 2026-10-29T06:11:39+09:00
 
 SDGs等への取り組み
 グッズ

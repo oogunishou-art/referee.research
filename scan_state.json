@@ -1,327 +1,3453 @@
 {
-  "version": 2,
-  "done": [
-    "506200",
-    "506201",
-    "506202",
-    "506203",
-    "506204",
-    "506205",
-    "506206",
-    "506207",
-    "506208",
-    "506209",
-    "506210",
-    "506211",
-    "506212",
-    "506213",
-    "506214",
-    "506215",
-    "506216",
-    "506217",
-    "506218",
-    "506219",
-    "506220",
-    "506221",
-    "506222",
-    "506223",
-    "506224",
-    "506225",
-    "506226",
-    "506227",
-    "506228",
-    "506229",
-    "506230",
-    "506231",
-    "506232",
-    "506233",
-    "506234",
-    "506235",
-    "506236",
-    "506237",
-    "506238",
-    "506239",
-    "506240",
-    "506241",
-    "506242",
-    "506243",
-    "506244",
-    "506245",
-    "506246",
-    "506247",
-    "506248",
-    "506249",
-    "506250",
-    "506251",
-    "506252",
-    "506253",
-    "506254",
-    "506255",
-    "506256",
-    "506257",
-    "506258",
-    "506259",
-    "506260",
-    "506261",
-    "506262",
-    "506263",
-    "506264",
-    "506265",
-    "506266",
-    "506267",
-    "506268",
-    "506269",
-    "506270",
-    "506271",
-    "506272",
-    "506273",
-    "506274",
-    "506275",
-    "506276",
-    "506277",
-    "506278",
-    "506279",
-    "506280",
-    "506281",
-    "506282",
-    "506283",
-    "506284",
-    "506285",
-    "506286",
-    "506287",
-    "506288",
-    "506289",
-    "506290",
-    "506291",
-    "506292",
-    "506293",
-    "506294",
-    "506295",
-    "506296",
-    "506297",
-    "506298",
-    "506299",
-    "506300",
-    "506301",
-    "506302",
-    "506303",
-    "506304",
-    "506305",
-    "506306",
-    "506307",
-    "506308",
-    "506309",
-    "506310",
-    "506311",
-    "506312",
-    "506313",
-    "506314",
-    "506315",
-    "506316",
-    "506317",
-    "506318",
-    "506319",
-    "506320",
-    "506321",
-    "506322",
-    "506323",
-    "506324",
-    "506325",
-    "506326",
-    "506327",
-    "506328",
-    "506329",
-    "506330",
-    "506331",
-    "506332",
-    "506333",
-    "506334",
-    "506335",
-    "506336",
-    "506337",
-    "506338",
-    "506339",
-    "506340",
-    "506341",
-    "506342",
-    "506343",
-    "506344",
-    "506345",
-    "506346",
-    "506347",
-    "506348",
-    "506349",
-    "506350",
-    "506351",
-    "506352",
-    "506353",
-    "506354",
-    "506355",
-    "506356",
-    "506357",
-    "506358",
-    "506359",
-    "506360",
-    "506361",
-    "506362",
-    "506363",
-    "506364",
-    "506365",
-    "506366",
-    "506367",
-    "506368",
-    "506369",
-    "506370",
-    "506371",
-    "506372",
-    "506373",
-    "506374",
-    "506375",
-    "506376",
-    "506377",
-    "506378",
-    "506379",
-    "506380",
-    "506381",
-    "506382",
-    "506383",
-    "506384",
-    "506385",
-    "506386",
-    "506387",
-    "506388",
-    "506389",
-    "506390",
-    "506391",
-    "506392",
-    "506393",
-    "506394",
-    "506395",
-    "506396",
-    "506397",
-    "506398",
-    "506399",
-    "506400",
-    "506401",
-    "506402",
-    "506403",
-    "506404",
-    "506405",
-    "506406",
-    "506407",
-    "506408",
-    "506409",
-    "506410",
-    "506411",
-    "506412",
-    "506413",
-    "506414",
-    "506415",
-    "506416",
-    "506417",
-    "506418",
-    "506419",
-    "506420",
-    "506421",
-    "506422",
-    "506423",
-    "506424",
-    "506425",
-    "506426",
-    "506427",
-    "506428",
-    "506429",
-    "506430",
-    "506431",
-    "506432",
-    "506433",
-    "506434",
-    "506435",
-    "506436",
-    "506437",
-    "506438",
-    "506439",
-    "506440",
-    "506441",
-    "506442",
-    "506443",
-    "506444",
-    "506445",
-    "506446",
-    "506447",
-    "506448",
-    "506449",
-    "506450",
-    "506451",
-    "506452",
-    "506453",
-    "506454",
-    "506455",
-    "506456",
-    "506457",
-    "506458",
-    "506459",
-    "506460",
-    "506461",
-    "506462",
-    "506463",
-    "506464",
-    "506465",
-    "506466",
-    "506467",
-    "506468",
-    "506469",
-    "506470",
-    "506471",
-    "506472",
-    "506473",
-    "506474",
-    "506475",
-    "506476",
-    "506477",
-    "506478",
-    "506479",
-    "506480",
-    "506481",
-    "506482",
-    "506483",
-    "506484",
-    "506485",
-    "506486",
-    "506487",
-    "506488",
-    "506489",
-    "506490",
-    "506491",
-    "506492",
-    "506493",
-    "506494",
-    "506495",
-    "506496",
-    "506497",
-    "506498",
-    "506499",
-    "506500",
-    "506501",
-    "506502",
-    "506503",
-    "506504",
-    "506505",
-    "506506",
-    "506507",
-    "506508",
-    "506509",
-    "506510",
-    "506511",
-    "506512",
-    "506513",
-    "506514",
-    "506515",
-    "506516",
-    "506517",
-    "506518"
-  ],
-  "max_seen": 506543,
+  "version": 3,
+  "known": {
+    "bl:506200": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506201": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506202": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506203": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506204": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506205": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506206": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506207": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506208": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506209": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506210": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506211": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506212": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506213": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506214": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506215": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506216": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506217": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506218": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506219": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506220": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506221": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506222": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506223": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506224": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506225": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506226": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506227": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506228": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506229": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506230": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506231": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506232": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506233": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506234": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506235": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506236": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506237": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506238": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506239": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506240": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506241": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506242": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506243": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506244": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506245": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506246": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506247": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506248": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506249": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506250": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506251": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506252": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506253": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506254": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506255": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506256": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506257": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506258": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506259": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506260": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506261": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506262": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506263": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506264": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506265": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506266": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506267": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506268": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506269": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506270": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506271": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506272": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506273": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506274": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506275": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506276": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506277": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506278": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506279": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506280": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506281": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506282": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506283": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506284": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506285": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506286": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506287": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506288": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506289": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506290": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506291": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506292": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506293": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506294": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506295": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506296": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506297": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506298": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506299": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506300": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506301": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506302": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506303": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506304": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506305": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506306": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506307": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506308": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506309": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506310": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506311": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506312": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506313": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506314": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506315": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506316": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506317": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506318": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506319": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506320": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506321": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506322": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506323": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506324": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506325": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506326": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506327": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506328": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506329": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506330": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506331": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506332": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506333": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506334": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506335": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506336": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506337": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506338": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506339": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506340": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506341": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506342": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506343": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506344": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506345": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506346": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506347": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506348": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506349": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506350": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506351": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506352": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506353": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506354": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506355": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506356": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506357": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506358": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506359": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506360": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506361": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506362": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506363": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506364": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506365": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506366": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506367": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506368": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506369": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506370": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506371": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506372": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506373": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506374": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506375": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506376": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506377": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506378": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506379": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506380": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506381": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506382": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506383": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506384": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506385": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506386": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506387": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506388": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506389": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506390": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506391": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506392": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506393": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506394": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506395": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506396": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506397": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506398": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506399": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506400": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506401": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506402": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506403": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506404": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506405": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506406": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506407": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506408": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506409": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506410": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506411": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506412": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506413": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506414": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506415": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506416": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506417": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506418": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506419": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506420": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506421": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506422": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506423": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506424": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506425": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506426": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506427": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506428": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506429": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506430": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506431": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506432": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506433": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506434": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506435": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506436": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506437": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506438": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506439": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506440": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506441": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506442": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506443": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506444": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506445": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506446": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506447": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506448": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506449": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506450": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506451": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506452": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506453": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506454": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506455": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506456": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506457": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506458": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506459": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506460": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506461": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506462": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506463": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506464": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506465": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506466": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506467": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506468": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506469": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506470": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506471": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506472": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506473": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506474": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506475": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506476": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506477": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506478": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506479": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506480": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506481": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506482": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506483": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506484": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506485": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506486": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506487": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506488": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506489": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506490": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506491": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506492": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506493": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506494": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506495": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506496": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506497": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506498": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506499": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506500": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506501": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506502": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506503": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506504": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506505": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506506": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506507": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506508": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506509": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506510": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506511": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506512": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506513": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506514": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506515": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506516": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506517": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506518": {
+      "d": null,
+      "done": true,
+      "lg": "B.PREMIER"
+    },
+    "bl:506530": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506522": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506525": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506529": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506523": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506524": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506526": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506528": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506527": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506531": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:507305": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507312": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507291": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507293": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507297": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507307": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507309": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507295": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507301": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507303": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507926": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
+    },
+    "bl:507927": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
+    },
+    "bl:506520": {
+      "d": "2026-10-30",
+      "done": false,
+      "lg": "B.PREMIER"
+    },
+    "bl:506519": {
+      "d": "2026-10-30",
+      "done": false,
+      "lg": "B.PREMIER"
+    },
+    "bl:506521": {
+      "d": "2026-10-30",
+      "done": false,
+      "lg": "B.PREMIER"
+    },
+    "bl:507300": {
+      "d": "2026-10-30",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507311": {
+      "d": "2026-10-30",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507925": {
+      "d": "2026-10-30",
+      "done": false,
+      "lg": "B.NEXT"
+    },
+    "bl:507299": {
+      "d": "2026-10-29",
+      "done": false,
+      "lg": "B.ONE"
+    },
+    "bl:507290": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507270": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507272": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507276": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507278": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507284": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507286": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507268": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507282": {
+      "d": "2026-10-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507275": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507279": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507283": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507288": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507267": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507269": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507271": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507277": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507285": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507289": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507281": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507922": {
+      "d": "2026-10-24",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507274": {
+      "d": "2026-10-23",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507287": {
+      "d": "2026-10-23",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507924": {
+      "d": "2026-10-23",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507921": {
+      "d": "2026-10-23",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507273": {
+      "d": "2026-10-22",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507923": {
+      "d": "2026-10-22",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507246": {
+      "d": "2026-10-19",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507266": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507244": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507250": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507254": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507256": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507260": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507262": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507264": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507248": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507252": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507258": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507245": {
+      "d": "2026-10-18",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507253": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507263": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507243": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507249": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507255": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507259": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507261": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507265": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507257": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507251": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507247": {
+      "d": "2026-10-17",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507231": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507232": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507234": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507235": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507236": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507237": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507238": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507239": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507240": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507241": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507242": {
+      "d": "2026-10-14",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507233": {
+      "d": "2026-10-13",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507212": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507208": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507220": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507226": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507228": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507230": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507214": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507218": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507222": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507210": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507918": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507920": {
+      "d": "2026-10-11",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507225": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507207": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507209": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507211": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507213": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507216": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507219": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507224": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507229": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507221": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507227": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507217": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507919": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507917": {
+      "d": "2026-10-10",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507223": {
+      "d": "2026-10-09",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507215": {
+      "d": "2026-10-09",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507188": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507186": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507190": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507194": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507196": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507198": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507200": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507202": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507204": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507206": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507184": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507192": {
+      "d": "2026-10-04",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507199": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507201": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507205": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507183": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507185": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507187": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507189": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507193": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507197": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507203": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507191": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507195": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507916": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507914": {
+      "d": "2026-10-03",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507913": {
+      "d": "2026-10-02",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507915": {
+      "d": "2026-10-02",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507160": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507182": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507166": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507168": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507170": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507172": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507178": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507180": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507162": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507164": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507910": {
+      "d": "2026-09-27",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507165": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507167": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507169": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507174": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507177": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507159": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507161": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507179": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507181": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507163": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507171": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507912": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507909": {
+      "d": "2026-09-26",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507173": {
+      "d": "2026-09-25",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "bl:507911": {
+      "d": "2026-09-25",
+      "done": true,
+      "lg": "B.NEXT"
+    },
+    "bl:507176": {
+      "d": "2026-09-23",
+      "done": true,
+      "lg": "B.ONE"
+    },
+    "wl:8000": {
+      "d": "2026-11-01",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8001": {
+      "d": "2026-11-01",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8002": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8003": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8004": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8005": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8006": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8007": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8008": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8009": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8010": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8011": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8012": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8013": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8014": {
+      "d": "2026-11-15",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8015": {
+      "d": "2026-11-15",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8016": {
+      "d": "2026-11-15",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8017": {
+      "d": "2026-11-15",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8018": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8019": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8020": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8021": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8022": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8023": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8024": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8025": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8026": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8027": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8028": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8029": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8030": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8031": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8032": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8033": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8034": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8035": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8036": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8037": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8038": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8039": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8040": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8041": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8042": {
+      "d": "2026-12-11",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8043": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8044": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8045": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8046": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8047": {
+      "d": "2026-12-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8048": {
+      "d": "2026-12-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8049": {
+      "d": "2026-12-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8050": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8051": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8052": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8053": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8054": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8055": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8056": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8057": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8058": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8059": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8060": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8061": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8062": {
+      "d": "2026-12-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8063": {
+      "d": "2026-12-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8064": {
+      "d": "2026-12-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8065": {
+      "d": "2026-12-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8066": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8067": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8068": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8069": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8070": {
+      "d": "2027-02-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8071": {
+      "d": "2027-02-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8072": {
+      "d": "2027-02-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8073": {
+      "d": "2027-02-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8074": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8075": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8076": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8077": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8078": {
+      "d": "2027-02-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8079": {
+      "d": "2027-02-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8080": {
+      "d": "2027-02-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8081": {
+      "d": "2027-02-21",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8082": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8083": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8084": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8085": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8086": {
+      "d": "2027-02-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8087": {
+      "d": "2027-02-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8088": {
+      "d": "2027-02-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8089": {
+      "d": "2027-02-28",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8090": {
+      "d": "2027-03-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8091": {
+      "d": "2027-03-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8092": {
+      "d": "2027-03-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8093": {
+      "d": "2027-03-06",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8094": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8095": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8096": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8097": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8098": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8099": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8100": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8101": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8102": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8103": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8104": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8105": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ プレミア"
+    },
+    "wl:8106": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8107": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8108": {
+      "d": "2026-10-31",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8109": {
+      "d": "2026-11-01",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8110": {
+      "d": "2026-11-01",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8111": {
+      "d": "2026-11-01",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8112": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8113": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8114": {
+      "d": "2026-11-07",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8115": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8116": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8117": {
+      "d": "2026-11-08",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8118": {
+      "d": "2026-11-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8119": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8120": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8121": {
+      "d": "2026-11-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8122": {
+      "d": "2026-11-15",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8123": {
+      "d": "2026-11-15",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8124": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8125": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8126": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8127": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8128": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8129": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8130": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8131": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8132": {
+      "d": "2026-11-28",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8133": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8134": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8135": {
+      "d": "2026-11-29",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8136": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8137": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8138": {
+      "d": "2026-12-05",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8139": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8140": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8141": {
+      "d": "2026-12-06",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8142": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8143": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8144": {
+      "d": "2026-12-12",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8145": {
+      "d": "2026-12-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8146": {
+      "d": "2026-12-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8147": {
+      "d": "2026-12-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8148": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8149": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8150": {
+      "d": "2026-12-19",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8151": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8152": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8153": {
+      "d": "2026-12-20",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8154": {
+      "d": "2026-12-25",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8155": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8156": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8157": {
+      "d": "2026-12-26",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8158": {
+      "d": "2026-12-27",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8159": {
+      "d": "2026-12-27",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8160": {
+      "d": "2027-02-12",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8161": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8162": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8163": {
+      "d": "2027-02-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8164": {
+      "d": "2027-02-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8165": {
+      "d": "2027-02-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8166": {
+      "d": "2027-02-19",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8167": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8168": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8169": {
+      "d": "2027-02-20",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8170": {
+      "d": "2027-02-21",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8171": {
+      "d": "2027-02-21",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8172": {
+      "d": "2027-02-26",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8173": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8174": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8175": {
+      "d": "2027-02-27",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8176": {
+      "d": "2027-02-28",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8177": {
+      "d": "2027-02-28",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8178": {
+      "d": "2027-03-06",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8179": {
+      "d": "2027-03-06",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8180": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8181": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8182": {
+      "d": "2027-03-07",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8183": {
+      "d": "2027-03-08",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8184": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8185": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8186": {
+      "d": "2027-03-13",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8187": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8188": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    },
+    "wl:8189": {
+      "d": "2027-03-14",
+      "done": false,
+      "lg": "Wリーグ フューチャー"
+    }
+  },
   "retry": {},
-  "last_run": "2026-10-28T10:06:24+09:00"
+  "bl_full_scan": "2026-10-28",
+  "wl_max_seen": 8189,
+  "last_run": "2026-10-28T20:44:21+09:00"
 }

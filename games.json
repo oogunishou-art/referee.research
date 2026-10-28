@@ -1,7 +1,13 @@
 {
   "referee": "加藤 誉樹",
-  "updated": "2026-10-28T10:06:24+09:00",
+  "updated": "2026-10-28T20:44:21+09:00",
   "status": "ok",
+  "sources": [
+    "B.PREMIER",
+    "B.ONE",
+    "B.NEXT",
+    "Wリーグ"
+  ],
   "games": [
     {
       "key": "506503",
@@ -10,7 +16,9 @@
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 石田 祐二 ／ 佐久間 奈々",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506503"
     },
     {
       "key": "506486",
@@ -19,7 +27,9 @@
       "venue": "北海きたえーる",
       "crew": "加藤 誉樹 ／ 冨士 将史 ／ 山田 俊",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506486"
     },
     {
       "key": "506479",
@@ -28,7 +38,9 @@
       "venue": "LaLa arena TOKYO-BAY",
       "crew": "加藤 誉樹 ／ 大井 陽平 ／ 田中 充",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506479"
     },
     {
       "key": "506471",
@@ -37,7 +49,9 @@
       "venue": "LaLa arena TOKYO-BAY",
       "crew": "加藤 誉樹 ／ 加藤 暁生 ／ 岩城 和利",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506471"
     },
     {
       "key": "506457",
@@ -46,7 +60,9 @@
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506457"
     },
     {
       "key": "506445",
@@ -55,7 +71,9 @@
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506445"
     },
     {
       "key": "506428",
@@ -64,7 +82,9 @@
       "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
       "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506428"
     },
     {
       "key": "506416",
@@ -73,7 +93,9 @@
       "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
       "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
       "status": "final",
-      "verified": true
+      "verified": true,
+      "league": "B.PREMIER",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506416"
     }
   ]
 }

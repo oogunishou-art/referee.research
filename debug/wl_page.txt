@@ -1,0 +1,71 @@
+# ID=wl:8000
+# URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8000
+# TITLE=スケジュール詳細 | WJBL（バスケットボール女子日本リーグ）公式サイト
+# 取得: 2026-10-28T20:30:04+09:00
+
+WJBL（バスケットボール女子日本リーグ）公式サイト
+TOP
+トップページ
+SCHEDULE/RESULT
+スケジュール・試合結果
+STANDINGS
+星取表・順位
+TEAMS
+チーム紹介
+PLAYER
+選手検索
+HISTORICAL DATA
+成績
+SCHEDULE/RESULT スケジュール詳細
+TOP
+スケジュール・試合結果
+2026 11.01 （日）
+
+26-27 Wリーグ レギュラーシーズン プレミア
+
+ENEOS
+
+-
+
+シャンソン
+
+会場：金岡公園体育館
+
+●車での来場： 駐車場あり。ただし満車の場合は近隣のコインパーキングへ。
+●飲食可否： 可
+●飲食出店：あり キッチンカー、焼き菓子、ミニコーヒーショップなど
+●シャトルバス運行： なし
+●来場者プレゼント： なし
+●Ｗ公式グッズ： 販売あり
+●チームグッズ：販売あり
+●その他グッズ：B.BUDDY（服飾等）
+●ファンサービス： エリア指定席以外の指定席をご購入の方は、試合前に選手と集合写真撮影あり
+●その他： ハーフタイムショーあり　1日目は浪速高校ダンス部、2日目は大浜キッズチア
+●前座試合：堺ミニ 11:30～
+
+TEAM	1st	2nd	3rd	4th	TOT
+
+ENEOSサンフラワーズ
+	-	-	-	-	-
+
+シャンソン化粧品 シャンソンVマジック
+	-	-	-	-	-
+LIVE
+ハイライト
+チケット/体育館
+BOXスコア
+Play by Play
+
+試合開始までお待ち下さい。
+
+戻る
+WJBL概要
+ニュース
+競技方法
+事業報告
+利用規約
+プライバシーポリシー
+お問い合わせ
+報道関係者
+
+© 2001-2018 Women's Japan Basketball League All rights reserved and do not duplicate any form.

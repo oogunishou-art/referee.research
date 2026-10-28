@@ -1,7 +1,8 @@
-# ID=bl:506521
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506521&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/10/30 名古屋D VS 滋賀 | B.LEAGUE（Bリーグ）公式サイト
-# 取得: 2026-10-28T20:14:45+09:00
+# ID=bl:507299
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507299&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/10/29 東京U VS 静岡 | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-10-29T02:36:34+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,28 +23,36 @@ B.LEAGUE
 
 WEBサイト緊急メンテナンスの影響に関するお知らせ
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/10/30 名古屋D VS 滋賀
-2026.10.30（金）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/10/29 東京U VS 静岡
+B.PREMIER
+B.ONE
+B.NEXT
+19:05
+東京U
+-
+静岡
+-
+2026.10.29（木）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
 
-名古屋ダイヤモンドドルフィンズ
+東京ユナイテッドバスケットボールクラブ
 
-B.PREMIER｜西地区 1位
+B.ONE｜東地区 3位
 --
 HOME
 
-愛知県｜IGアリ
+東京都｜江戸川区
 
-19:35 TIP OFF
+19:05 TIP OFF
 
 VS
 
-滋賀レイクス
+ベルテックス静岡
 
-B.PREMIER｜西地区 7位
+B.ONE｜西地区 2位
 --
 AWAY
-会場：IGアリーナ
+会場：江戸川区スポーツセンター
 
 チケット購入
 
@@ -51,7 +60,6 @@ SHARE ON :
 
 放送予定
 バスケットLIVE
-Amazon Prime Video
 DAZN
 U-NEXT
 クラブデータ
@@ -63,9 +71,9 @@ U-NEXT
 テキスト速報
 ボックススコア
 関連リンク
-名古屋ダイヤモンドドルフィンズ
+東京ユナイテッドバスケットボールクラブ
 HOME
-滋賀レイクス
+ベルテックス静岡
 AWAY
 おすすめコンテンツ​
 

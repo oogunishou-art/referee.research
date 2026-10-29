@@ -1,0 +1,57 @@
+{
+  "_説明": "一覧に出すレフェリーの設定です。加藤さんは names に名前を書いています。島根県所属の審判員は、名前そのものを公開しないよう、照合用の値（name_hashes）だけを載せています。追加・削除したいときは名前を伝えてください。",
+  "groups": [
+    {
+      "id": "kato",
+      "label": "加藤 誉樹レフェリー",
+      "badge": "#77 CC",
+      "names": [
+        "加藤 誉樹"
+      ]
+    },
+    {
+      "id": "shimane",
+      "label": "島根県所属レフェリー",
+      "badge": "島根",
+      "hidden": true,
+      "name_hashes": [
+        "05eb8c7b00ebdf6de1b1bcd094d7c833bd462bdab2ab667fa8a902b162691306",
+        "0fa2d62be68b8245a885f80c34d82af3fddb8b4e165b920ed5459c8a415da613",
+        "24c43a330a33a8d4f70ede8aa91ca1353b7484e1ba700d6281f9694759ae4513",
+        "322ca0fb0dcd65656330ab9a42e352dce554f595ec1efac90ed22b02e1d71479",
+        "34ad171d96d26c20ed2cd06276f6086e431766776b2fda80639d1dfa4b0da3ad",
+        "47a0cef6d2d1afbe1260df167f5f795958e1c5101e59049e71b84848cf79dfd0",
+        "48cca4c1f010bf7aefa36b83cc3573059c93450aa82ce9cbad273a4cad5d2b00",
+        "4c1a99180d1552cd1e6ad27800f8497d246fdfd8ca92e1b2a901fcfd2fef3ec5",
+        "4d728e85298f0fea20007af4fa41f4dadfbe90946e773aed99603f00fac9a7e7",
+        "4f05ef0a015dd949739afce5819513872be8b7e9a8c98d188a56711d4885154c",
+        "55b1335ce4fa7ffcee6cbc60ac721a1f9095ae9c7c0d281e09aeee19a4cd8f11",
+        "57c31bf968862ddc9e71d8a449996925b8c7678632192257c58a5d99b9cfd5e1",
+        "60e7e6d204edca3fcc91cc3a5f761c3189b1b5303619b7fae1c5f64396d25832",
+        "64bb4fef225a6ba17076e32152d3cc5774f954bf9c7a88c42f5aae7412571ba8",
+        "79609de2aa535a614f19e8296299422c0588a386f5a665b8345b2dc4f1e95851",
+        "7abc6f7080c530ad723d1681d10458ed481a606f0c072f2f4cc5d680b58f5797",
+        "85d228c7af2f37cfcf0dd7031c4fd93cdbeaef498ad1ced79983efb37941c487",
+        "95b68500b70ed006cbabf7d42c51ef666b25be7a68160a0dc61cab73f9dc879e",
+        "97bcbe3f225b5262be810900b708bb5bec93b65df58947593dca75e027f5cf18",
+        "a0ecc080b2758e22acaec6d4e80b1c260924552555f1feb4a089a558b9c24b3c",
+        "a0f9d175f85c95fd70457b5adac0db885b7c5005aafbf8dfcfce31ad52bd8dcb",
+        "a5491e21ed8e287cfbc424bc64e9ce06185afc3e4675b6421735da41faca2cf9",
+        "aa60bfd7757da614da24cc7e64861ec097a7ffb67cf5a7c6fd9e78c211517e2b",
+        "aca4e8c567ff1b2a934299111a170fe17c90a1411f9a6568026eebd0215abeae",
+        "af5cb9e3c7c4fddd81c4e92470c35d57413d45cc2d6ee05add9550964fe3aa31",
+        "b7372b230fa6eadcdaac252772ca2ffa19185dc43c3e1e1be8bfcedcff52f853",
+        "b737a14abcebc23e8979523adeff4e5e7561f2e38876079369c7a5b06490743d",
+        "ba95a0ac4fe8657a42d9eddc19f83d5a58f9815226beeaf47e61557d57705227",
+        "c1bf45e2edf428860a864bb25fd2c5e9d70fdd7bc597f8951b8b82774f9a925c",
+        "ce5bd46fee18541c8027d69650ba1e81b36f8a9480d768ef1e3382a27307cdb3",
+        "dca63d06e94395a3c2782bdcbeb4b7e207cec5b7bd7b6b1b5ba29a32ec8f56d0",
+        "df5fc75c1fdbdcd1e9d919d1953303d498973590efb00106f3f7692aa420c18f",
+        "e7e53fc2e0083703cf6471097303105c07ab8a37d9995f3cd74e6fe4cf28cb08",
+        "ef05a9e0623d9c1fd7fd3821b3953cc2e79ae16036ddef8b0eda40ee10db4190",
+        "f07f16199e46dfb9285d3b7077529f1c202589b6d81783078e65c8e86fb20a7f",
+        "f7e68ddb467a9efea250db79d04e173aa83afc4d3e031013a13e9d390cc97926"
+      ]
+    }
+  ]
+}

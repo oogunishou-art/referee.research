@@ -151,6 +151,35 @@ body.dark .tag-left{background:rgba(6,118,71,.25);color:#6ee7b7}
 body.dark .tag-left.soon{background:rgba(181,71,8,.25);color:#fdba74}
 body.dark .tag-left.last{background:rgba(180,35,24,.3);color:#fca5a5}
 .game-card.expired{opacity:.55}
+/* トップ：レフェリーの分類 */
+.group-tile{display:block;width:100%;text-align:left;background:var(--bg2);color:var(--text1);border:1px solid var(--border);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:var(--card-shadow);cursor:pointer;font:inherit}
+.group-tile:active{transform:scale(.99)}
+.gt-top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.gt-badge{font-size:11px;font-weight:900;padding:3px 9px;border-radius:6px;letter-spacing:1px;background:var(--red);color:var(--gold);border:1px solid var(--gold);white-space:nowrap}
+.gt-badge.alt,.badge-77.alt{background:#05603a;color:#fff;border-color:#a6f4c5}
+.gt-label{font-size:17px;font-weight:900;flex:1}
+.gt-arrow{font-size:22px;color:var(--text4);font-weight:700}
+.gt-names{font-size:12px;color:var(--text3);margin:6px 0 10px;line-height:1.5}
+.gt-stats{display:flex;gap:6px;flex-wrap:wrap}
+.gt-chip{font-size:12px;font-weight:800;padding:4px 10px;border-radius:99px;background:var(--bg3);color:var(--text2);border:1px solid var(--border)}
+.gt-chip b{font-size:15px;margin-left:2px}
+.gt-chip.new{background:var(--red);color:#fff;border-color:var(--red)}
+.gt-chip.soon{background:#fff4e5;color:#b54708;border-color:#fedf89}
+body.dark .gt-chip.soon{background:rgba(181,71,8,.25);color:#fdba74;border-color:transparent}
+.home-note{font-size:11px;color:var(--text4);line-height:1.6;margin:2px 4px 12px}
+.tag-other{font-size:10px;font-weight:800;padding:2px 7px;border-radius:99px;background:var(--bg3);color:var(--text3);border:1px solid var(--border2);margin-left:4px;vertical-align:middle;white-space:nowrap}
+#back-btn[hidden],#quick-add-row[hidden],#home-view[hidden],#list-view[hidden]{display:none}
+.gc-resume{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;font-weight:700;color:var(--text2);background:#eef4ff;border:1px solid #c7d7fe;border-radius:10px;padding:8px 10px;margin:0 0 10px}
+.gc-resume b{font-size:16px;color:#3538cd;font-variant-numeric:tabular-nums}
+.gc-resume .memo{font-weight:600;color:var(--text3);font-size:12px}
+.gc-resume .tool-btn{margin-left:auto}
+body.dark .gc-resume{background:rgba(59,91,219,.15);border-color:rgba(165,180,252,.35)}
+body.dark .gc-resume b{color:#a5b4fc}
+.prog-time{width:100%;text-align:center;font-size:30px;font-weight:900;letter-spacing:.04em;font-variant-numeric:tabular-nums;padding:10px;border-radius:12px;border:2px solid var(--border2);background:var(--bg3);color:var(--text1);outline:none}
+.prog-time:focus{border-color:#3b5bdb}
+.prog-adj{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:8px 0 10px}
+.prog-adj button{padding:9px 0;border-radius:9px;border:1px solid var(--border2);background:var(--bg3);color:var(--text2);font-weight:800;font-size:13px;cursor:pointer}
+.prog-memo{width:100%;padding:9px 10px;border-radius:8px;border:1.5px solid var(--border2);background:var(--bg3);color:var(--text1);font-size:16px;outline:none;margin-bottom:10px}
 .exp-toggle{display:block;width:100%;margin:4px 0 14px;padding:10px;border-radius:10px;border:1px dashed var(--border2);background:transparent;color:var(--text3);font-size:12px;font-weight:700;cursor:pointer}
 .tag-upcoming{font-size:10px;font-weight:800;padding:2px 7px;border-radius:99px;background:var(--bg3);color:var(--text3);border:1px solid var(--border2);margin-left:4px;vertical-align:middle;white-space:nowrap}
 
@@ -189,8 +218,9 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
   <!-- ヘッダー -->
   <div class="header">
     <div class="header-top">
-      <span class="badge-77">#77 CC</span>
-      <div class="title">加藤 誉樹レフェリー 試合一覧</div>
+      <button type="button" class="icon-btn" id="back-btn" hidden>‹ 戻る</button>
+      <span class="badge-77" id="hdr-badge">REF</span>
+      <div class="title" id="hdr-title">レフェリー別 試合一覧</div>
       <button type="button" class="icon-btn" id="dark-btn">🌙 暗色</button>
     </div>
     <div class="stats">
@@ -206,12 +236,17 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
       <button type="button" class="btn btn-sync" id="sync-btn">🔄 最新の一覧を読み込む</button>
     </div>
     <div class="sync-status" id="sync-status">読み込み中...</div>
-    <div class="quick-add-row">
+    <div class="quick-add-row" id="quick-add-row" hidden>
       <input type="text" id="quick-key" class="quick-input" style="font-size:16px" inputmode="url" autocomplete="off" placeholder="試合ID（6桁）またはURL">
       <button type="button" class="btn" id="add-btn" style="background:var(--navy);color:#fff;padding:8px 12px;font-size:12px">＋追加</button>
     </div>
   </div>
 
+  <!-- トップ：レフェリーの分類 -->
+  <div id="home-view"></div>
+
+  <!-- 分類ごとの試合一覧 -->
+  <div id="list-view" hidden>
   <!-- フィルタ切り替え -->
   <div class="filter-bar">
     <div class="f-chips">
@@ -224,6 +259,7 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
 
   <!-- 試合一覧リスト -->
   <div id="game-list"></div>
+  </div>
 </div>
 
 <!-- 追加分の編集シート -->
@@ -238,6 +274,28 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
       <button type="button" class="btn" id="ed-cancel" style="background:var(--bg3);color:var(--text2);border:1px solid var(--border2)">キャンセル</button>
       <button type="button" class="btn" id="ed-save" style="background:var(--navy);color:#fff">保存する</button>
     </div>
+  </div>
+</div>
+
+<!-- どこまで見たかを記録するシート -->
+<div class="modal-bg" id="prog-bg" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="prog-title">
+    <h2 id="prog-title">⏸ どこまで見ましたか？</h2>
+    <div class="open-info" id="prog-info"></div>
+    <p class="open-note" id="prog-note"></p>
+    <input type="text" id="prog-time" class="prog-time" inputmode="numeric" autocomplete="off" placeholder="1:05:30" aria-label="再生位置（時:分:秒）">
+    <div class="prog-adj">
+      <button type="button" data-adj="-300">−5分</button>
+      <button type="button" data-adj="-60">−1分</button>
+      <button type="button" data-adj="60">＋1分</button>
+      <button type="button" data-adj="300">＋5分</button>
+    </div>
+    <input type="text" id="prog-memo" class="prog-memo" autocomplete="off" placeholder="メモ（任意）例：3Q 残り5分">
+    <div class="modal-btns">
+      <button type="button" class="btn" id="prog-skip" style="background:var(--bg3);color:var(--text2);border:1px solid var(--border2)">記録しない</button>
+      <button type="button" class="btn" id="prog-save" style="background:var(--navy);color:#fff">💾 ここまで記録</button>
+    </div>
+    <button type="button" class="btn" id="prog-done" style="width:100%;margin-top:8px;background:#ecfdf3;color:#067647;border:1px solid #abefc6">✅ 最後まで見た（視聴済にする）</button>
   </div>
 </div>
 
@@ -302,6 +360,41 @@ var STORAGE_EXTRA   = "ooguni_ref77_extra_games_v6";
 var STORAGE_DARK    = "ooguni_ref77_dark_v6";
 var STORAGE_SERVER  = "ooguni_ref77_server_cache_v7";  // 前回取得した games.json（オフライン用）
 var STORAGE_SEEN    = "ooguni_ref77_seen_v7";          // 既に見た試合ID（NEW表示用）
+var STORAGE_PROGRESS = "ooguni_ref77_progress_v1";     // 試合ごとの「どこまで見たか」
+var STORAGE_SESSION  = "ooguni_ref77_session_v1";      // いま視聴に出かけている試合
+var MAX_VIDEO_SEC = 3 * 3600;      // 推定位置の上限（試合映像は長くても3時間程度）
+var MIN_WATCH_SEC = 90;            // これより早く戻ってきたら「見ていない」とみなす
+var progressMap = {};
+var progKey = null;
+
+/* レフェリーの分類（games.json の referees が無いときの初期値。実際の設定は referees.json） */
+var DEFAULT_GROUPS = [
+  { id: "kato", label: "加藤 誉樹レフェリー", badge: "#77 CC", names: ["加藤 誉樹"] },
+  { id: "shimane", label: "島根県所属レフェリー", badge: "島根" }
+];
+var currentGroup = null;   // null = トップページ
+function groupsList() {
+  var r = serverDoc && Array.isArray(serverDoc.referees) && serverDoc.referees.length ? serverDoc.referees : DEFAULT_GROUPS;
+  return r.filter(function (g) { return g && g.id; });
+}
+function findGroup(id) {
+  var gs = groupsList();
+  for (var i = 0; i < gs.length; i++) if (gs[i].id === id) return gs[i];
+  return null;
+}
+function gameGroups(g) { return Array.isArray(g.groups) && g.groups.length ? g.groups : ["kato"]; }
+function inGroup(g, id) { return gameGroups(g).indexOf(id) >= 0; }
+function escRe(x) { return x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+function namePattern(names) {
+  var parts = (names || []).map(function (n) {
+    return String(n).trim().split(/\s+/).map(escRe).join("\\s*");
+  }).filter(Boolean);
+  return parts.length ? new RegExp("(" + parts.join("|") + ")", "g") : null;
+}
+function groupFromHash() {
+  var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+  return h && h !== "home" && findGroup(h) ? h : null;
+}
 
 var VOD_DAYS = 30;                   // バスケットLIVEの見逃し配信期間（ライブ配信終了後30日間）
 var LIVE_TOP = "https://basketball.mb.softbank.jp/";
@@ -562,16 +655,59 @@ function liveUrlOfGame(g) {
 }
 
 /* ---------------- 表示 ---------------- */
+function updateHeader(list) {
+  var g = currentGroup ? findGroup(currentGroup) : null;
+  $("back-btn").hidden = !g;
+  $("hdr-badge").textContent = g ? (g.badge || "REF") : "REF";
+  $("hdr-badge").className = "badge-77" + (g && g.id !== "kato" ? " alt" : "");
+  $("hdr-title").textContent = g ? g.label : "レフェリー別 試合一覧";
+  $("quick-add-row").hidden = !g;
+  $("home-view").hidden = !!g;
+  $("list-view").hidden = !g;
+  var viewable = list.filter(function (x) { return !isExpired(x); });
+  var w = viewable.filter(function (x) { return watchedMap[x.key]; }).length;
+  $("st-total").textContent = viewable.length;
+  $("st-unwatched").textContent = viewable.length - w;
+  $("st-watched").textContent = w;
+  document.title = (g ? g.label : "レフェリー別") + " 試合一覧";
+}
+
 function render() {
+  if (currentGroup && !findGroup(currentGroup)) currentGroup = null;
+  if (!currentGroup) return renderHome();
+  return renderList();
+}
+
+function renderHome() {
   var all = getAllGames();
+  updateHeader(all.filter(function (x) { return gameGroups(x).some(function (id) { return findGroup(id); }); }));
+  var html = "";
+  groupsList().forEach(function (g) {
+    var list = all.filter(function (x) { return inGroup(x, g.id) && !isExpired(x); });
+    var unwatched = list.filter(function (x) { return !watchedMap[x.key]; });
+    var fresh = list.filter(function (x) { return newKeys[x.key]; }).length;
+    var soon = unwatched.filter(function (x) { var l = vodLeft(x); return l !== null && l <= 3; }).length;
+    html += '<button type="button" class="group-tile" data-group="' + esc(g.id) + '">'
+      + '<div class="gt-top"><span class="gt-badge' + (g.id !== "kato" ? ' alt' : '') + '">' + esc(g.badge || "REF") + '</span>'
+      + '<span class="gt-label">' + esc(g.label) + '</span><span class="gt-arrow">›</span></div>'
+      + '<div class="gt-stats">'
+      +   '<span class="gt-chip">視聴できる<b>' + list.length + '</b></span>'
+      +   '<span class="gt-chip">未視聴<b>' + unwatched.length + '</b></span>'
+      +   (fresh ? '<span class="gt-chip new">NEW<b>' + fresh + '</b></span>' : '')
+      +   (soon ? '<span class="gt-chip soon">配信終了間近<b>' + soon + '</b></span>' : '')
+      + '</div></button>';
+  });
+  html += '<p class="home-note">B.LEAGUE（B.PREMIER／B.ONE／B.NEXT）とWリーグのうち、バスケットLIVEで見られる試合を表示しています。</p>';
+  $("home-view").innerHTML = html;
+}
+
+function renderList() {
+  var group = findGroup(currentGroup);
+  var all = getAllGames().filter(function (x) { return inGroup(x, currentGroup); });
+  updateHeader(all);
+  var hl = namePattern(group.names);
   var viewable = all.filter(function (g) { return !isExpired(g); });
   var expiredCount = all.length - viewable.length;
-  var watchedCount = 0;
-  for (var i = 0; i < viewable.length; i++) if (watchedMap[viewable[i].key]) watchedCount++;
-
-  $("st-total").textContent = viewable.length;
-  $("st-unwatched").textContent = viewable.length - watchedCount;
-  $("st-watched").textContent = watchedCount;
 
   var base = showExpired ? all : viewable;
   var filtered = base.filter(function (g) {
@@ -606,7 +742,9 @@ function render() {
     var expired = isExpired(item);
     var left = vodLeft(item);
     var liveUrl = liveUrlOfGame(item);
-    var crewHtml = esc(item.crew).replace(/加藤\s*誉樹(?:\s*\(#77\))?/g, "<b>加藤 誉樹(#77)</b>");
+    var hits = item.hits && item.hits[currentGroup] ? namePattern(item.hits[currentGroup]) : hl;
+    var crewHtml = hits ? esc(item.crew).replace(hits, "<b>$1</b>") : esc(item.crew);
+    var others = gameGroups(item).filter(function (id) { return id !== currentGroup && findGroup(id); });
     var leftTag = "";
     if (upcoming) leftTag = '<span class="tag-upcoming">これから</span>';
     else if (expired) leftTag = '<span class="tag-upcoming">配信終了（目安）</span>';
@@ -620,7 +758,8 @@ function render() {
       +   (newKeys[item.key] ? '<span class="tag-new">NEW</span>' : '')
       +   leftTag
       +   (item.verified === false ? '<span class="tag-upcoming" title="公式ページで加藤さんの名前を確認できなかった試合です">公式未確認</span>' : '')
-      +   (extra ? '<span class="tag-added">手動追加</span>' : '') + '</span>'
+      +   (extra ? '<span class="tag-added">手動追加</span>' : '')
+      +   others.map(function (id) { return '<span class="tag-other">' + esc(findGroup(id).badge || id) + 'も担当</span>'; }).join("") + '</span>'
       +   '<button type="button" class="watch-check-btn ' + (w ? 'watched' : 'unwatched') + '" data-act="watch" data-key="' + key + '" aria-pressed="' + (w ? 'true' : 'false') + '">'
       +     (w ? '☑ 視聴済' : '☐ 未視聴')
       +   '</button>'
@@ -628,8 +767,13 @@ function render() {
       + '<div class="gc-match">' + esc(item.match) + '</div>'
       + (item.venue ? '<div class="gc-venue">📍 ' + esc(item.venue) + '</div>' : '')
       + '<div class="gc-crew">👨‍⚖️ 審判：' + crewHtml + '</div>'
+      + (progressMap[item.key] && !w
+          ? '<div class="gc-resume">▶ 続きは <b>' + fmtPos(progressMap[item.key].pos) + '</b> から'
+            + (progressMap[item.key].memo ? '<span class="memo">（' + esc(progressMap[item.key].memo) + '）</span>' : '')
+            + '<button type="button" class="tool-btn" data-act="resume-edit" data-key="' + key + '">修正</button></div>'
+          : '')
       + '<div class="gc-btns">'
-      +   '<a class="btn btn-live" href="' + esc(liveUrl || LIVE_TOP) + '" target="_blank" rel="noopener">' + webLabel + '</a>'
+      +   '<a class="btn btn-live" href="' + esc(liveUrl || LIVE_TOP) + '" target="_blank" rel="noopener" data-act="web" data-key="' + key + '">' + webLabel + '</a>'
       +   '<button type="button" class="btn btn-app" data-act="app" data-key="' + key + '">📱 アプリで開く</button>'
       + '</div>'
       + (extra
@@ -643,13 +787,120 @@ function render() {
   listEl.innerHTML = html + toggle;
 }
 
+/* ---------------- どこまで見たか（続きから） ----------------
+   バスケットLIVEの再生画面は別のサイト（アプリ）なので、再生位置を直接読むことはできない。
+   そこで「視聴に出かけた時刻」を覚えておき、戻ってきたときに
+   「前回の位置＋見ていた時間」を推定位置として出し、確認・修正して記録してもらう。 */
+function fmtPos(sec) {
+  sec = Math.max(0, Math.round(sec));
+  var h = Math.floor(sec / 3600), m = Math.floor(sec % 3600 / 60), s2 = sec % 60;
+  return h + ":" + pad2(m) + ":" + pad2(s2);
+}
+function parsePos(str) {
+  str = String(str || "").trim().replace(/[０-９]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 65248); })
+    .replace(/[：時分]/g, ":").replace(/秒/g, "").replace(/:$/, "");
+  if (!str) return null;
+  var parts = str.split(":").map(function (x) { return x === "" ? 0 : Number(x); });
+  if (parts.some(function (x) { return isNaN(x) || x < 0; })) return null;
+  if (parts.length === 1) {               // 数字だけ：10530 → 1:05:30、530 → 5:30
+    var d = String(Math.floor(parts[0])).padStart(6, "0").slice(-6);
+    parts = [Number(d.slice(0, 2)), Number(d.slice(2, 4)), Number(d.slice(4, 6))];
+  }
+  if (parts.length === 2) parts.unshift(0);
+  if (parts.length !== 3) return null;
+  return Math.min(parts[0] * 3600 + parts[1] * 60 + parts[2], MAX_VIDEO_SEC);
+}
+function saveProgress() { lsSet(STORAGE_PROGRESS, JSON.stringify(progressMap)); }
+
+function startSession(key) {
+  var p = progressMap[key];
+  lsSet(STORAGE_SESSION, JSON.stringify({ key: String(key), t: Date.now(), start: p ? p.pos : 0 }));
+}
+function readSession() {
+  try { return JSON.parse(lsGet(STORAGE_SESSION) || "null"); } catch (e) { return null; }
+}
+function clearSession() { try { localStorage.removeItem(STORAGE_SESSION); } catch (e) {} }
+
+// 視聴から戻ってきたら、推定した位置で記録シートを出す
+function checkSession() {
+  var ss = readSession();
+  if (!ss || !ss.key || $("prog-bg").classList.contains("open")) return;
+  var elapsed = (Date.now() - ss.t) / 1000;
+  if (elapsed < MIN_WATCH_SEC) { clearSession(); return; }
+  if (!findGame(ss.key)) { clearSession(); return; }
+  closeOpenSheet();
+  openProgress(ss.key, Math.min((ss.start || 0) + elapsed, MAX_VIDEO_SEC), true);
+}
+
+function openProgress(key, estimate, fromSession) {
+  var g = findGame(key);
+  var p = progressMap[key];
+  progKey = String(key);
+  $("prog-info").textContent = gameLabel(g, key);
+  $("prog-time").value = fmtPos(estimate != null ? estimate : (p ? p.pos : 0));
+  $("prog-memo").value = p && p.memo ? p.memo : "";
+  $("prog-note").textContent = fromSession
+    ? "見ていた時間から推定した位置です。一時停止や早送りをした場合は、再生画面の時間に合わせて直してください。"
+    : "再生画面の時間（シークバーの位置）を「時:分:秒」で入れてください。";
+  var bg = $("prog-bg");
+  bg.classList.add("open");
+  bg.setAttribute("aria-hidden", "false");
+}
+function closeProgress() {
+  progKey = null;
+  clearSession();
+  var bg = $("prog-bg");
+  bg.classList.remove("open");
+  bg.setAttribute("aria-hidden", "true");
+}
+function saveProgressFromSheet() {
+  if (!progKey) return;
+  var sec = parsePos($("prog-time").value);
+  if (sec === null) { alert("「1:05:30」のように 時:分:秒 で入力してください。"); return; }
+  progressMap[progKey] = { pos: sec, memo: $("prog-memo").value.trim(), at: new Date().toISOString() };
+  saveProgress();
+  closeProgress();
+  render();
+  showToast("💾 " + fmtPos(sec) + " まで記録しました");
+}
+function finishFromSheet() {
+  if (!progKey) return;
+  watchedMap[progKey] = true;
+  delete progressMap[progKey];
+  saveWatched();
+  saveProgress();
+  closeProgress();
+  render();
+  showToast("✅「視聴済」にしました");
+}
+function adjustProgress(delta) {
+  var sec = parsePos($("prog-time").value);
+  $("prog-time").value = fmtPos(Math.min(Math.max((sec || 0) + delta, 0), MAX_VIDEO_SEC));
+}
+
 /* ---------------- 操作 ---------------- */
 function toggleWatch(key) {
   watchedMap[key] = !watchedMap[key];
   if (!watchedMap[key]) delete watchedMap[key];
+  else if (progressMap[key]) { delete progressMap[key]; saveProgress(); }
   saveWatched();
   render();
   showToast(watchedMap[key] ? "☑「視聴済」にしました" : "☐「未視聴」に戻しました");
+}
+
+function goGroup(id) {
+  location.hash = id ? "#" + encodeURIComponent(id) : "#home";
+}
+function onRoute() {
+  currentGroup = groupFromHash();
+  currentFilter = "all";
+  showExpired = false;
+  ["all", "unwatched", "watched"].forEach(function (k) {
+    var b = $("f-" + k);
+    if (b) b.classList.toggle("active", k === "all");
+  });
+  render();
+  window.scrollTo(0, 0);
 }
 
 function setFilter(f) {
@@ -686,6 +937,7 @@ function copyGameLabel(key) {
 function showOpenSheet(key) {
   var g = findGame(key);
   $("open-info").textContent = gameLabel(g, key) + (g && g.venue ? "（" + g.venue + "）" : "");
+  if (progressMap[key] && !watchedMap[key]) $("open-info").textContent += "　▶ 続きは " + fmtPos(progressMap[key].pos) + " から";
   var link = $("open-link");
   if (PLATFORM === "ios-standalone") {
     // ホーム画面から開いた画面ではアプリに渡せないため、Safariに切り替えてからもう一度押してもらう
@@ -713,6 +965,7 @@ function closeOpenSheet() {
 
 function openBasketLiveApp(key) {
   copyGameLabel(key);
+  startSession(key);
   if (PLATFORM === "ios-safari" || PLATFORM === "ios-standalone") {
     // iPhoneは「リンクを指で直接タップ」したときだけアプリに渡せるので、専用の画面を出す
     showOpenSheet(key);
@@ -770,7 +1023,9 @@ function addByScheduleKey() {
     inp.value = "";
     return;
   }
-  extraGames.unshift({ key: key, date: todayFormatted(), match: "", venue: "", crew: "加藤 誉樹 ほか" });
+  var grp = findGroup(currentGroup) || findGroup("kato");
+  extraGames.unshift({ key: key, date: todayFormatted(), match: "", venue: "",
+    crew: grp && grp.id === "kato" ? "加藤 誉樹 ほか" : "", groups: [grp ? grp.id : "kato"] });
   saveExtraGames();
   if (seenKeys) { seenKeys[key] = 1; lsSet(STORAGE_SEEN, JSON.stringify(seenKeys)); }
   inp.value = "";
@@ -866,6 +1121,11 @@ function loadState() {
   } catch (e) { serverDoc = null; }
 
   try {
+    var pm = JSON.parse(lsGet(STORAGE_PROGRESS) || "{}");
+    progressMap = pm && typeof pm === "object" && !Array.isArray(pm) ? pm : {};
+  } catch (e) { progressMap = {}; }
+
+  try {
     var s = JSON.parse(lsGet(STORAGE_SEEN) || "null");
     seenKeys = s && typeof s === "object" ? s : null;
   } catch (e) { seenKeys = null; }
@@ -873,6 +1133,12 @@ function loadState() {
 
 function bindEvents() {
   $("dark-btn").addEventListener("click", toggleDark);
+  $("back-btn").addEventListener("click", function () { goGroup(null); });
+  $("home-view").addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest("[data-group]") : null;
+    if (t) goGroup(t.getAttribute("data-group"));
+  });
+  window.addEventListener("hashchange", onRoute);
   $("sync-btn").addEventListener("click", function () { loadServer(true); });
   $("add-btn").addEventListener("click", addByScheduleKey);
 
@@ -894,12 +1160,24 @@ function bindEvents() {
     var key = el.getAttribute("data-key");
     var act = el.getAttribute("data-act");
     if (act === "watch") toggleWatch(key);
+    else if (act === "web") startSession(key);          // リンクはそのまま開く
+    else if (act === "resume-edit") openProgress(key, null, false);
     else if (act === "app") openBasketLiveApp(key);
     else if (act === "edit") openEditor(key);
     else if (act === "del") deleteGame(key);
     else if (act === "toggle-expired") { showExpired = !showExpired; render(); }
   });
 
+  $("prog-save").addEventListener("click", saveProgressFromSheet);
+  $("prog-skip").addEventListener("click", closeProgress);
+  $("prog-done").addEventListener("click", finishFromSheet);
+  $("prog-bg").addEventListener("click", function (e) { if (e.target === this) closeProgress(); });
+  document.querySelectorAll("[data-adj]").forEach(function (b) {
+    b.addEventListener("click", function () { adjustProgress(Number(b.getAttribute("data-adj"))); });
+  });
+  $("prog-time").addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && !e.isComposing) { e.preventDefault(); saveProgressFromSheet(); }
+  });
   $("open-close").addEventListener("click", closeOpenSheet);
   $("open-bg").addEventListener("click", function (e) { if (e.target === this) closeOpenSheet(); });
   $("open-link").addEventListener("click", function () { setTimeout(closeOpenSheet, 600); });
@@ -911,11 +1189,14 @@ function bindEvents() {
     if (e.key !== "Escape") return;
     if (editingKey) closeEditor();
     closeOpenSheet();
+    if (progKey) closeProgress();
   });
 
   // アプリに戻ってきたとき、しばらくたっていれば自動で読み直す
   document.addEventListener("visibilitychange", function () {
-    if (document.visibilityState === "visible" && Date.now() - lastFetchAt > REFETCH_AFTER) loadServer(false);
+    if (document.visibilityState !== "visible") return;
+    checkSession();
+    if (Date.now() - lastFetchAt > REFETCH_AFTER) loadServer(false);
   });
 }
 
@@ -926,9 +1207,11 @@ function init() {
 
   loadState();
   bindEvents();
+  currentGroup = groupFromHash();
   render();                 // まず前回の一覧をすぐ表示
   setStatus(statusText());
   handleOpenParam();        // Safariに切り替えて開かれた場合
+  checkSession();           // 視聴から戻ってきた（ページが読み直された）場合
   loadServer(false);        // 続けて最新の games.json を読む（数秒以内）
 }
 

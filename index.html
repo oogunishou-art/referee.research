@@ -173,6 +173,12 @@ body.dark .gt-chip.soon{background:rgba(181,71,8,.25);color:#fdba74;border-color
 .gc-resume b{font-size:16px;color:#3538cd;font-variant-numeric:tabular-nums}
 .gc-resume .memo{font-weight:600;color:var(--text3);font-size:12px}
 .gc-resume .tool-btn{margin-left:auto}
+.resume-play{color:inherit;text-decoration:none;font-weight:800}
+.resume-play b{text-decoration:underline;text-underline-offset:3px}
+.bm-steps{font-size:12.5px;color:var(--text2);line-height:1.7;margin:0 0 10px 18px}
+.bm-steps b{color:var(--text1)}
+.bm-code{width:100%;height:64px;font:11px/1.4 ui-monospace,Menlo,monospace;border-radius:8px;border:1px solid var(--border2);background:var(--bg3);color:var(--text3);padding:6px;resize:none}
+.bm-h{font-size:13px;font-weight:900;margin:10px 0 4px}
 body.dark .gc-resume{background:rgba(59,91,219,.15);border-color:rgba(165,180,252,.35)}
 body.dark .gc-resume b{color:#a5b4fc}
 .prog-time{width:100%;text-align:center;font-size:30px;font-weight:900;letter-spacing:.04em;font-variant-numeric:tabular-nums;padding:10px;border-radius:12px;border:2px solid var(--border2);background:var(--bg3);color:var(--text1);outline:none}
@@ -276,6 +282,71 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
     </div>
   </div>
 </div>
+
+<!-- 続きから再生（Web視聴）の設定シート -->
+<div class="modal-bg" id="bm-bg" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="bm-title">
+    <h2 id="bm-title">▶ 続きから再生（Web視聴）の設定</h2>
+    <p class="open-note">バスケットLIVEの再生画面は別のサイトなので、このアプリから直接は操作できません。そこで、ブラウザのブックマークに<b>「続きから再生」</b>を1つ登録します。再生画面でそれをタップすると、記録した位置まで自動で進みます。その後は5秒ごとに、見た位置を自動で記録します。</p>
+    <div class="bm-h">① 登録（最初に1回だけ）</div>
+    <ol class="bm-steps">
+      <li>下の<b>「📋 コードをコピー」</b>を押す</li>
+      <li><b>iPhone（Safari）：</b>共有ボタン →「ブックマークを追加」→ 名前を<b>続きから再生</b>にして保存。ブックマーク一覧でそれを長押し →「編集」→ アドレス欄を全部消して貼り付け →「完了」</li>
+      <li><b>パソコン・Android（Chrome）：</b>このページをブックマーク → 編集 → 名前を<b>続きから再生</b>、URL欄に貼り付けて保存</li>
+    </ol>
+    <textarea class="bm-code" id="bm-code" readonly></textarea>
+    <div class="modal-btns" style="margin:8px 0 4px">
+      <button type="button" class="btn" id="bm-copy" style="background:var(--navy);color:#fff">📋 コードをコピー</button>
+    </div>
+    <div class="bm-h">② 使い方</div>
+    <ol class="bm-steps">
+      <li>試合カードの<b>「▶ ○:○○:○○ から再生」</b>（初めての試合は「Webで見逃し」）で再生画面を開く</li>
+      <li>映像が映ったら、ブックマークの<b>「続きから再生」</b>をタップ（アドレス欄に「続きから」と入れると候補に出ます）</li>
+      <li>やめるときは、画面右下の<b>「💾 ここまで記録してアプリへ戻る」</b>を押す</li>
+    </ol>
+    <p class="open-note">※ iPhoneでホーム画面のアイコンから開いていると、ブックマークが使えません。Web視聴はSafariで開いたこのアプリから行ってください。</p>
+    <div class="modal-btns">
+      <button type="button" class="btn" id="bm-close" style="background:var(--bg3);color:var(--text2);border:1px solid var(--border2)">閉じる</button>
+    </div>
+  </div>
+</div>
+<script type="text/plain" id="bm-src">(function(){
+var APP="__APP__",K="ref77_resume",d=document;
+function all(r,o){try{
+[].forEach.call(r.querySelectorAll("video"),function(v){o.push(v);});
+[].forEach.call(r.querySelectorAll("*"),function(e){if(e.shadowRoot){all(e.shadowRoot,o);}});
+[].forEach.call(r.querySelectorAll("iframe"),function(f){try{if(f.contentDocument){all(f.contentDocument,o);}}catch(x){}});
+}catch(x){}return o;}
+var v=null;
+all(d,[]).forEach(function(x){if(!v||(x.duration||0)>(v.duration||0)){v=x;}});
+if(!v){alert("動画が見つかりませんでした。映像が映ってから、もう一度タップしてください。");return;}
+var m=location.pathname.match(/lives\/(\d+)/),id=m?m[1]:location.pathname;
+var hk=(location.hash.match(/ref77k=([\w-]+)/)||[])[1]||id;
+var ht=+((location.hash.match(/ref77t=(\d+)/)||[])[1]||0);
+var s={};try{s=JSON.parse(localStorage.getItem(K)||"{}");}catch(x){}
+var t=Math.max(ht,s[id]?s[id].t:0);
+function f(x){x=Math.max(0,Math.floor(x||0));var h=Math.floor(x/3600),a=Math.floor(x/60)-h*60,b=x-Math.floor(x/60)*60;return h+":"+(a<10?"0":"")+a+":"+(b<10?"0":"")+b;}
+function save(){if(v.currentTime>5){s[id]={t:Math.floor(v.currentTime),k:hk,at:Date.now()};try{localStorage.setItem(K,JSON.stringify(s));}catch(x){}}}
+var tries=0;
+function seek(){if(t>5){if(v.duration&&t>=v.duration-10){lab.textContent="記録位置（"+f(t)+"）が動画の長さを超えています";}else{try{v.currentTime=t;}catch(x){}}}try{v.play();}catch(x){}
+setTimeout(function(){if(t>5&&v.currentTime<t-5&&(!v.duration||t<v.duration-10)&&tries<3){tries++;seek();}},1500);}
+var old=d.getElementById("ref77-panel");if(old){old.remove();}
+var p=d.createElement("div");p.id="ref77-panel";
+p.style.cssText="position:fixed;right:10px;bottom:10px;z-index:2147483647;background:rgba(11,29,74,.93);color:rgb(255,255,255);font:700 13px/1.4 sans-serif;padding:10px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.4);display:flex;flex-direction:column;gap:6px;max-width:270px";
+var lab=d.createElement("div");lab.textContent=t>5?"▶ "+f(t)+" から再生します":"▶ 最初から再生（ここから記録します）";p.appendChild(lab);
+function btn(txt,fn){var b=d.createElement("button");b.type="button";b.textContent=txt;b.style.cssText="font:800 13px sans-serif;padding:8px 10px;border-radius:9px;border:0;background:rgb(255,255,255);color:rgb(11,29,74)";b.onclick=fn;return b;}
+var row=d.createElement("div");row.style.cssText="display:flex;gap:6px";
+row.appendChild(btn("−10秒",function(){v.currentTime=Math.max(0,v.currentTime-10);}));
+row.appendChild(btn("＋10秒",function(){v.currentTime=v.currentTime+10;}));
+row.appendChild(btn("✕",function(){p.remove();}));
+p.appendChild(row);
+p.appendChild(btn("💾 ここまで記録してアプリへ戻る",function(){var c=Math.floor(v.currentTime);if(t>5&&c<t-5&&!confirm("前回の記録（"+f(t)+"）より前の "+f(c)+" で記録しますか？")){return;}save();location.href=APP+"?prog="+encodeURIComponent(hk)+"&t="+c;}));
+d.body.appendChild(p);
+if(v.readyState>=1){seek();}else{v.addEventListener("loadedmetadata",seek,{once:true});}
+setInterval(function(){if(t>5&&v.currentTime<t-5&&tries<3){return;}save();lab.textContent="⏺ "+f(v.currentTime)+" まで自動で記録中";},5000);
+window.addEventListener("pagehide",save);
+})();
+</script>
 
 <!-- どこまで見たかを記録するシート -->
 <div class="modal-bg" id="prog-bg" aria-hidden="true">
@@ -697,6 +768,7 @@ function renderHome() {
       +   (soon ? '<span class="gt-chip soon">配信終了間近<b>' + soon + '</b></span>' : '')
       + '</div></button>';
   });
+  html += '<button type="button" class="exp-toggle" data-act="bm-setup">▶ 続きから再生（Web視聴）の設定・使い方</button>';
   html += '<p class="home-note">B.LEAGUE（B.PREMIER／B.ONE／B.NEXT）とWリーグのうち、バスケットLIVEで見られる試合を表示しています。</p>';
   $("home-view").innerHTML = html;
 }
@@ -768,12 +840,15 @@ function renderList() {
       + (item.venue ? '<div class="gc-venue">📍 ' + esc(item.venue) + '</div>' : '')
       + '<div class="gc-crew">👨‍⚖️ 審判：' + crewHtml + '</div>'
       + (progressMap[item.key] && !w
-          ? '<div class="gc-resume">▶ 続きは <b>' + fmtPos(progressMap[item.key].pos) + '</b> から'
+          ? '<div class="gc-resume">'
+            + (liveUrl
+                ? '<a class="resume-play" href="' + esc(resumeUrl(item)) + '" target="_blank" rel="noopener" data-act="web" data-key="' + key + '">▶ <b>' + fmtPos(progressMap[item.key].pos) + '</b> から再生</a>'
+                : '▶ 続きは <b>' + fmtPos(progressMap[item.key].pos) + '</b> から')
             + (progressMap[item.key].memo ? '<span class="memo">（' + esc(progressMap[item.key].memo) + '）</span>' : '')
             + '<button type="button" class="tool-btn" data-act="resume-edit" data-key="' + key + '">修正</button></div>'
           : '')
       + '<div class="gc-btns">'
-      +   '<a class="btn btn-live" href="' + esc(liveUrl || LIVE_TOP) + '" target="_blank" rel="noopener" data-act="web" data-key="' + key + '">' + webLabel + '</a>'
+      +   '<a class="btn btn-live" href="' + esc(liveUrl ? resumeUrl(item) : LIVE_TOP) + '" target="_blank" rel="noopener" data-act="web" data-key="' + key + '">' + webLabel + '</a>'
       +   '<button type="button" class="btn btn-app" data-act="app" data-key="' + key + '">📱 アプリで開く</button>'
       + '</div>'
       + (extra
@@ -979,6 +1054,63 @@ function openBasketLiveApp(key) {
   }
 }
 
+/* ---------------- 続きから再生（Web視聴） ----------------
+   再生画面のURLに「どの試合か」と「記録した位置」を付けて開き、
+   ブックマーク「続きから再生」がそれを読んで再生位置を合わせる。
+   ブックマークの「ここまで記録してアプリへ戻る」は ?prog=試合&t=秒 でこのアプリに戻ってくる。 */
+function resumeUrl(g) {
+  var u = liveUrlOfGame(g);
+  if (!u) return LIVE_TOP;
+  var p = progressMap[g.key];
+  return u + "#ref77k=" + encodeURIComponent(g.key) + "&ref77t=" + (p ? Math.floor(p.pos) : 0);
+}
+function bookmarkletCode() {
+  var src = ($("bm-src").textContent || "").replace(/\n/g, "").trim();
+  return "javascript:" + src.replace("__APP__", location.origin + location.pathname);
+}
+function openBmSheet() {
+  $("bm-code").value = bookmarkletCode();
+  var bg = $("bm-bg");
+  bg.classList.add("open");
+  bg.setAttribute("aria-hidden", "false");
+}
+function closeBmSheet() {
+  var bg = $("bm-bg");
+  bg.classList.remove("open");
+  bg.setAttribute("aria-hidden", "true");
+}
+function copyBookmarklet() {
+  var code = bookmarkletCode(), ta = $("bm-code");
+  var done = function () { showToast("📋 コピーしました。ブックマークのアドレス欄に貼り付けてください"); };
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(code).then(done, function () { ta.focus(); ta.select(); document.execCommand("copy"); done(); });
+      return;
+    }
+  } catch (e) {}
+  ta.focus(); ta.select();
+  try { document.execCommand("copy"); done(); } catch (e) { showToast("長押しで全選択してコピーしてください"); }
+}
+// ブックマークから戻ってきたとき（?prog=試合&t=秒）は、その位置を記録する
+function handleProgParam() {
+  var m = location.search.match(/[?&]prog=([^&]+)/), t = location.search.match(/[?&]t=(\d+)/);
+  if (!m || !t) return;
+  try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
+  var id = decodeURIComponent(m[1]), key = findGame(id) ? id : null;
+  if (!key) {
+    getAllGames().forEach(function (g) {
+      if (!key && /\/lives\/(\d+)/.test(liveUrlOfGame(g)) && liveUrlOfGame(g).match(/\/lives\/(\d+)/)[1] === id) key = g.key;
+    });
+  }
+  if (!key) { showToast("記録する試合が見つかりませんでした"); return; }
+  var sec = Math.min(Number(t[1]), MAX_VIDEO_SEC), old = progressMap[key] || {};
+  progressMap[key] = { pos: sec, memo: old.memo || "", at: new Date().toISOString() };
+  saveProgress();
+  clearSession();
+  render();
+  showToast("💾 " + fmtPos(sec) + " まで記録しました");
+}
+
 // Safariに切り替えて開かれたとき（?open=試合ID）は、そのまま専用ボタンを出す
 function handleOpenParam() {
   var m = location.search.match(/[?&]open=(W?\d{4,7})/);
@@ -1135,9 +1267,13 @@ function bindEvents() {
   $("dark-btn").addEventListener("click", toggleDark);
   $("back-btn").addEventListener("click", function () { goGroup(null); });
   $("home-view").addEventListener("click", function (e) {
+    if (e.target.closest && e.target.closest("[data-act=bm-setup]")) { openBmSheet(); return; }
     var t = e.target.closest ? e.target.closest("[data-group]") : null;
     if (t) goGroup(t.getAttribute("data-group"));
   });
+  $("bm-copy").addEventListener("click", copyBookmarklet);
+  $("bm-close").addEventListener("click", closeBmSheet);
+  $("bm-bg").addEventListener("click", function (e) { if (e.target === this) closeBmSheet(); });
   window.addEventListener("hashchange", onRoute);
   $("sync-btn").addEventListener("click", function () { loadServer(true); });
   $("add-btn").addEventListener("click", addByScheduleKey);
@@ -1211,6 +1347,7 @@ function init() {
   render();                 // まず前回の一覧をすぐ表示
   setStatus(statusText());
   handleOpenParam();        // Safariに切り替えて開かれた場合
+  handleProgParam();        // ブックマーク「続きから再生」から戻ってきた場合
   checkSession();           // 視聴から戻ってきた（ページが読み直された）場合
   loadServer(false);        // 続けて最新の games.json を読む（数秒以内）
 }

@@ -1,6 +1,20 @@
 {
-  "referee": "加藤 誉樹",
-  "updated": "2026-10-29T10:53:27+09:00",
+  "referees": [
+    {
+      "id": "kato",
+      "label": "加藤 誉樹レフェリー",
+      "badge": "#77 CC",
+      "names": [
+        "加藤 誉樹"
+      ]
+    },
+    {
+      "id": "shimane",
+      "label": "島根県所属レフェリー",
+      "badge": "島根"
+    }
+  ],
+  "updated": "2026-10-29T15:14:16+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -10,92 +24,525 @@
   ],
   "games": [
     {
+      "key": "506516",
+      "league": "B.PREMIER",
+      "date": "2026-10-26 (月)",
+      "match": "島根 vs 仙台",
+      "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
+      "crew": "秋山 厚志 ／ 橋本 恵一 ／ 上山 正智",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506516",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506516&tab=4"
+    },
+    {
+      "key": "506514",
+      "league": "B.PREMIER",
+      "date": "2026-10-26 (月)",
+      "match": "信州 vs 神戸",
+      "venue": "ホワイトリング",
+      "crew": "豊田 康平 ／ 岩月 遼司 ／ 山田 隆介",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506514",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506514&tab=4"
+    },
+    {
       "key": "506503",
+      "league": "B.PREMIER",
       "date": "2026-10-24 (土)",
       "match": "A東京 vs 三河",
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 石田 祐二 ／ 佐久間 奈々",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506503",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506503&tab=4"
+    },
+    {
+      "key": "506493",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506503"
+      "date": "2026-10-21 (水)",
+      "match": "佐賀 vs 長崎",
+      "venue": "SAGAアリーナ",
+      "crew": "橋本 恵一 ／ 宇田津 浩史 ／ 松本 究",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506493",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506493&tab=4"
     },
     {
       "key": "506486",
+      "league": "B.PREMIER",
       "date": "2026-10-21 (水)",
       "match": "北海道 vs 富山",
       "venue": "北海きたえーる",
       "crew": "加藤 誉樹 ／ 冨士 将史 ／ 山田 俊",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
-      "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506486"
+      "live_url": "https://basketball.mb.softbank.jp/lives/506486",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506486&tab=4"
     },
     {
       "key": "506479",
+      "league": "B.PREMIER",
       "date": "2026-10-19 (月)",
       "match": "千葉J vs 東京SR",
       "venue": "LaLa arena TOKYO-BAY",
       "crew": "加藤 誉樹 ／ 大井 陽平 ／ 田中 充",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506479",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506479&tab=4"
+    },
+    {
+      "key": "506477",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506479"
+      "date": "2026-10-19 (月)",
+      "match": "仙台 vs 神戸",
+      "venue": "ゼビオアリーナ仙台",
+      "crew": "有澤 重行 ／ 豊田 康平 ／ 大山 賢史",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506477",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506477&tab=4"
+    },
+    {
+      "key": "507258",
+      "league": "B.ONE",
+      "date": "2026-10-18 (日)",
+      "match": "FE名古屋 vs 岡山",
+      "venue": "名古屋市枇杷島スポーツセンター",
+      "crew": "橋本 恵一 ／ 上山 正智 ／ 管 祐介",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/507258",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507258&tab=4"
+    },
+    {
+      "key": "507257",
+      "league": "B.ONE",
+      "date": "2026-10-17 (土)",
+      "match": "FE名古屋 vs 岡山",
+      "venue": "名古屋市枇杷島スポーツセンター",
+      "crew": "橋本 恵一 ／ 上山 正智 ／ 管 祐介",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/507257",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507257&tab=4"
     },
     {
       "key": "506471",
+      "league": "B.PREMIER",
       "date": "2026-10-17 (土)",
       "match": "千葉J vs 島根",
       "venue": "LaLa arena TOKYO-BAY",
       "crew": "加藤 誉樹 ／ 加藤 暁生 ／ 岩城 和利",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506471",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506471&tab=4"
+    },
+    {
+      "key": "506467",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506471"
+      "date": "2026-10-17 (土)",
+      "match": "仙台 vs 宇都宮",
+      "venue": "ゼビオアリーナ仙台",
+      "crew": "有澤 重行 ／ 豊田 康平 ／ 高橋 伸禎",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506467",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506467&tab=4"
+    },
+    {
+      "key": "507918",
+      "league": "B.NEXT",
+      "date": "2026-10-11 (日)",
+      "match": "山口 vs 品川",
+      "venue": "俵田翁記念体育館",
+      "crew": "箱崎 敬知 ／ 荒木 晋之 ／ 福田 尚広",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "福田 尚広"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/507918",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507918&tab=4"
     },
     {
       "key": "506457",
+      "league": "B.PREMIER",
       "date": "2026-10-11 (日)",
       "match": "東京SR vs 仙台",
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506457",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506457&tab=4"
+    },
+    {
+      "key": "507917",
+      "league": "B.NEXT",
+      "date": "2026-10-10 (土)",
+      "match": "山口 vs 品川",
+      "venue": "俵田翁記念体育館",
+      "crew": "箱崎 敬知 ／ 荒木 晋之 ／ 福田 尚広",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "福田 尚広"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/507917",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507917&tab=4"
+    },
+    {
+      "key": "506452",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506457"
+      "date": "2026-10-10 (土)",
+      "match": "長崎 vs 群馬",
+      "venue": "ハピネスアリーナ",
+      "crew": "秋山 厚志 ／ 豊田 康平 ／ 浅野 祐樹",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506452",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506452&tab=4"
     },
     {
       "key": "506445",
+      "league": "B.PREMIER",
       "date": "2026-10-09 (金)",
       "match": "東京SR vs 富山",
       "venue": "TOYOTA ARENA TOKYO",
       "crew": "加藤 誉樹 ／ 柳田 雅人 ／ 大山 賢史",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506445",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506445&tab=4"
+    },
+    {
+      "key": "506440",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506445"
+      "date": "2026-10-08 (木)",
+      "match": "長崎 vs 信州",
+      "venue": "ハピネスアリーナ",
+      "crew": "秋山 厚志 ／ 豊田 康平 ／ 橋本 恵一",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平",
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506440",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506440&tab=4"
     },
     {
       "key": "506428",
+      "league": "B.PREMIER",
       "date": "2026-10-04 (日)",
       "match": "島根 vs 名古屋D",
       "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
       "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506428",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506428&tab=4"
+    },
+    {
+      "key": "506427",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506428"
+      "date": "2026-10-04 (日)",
+      "match": "大阪 vs 三河",
+      "venue": "おおきにアリーナ舞洲",
+      "crew": "橋本 恵一 ／ 冨島 健司 ／ 東條 輝正",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506427",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506427&tab=4"
+    },
+    {
+      "key": "506421",
+      "league": "B.PREMIER",
+      "date": "2026-10-04 (日)",
+      "match": "千葉J vs A東京",
+      "venue": "LaLa arena TOKYO-BAY",
+      "crew": "阿部 聖 ／ 豊田 康平 ／ 高野 晃平",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506421",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506421&tab=4"
     },
     {
       "key": "506416",
+      "league": "B.PREMIER",
       "date": "2026-10-03 (土)",
       "match": "島根 vs 名古屋D",
       "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
       "crew": "加藤 誉樹 ／ 名越 龍男 ／ 富樫 彰子",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
       "status": "final",
       "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506416",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506416&tab=4"
+    },
+    {
+      "key": "506415",
       "league": "B.PREMIER",
-      "live_url": "https://basketball.mb.softbank.jp/lives/506416"
+      "date": "2026-10-03 (土)",
+      "match": "大阪 vs 三河",
+      "venue": "おおきにアリーナ舞洲",
+      "crew": "橋本 恵一 ／ 冨島 健司 ／ 東條 輝正",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506415",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506415&tab=4"
+    },
+    {
+      "key": "506406",
+      "league": "B.PREMIER",
+      "date": "2026-10-02 (金)",
+      "match": "千葉J vs A東京",
+      "venue": "LaLa arena TOKYO-BAY",
+      "crew": "阿部 聖 ／ 豊田 康平 ／ 高野 晃平",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506406",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506406&tab=4"
+    },
+    {
+      "key": "506402",
+      "league": "B.PREMIER",
+      "date": "2026-09-27 (日)",
+      "match": "神戸 vs 大阪",
+      "venue": "GLION ARENA KOBE",
+      "crew": "伊藤 亮介 ／ 豊田 康平 ／ 守谷 圭介",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506402",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506402&tab=4"
+    },
+    {
+      "key": "506401",
+      "league": "B.PREMIER",
+      "date": "2026-09-27 (日)",
+      "match": "京都 vs 滋賀",
+      "venue": "にっしんでんきアリーナ京都(京都市体育館)",
+      "crew": "岩井 遥河 ／ 橋本 恵一 ／ 早崎 康祐",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506401",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506401&tab=4"
+    },
+    {
+      "key": "506393",
+      "league": "B.PREMIER",
+      "date": "2026-09-26 (土)",
+      "match": "神戸 vs 大阪",
+      "venue": "GLION ARENA KOBE",
+      "crew": "伊藤 亮介 ／ 豊田 康平 ／ 守谷 圭介",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506393",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506393&tab=4"
     }
   ]
 }

@@ -305,6 +305,7 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
       <li>やめるときは、画面右下の<b>「💾 ここまで記録してアプリへ戻る」</b>を押す</li>
     </ol>
     <p class="open-note">※ iPhoneでホーム画面のアイコンから開いていると、ブックマークが使えません。Web視聴はSafariで開いたこのアプリから行ってください。</p>
+    <a class="btn btn-app open-main" id="bm-go" href="#" target="_blank" rel="noopener" style="display:none;margin-bottom:8px">登録済み・再生画面を開く</a>
     <div class="modal-btns">
       <button type="button" class="btn" id="bm-close" style="background:var(--bg3);color:var(--text2);border:1px solid var(--border2)">閉じる</button>
     </div>
@@ -313,38 +314,51 @@ body{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
 <script type="text/plain" id="bm-src">(function(){
 var APP="__APP__",K="ref77_resume",d=document;
 function all(r,o){try{
-[].forEach.call(r.querySelectorAll("video"),function(v){o.push(v);});
+[].forEach.call(r.querySelectorAll("video"),function(x){o.push(x);});
 [].forEach.call(r.querySelectorAll("*"),function(e){if(e.shadowRoot){all(e.shadowRoot,o);}});
 [].forEach.call(r.querySelectorAll("iframe"),function(f){try{if(f.contentDocument){all(f.contentDocument,o);}}catch(x){}});
 }catch(x){}return o;}
-var v=null;
-all(d,[]).forEach(function(x){if(!v||(x.duration||0)>(v.duration||0)){v=x;}});
-if(!v){alert("動画が見つかりませんでした。映像が映ってから、もう一度タップしてください。");return;}
+function pick(){var b=null;all(d,[]).forEach(function(x){if(!b||(x.duration||0)>(b.duration||0)){b=x;}});return b;}
+var v=pick();
+if(!v){var fr=[].filter.call(d.querySelectorAll("iframe"),function(q){try{return !q.contentDocument;}catch(x){return true;}});
+alert(fr.length?"動画が別のサイトの枠の中で再生されているため、位置を合わせられませんでした。（"+String(fr[0].src||"").slice(0,80)+"）":"動画が見つかりませんでした。映像が映ってから、もう一度タップしてください。");return;}
 var m=location.pathname.match(/lives\/(\d+)/),id=m?m[1]:location.pathname;
 var hk=(location.hash.match(/ref77k=([\w-]+)/)||[])[1]||id;
 var ht=+((location.hash.match(/ref77t=(\d+)/)||[])[1]||0);
 var s={};try{s=JSON.parse(localStorage.getItem(K)||"{}");}catch(x){}
 var t=Math.max(ht,s[id]?s[id].t:0);
+var moved=t<=5,done=t<=5,mine=false,start=Date.now(),ok=0,iv=0,last=t;
 function f(x){x=Math.max(0,Math.floor(x||0));var h=Math.floor(x/3600),a=Math.floor(x/60)-h*60,b=x-Math.floor(x/60)*60;return h+":"+(a<10?"0":"")+a+":"+(b<10?"0":"")+b;}
-function save(){if(v.currentTime>5){s[id]={t:Math.floor(v.currentTime),k:hk,at:Date.now()};try{localStorage.setItem(K,JSON.stringify(s));}catch(x){}}}
-var tries=0;
-function seek(){if(t>5){if(v.duration&&t>=v.duration-10){lab.textContent="記録位置（"+f(t)+"）が動画の長さを超えています";}else{try{v.currentTime=t;}catch(x){}}}try{v.play();}catch(x){}
-setTimeout(function(){if(t>5&&v.currentTime<t-5&&(!v.duration||t<v.duration-10)&&tries<3){tries++;seek();}},1500);}
+function save(){if((done||moved)&&v.currentTime>5){s[id]={t:Math.floor(v.currentTime),k:hk,at:Date.now()};try{localStorage.setItem(K,JSON.stringify(s));}catch(x){}}}
+function go(g){g=g||t;if(g>5){mine=true;try{v.currentTime=g;}catch(x){}}try{var r=v.play();if(r&&r.catch){r.catch(function(){});}}catch(x){}}
+function attach(x){x.addEventListener("seeking",function(){if(mine){mine=false;return;}if(Date.now()-start>2500&&x.currentTime>=3&&Math.abs(x.currentTime-t)>5){moved=true;}});}
+attach(v);
 var old=d.getElementById("ref77-panel");if(old){old.remove();}
 var p=d.createElement("div");p.id="ref77-panel";
-p.style.cssText="position:fixed;right:10px;bottom:10px;z-index:2147483647;background:rgba(11,29,74,.93);color:rgb(255,255,255);font:700 13px/1.4 sans-serif;padding:10px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.4);display:flex;flex-direction:column;gap:6px;max-width:270px";
-var lab=d.createElement("div");lab.textContent=t>5?"▶ "+f(t)+" から再生します":"▶ 最初から再生（ここから記録します）";p.appendChild(lab);
-function btn(txt,fn){var b=d.createElement("button");b.type="button";b.textContent=txt;b.style.cssText="font:800 13px sans-serif;padding:8px 10px;border-radius:9px;border:0;background:rgb(255,255,255);color:rgb(11,29,74)";b.onclick=fn;return b;}
+p.style.cssText="position:fixed;right:10px;bottom:10px;z-index:2147483647;background:rgba(11,29,74,.93);color:rgb(255,255,255);font:700 13px/1.4 sans-serif;padding:10px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.4);display:flex;flex-direction:column;gap:6px;max-width:280px";
+var lab=d.createElement("div");p.appendChild(lab);
+function btn(txt,fn,main){var b=d.createElement("button");b.type="button";b.textContent=txt;b.style.cssText="font:800 13px sans-serif;padding:8px 10px;border-radius:9px;border:0;background:"+(main?"rgb(234,88,12)":"rgb(255,255,255)")+";color:"+(main?"rgb(255,255,255)":"rgb(11,29,74)");b.onclick=fn;return b;}
+if(t>5){p.appendChild(btn("▶ "+f(t)+" へ移動して再生",function(){moved=false;done=false;start=Date.now();ok=0;last=t;go();watch();},true));}
 var row=d.createElement("div");row.style.cssText="display:flex;gap:6px";
-row.appendChild(btn("−10秒",function(){v.currentTime=Math.max(0,v.currentTime-10);}));
-row.appendChild(btn("＋10秒",function(){v.currentTime=v.currentTime+10;}));
-row.appendChild(btn("✕",function(){p.remove();}));
+row.appendChild(btn("−10秒",function(){moved=true;v.currentTime=Math.max(0,v.currentTime-10);}));
+row.appendChild(btn("＋10秒",function(){moved=true;v.currentTime=v.currentTime+10;}));
+row.appendChild(btn("✕",function(){clearInterval(iv);p.remove();}));
 p.appendChild(row);
-p.appendChild(btn("💾 ここまで記録してアプリへ戻る",function(){var c=Math.floor(v.currentTime);if(t>5&&c<t-5&&!confirm("前回の記録（"+f(t)+"）より前の "+f(c)+" で記録しますか？")){return;}save();location.href=APP+"?prog="+encodeURIComponent(hk)+"&t="+c;}));
+p.appendChild(btn("💾 ここまで記録してアプリへ戻る",function(){var c=Math.floor(v.currentTime);if(t>5&&c<t-5&&!confirm("前回の記録（"+f(t)+"）より前の "+f(c)+" で記録しますか？")){return;}moved=true;save();location.href=APP+"?prog="+encodeURIComponent(hk)+"&t="+c;}));
 d.body.appendChild(p);
-if(v.readyState>=1){seek();}else{v.addEventListener("loadedmetadata",seek,{once:true});}
-setInterval(function(){if(t>5&&v.currentTime<t-5&&tries<3){return;}save();lab.textContent="⏺ "+f(v.currentTime)+" まで自動で記録中";},5000);
-window.addEventListener("pagehide",save);
+function watch(){clearInterval(iv);iv=setInterval(function(){
+var nv=pick();if(nv&&nv!==v&&(nv.duration||0)>=(v.duration||0)){v=nv;attach(v);}
+if(!moved&&Date.now()-start<180000){
+if(v.duration&&t>=v.duration-10){moved=true;lab.textContent="記録位置（"+f(t)+"）が動画の長さを超えています";return;}
+var tg=done?Math.max(t,last):t;if(v.currentTime<tg-5&&(!done||v.currentTime<3)){ok=0;if(v.readyState>=1){go(tg);}}else{ok++;}
+done=done||ok>=2;
+if(!done){lab.textContent="⏩ "+f(t)+" へ移動しています…（映像の再生ボタンを押すと移動します）";return;}
+}
+if(done&&v.currentTime>last){last=v.currentTime;}save();lab.textContent="⏺ "+f(v.currentTime)+" まで自動で記録中";
+},800);}
+lab.textContent=t>5?"⏩ "+f(t)+" へ移動しています…（映像の再生ボタンを押すと移動します）":"▶ 最初から再生（ここから自動で記録します）";
+go();watch();
+window.addEventListener("pagehide",function(){save();});
 })();
 </script>
 
@@ -433,6 +447,7 @@ var STORAGE_SERVER  = "ooguni_ref77_server_cache_v7";  // 前回取得した gam
 var STORAGE_SEEN    = "ooguni_ref77_seen_v7";          // 既に見た試合ID（NEW表示用）
 var STORAGE_PROGRESS = "ooguni_ref77_progress_v1";     // 試合ごとの「どこまで見たか」
 var STORAGE_SESSION  = "ooguni_ref77_session_v1";      // いま視聴に出かけている試合
+var STORAGE_BM       = "ooguni_ref77_bm_ready_v1";     // ブックマーク「続きから再生」を登録済みか
 var MAX_VIDEO_SEC = 3 * 3600;      // 推定位置の上限（試合映像は長くても3時間程度）
 var MIN_WATCH_SEC = 90;            // これより早く戻ってきたら「見ていない」とみなす
 var progressMap = {};
@@ -843,6 +858,7 @@ function renderList() {
           ? '<div class="gc-resume">'
             + (liveUrl
                 ? '<a class="resume-play" href="' + esc(resumeUrl(item)) + '" target="_blank" rel="noopener" data-act="web" data-key="' + key + '">▶ <b>' + fmtPos(progressMap[item.key].pos) + '</b> から再生</a>'
+                  + '<span class="memo" style="flex-basis:100%">映像が出たらブックマーク「続きから再生」をタップ</span>'
                 : '▶ 続きは <b>' + fmtPos(progressMap[item.key].pos) + '</b> から')
             + (progressMap[item.key].memo ? '<span class="memo">（' + esc(progressMap[item.key].memo) + '）</span>' : '')
             + '<button type="button" class="tool-btn" data-act="resume-edit" data-key="' + key + '">修正</button></div>'
@@ -1068,8 +1084,13 @@ function bookmarkletCode() {
   var src = ($("bm-src").textContent || "").replace(/\n/g, "").trim();
   return "javascript:" + src.replace("__APP__", location.origin + location.pathname);
 }
-function openBmSheet() {
+var bmPendingKey = null;
+function openBmSheet(url, key) {
   $("bm-code").value = bookmarkletCode();
+  bmPendingKey = key || null;
+  var go = $("bm-go");
+  go.style.display = url ? "flex" : "none";
+  if (url) go.href = url;
   var bg = $("bm-bg");
   bg.classList.add("open");
   bg.setAttribute("aria-hidden", "false");
@@ -1081,7 +1102,7 @@ function closeBmSheet() {
 }
 function copyBookmarklet() {
   var code = bookmarkletCode(), ta = $("bm-code");
-  var done = function () { showToast("📋 コピーしました。ブックマークのアドレス欄に貼り付けてください"); };
+  var done = function () { lsSet(STORAGE_BM, "1"); showToast("📋 コピーしました。ブックマークのアドレス欄に貼り付けてください"); };
   try {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(code).then(done, function () { ta.focus(); ta.select(); document.execCommand("copy"); done(); });
@@ -1273,6 +1294,11 @@ function bindEvents() {
   });
   $("bm-copy").addEventListener("click", copyBookmarklet);
   $("bm-close").addEventListener("click", closeBmSheet);
+  $("bm-go").addEventListener("click", function () {
+    lsSet(STORAGE_BM, "1");
+    if (bmPendingKey) startSession(bmPendingKey);
+    setTimeout(closeBmSheet, 300);
+  });
   $("bm-bg").addEventListener("click", function (e) { if (e.target === this) closeBmSheet(); });
   window.addEventListener("hashchange", onRoute);
   $("sync-btn").addEventListener("click", function () { loadServer(true); });
@@ -1296,7 +1322,15 @@ function bindEvents() {
     var key = el.getAttribute("data-key");
     var act = el.getAttribute("data-act");
     if (act === "watch") toggleWatch(key);
-    else if (act === "web") startSession(key);          // リンクはそのまま開く
+    else if (act === "web") {
+      // 続きから再生：ブックマーク未登録なら、先に設定と使い方を出す
+      if (el.classList.contains("resume-play") && !lsGet(STORAGE_BM)) {
+        e.preventDefault();
+        openBmSheet(el.getAttribute("href"), key);
+        return;
+      }
+      startSession(key);                                  // リンクはそのまま開く
+    }
     else if (act === "resume-edit") openProgress(key, null, false);
     else if (act === "app") openBasketLiveApp(key);
     else if (act === "edit") openEditor(key);

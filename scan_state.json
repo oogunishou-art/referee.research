@@ -2832,134 +2832,112 @@
     "bl:506530": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506522": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506525": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506529": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506523": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506524": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506526": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506528": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506527": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506531": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:507305": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507312": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507291": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507293": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507297": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507307": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507309": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507295": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507301": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507303": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507926": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.NEXT",
-      "hint": true
+      "lg": "B.NEXT"
     },
     "bl:507927": {
       "d": "2026-10-31",
       "done": false,
-      "lg": "B.NEXT",
-      "hint": true
+      "lg": "B.NEXT"
     },
     "bl:506520": {
       "d": "2026-10-30",
@@ -3047,7 +3025,7 @@
     },
     "bl:507299": {
       "d": "2026-10-29",
-      "done": false,
+      "done": true,
       "lg": "B.ONE",
       "rv": 1,
       "refs": [
@@ -6721,9 +6699,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-10-30",
+  "bl_full_scan": "2026-10-31",
   "wl_max_seen": 8221,
-  "last_run": "2026-10-30T23:38:37+09:00",
-  "wl_complete_on": "2026-10-30",
+  "last_run": "2026-10-31T01:08:04+09:00",
+  "wl_complete_on": "2026-10-31",
   "refs_version": 1
 }

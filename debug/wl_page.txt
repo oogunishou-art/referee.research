@@ -2,7 +2,7 @@
 # URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8108
 # TITLE=スケジュール詳細 | WJBL（バスケットボール女子日本リーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/lives/110106?utm_source=wleague&utm_medium=gtog&utm_campaign=wleague_gtog_001']
-# 取得: 2026-10-31T05:54:22+09:00
+# 取得: 2026-10-31T10:41:15+09:00
 
 WJBL（バスケットボール女子日本リーグ）公式サイト
 TOP

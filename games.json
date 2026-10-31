@@ -9,12 +9,21 @@
       ]
     },
     {
+      "id": "urushima",
+      "label": "漆間 大吾レフェリー",
+      "badge": "FIBA",
+      "names": [
+        "漆間 大吾",
+        "漆間 大悟"
+      ]
+    },
+    {
       "id": "shimane",
       "label": "島根県所属レフェリー",
       "badge": "島根"
     }
   ],
-  "updated": "2026-10-31T10:43:32+09:00",
+  "updated": "2026-10-31T14:29:42+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -23,6 +32,26 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506525",
+      "league": "B.PREMIER",
+      "date": "2026-10-31 (土)",
+      "match": "千葉J vs 富山",
+      "venue": "LaLa arena TOKYO-BAY",
+      "crew": "豊田 康平 ／ 松本 究 ／ 一色 渉",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506530",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506525&tab=4"
+    },
     {
       "key": "506516",
       "league": "B.PREMIER",
@@ -84,6 +113,46 @@
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506503&tab=4"
     },
     {
+      "key": "506499",
+      "league": "B.PREMIER",
+      "date": "2026-10-23 (金)",
+      "match": "琉球 vs 群馬",
+      "venue": "沖縄サントリーアリーナ",
+      "crew": "漆間 大吾 ／ 一色 渉 ／ 砂川 卓嗣",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506499",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506499&tab=4"
+    },
+    {
+      "key": "506494",
+      "league": "B.PREMIER",
+      "date": "2026-10-21 (水)",
+      "match": "琉球 vs A千葉",
+      "venue": "沖縄サントリーアリーナ",
+      "crew": "漆間 大吾 ／ 桑原 一貴 ／ 石嶺 良方",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506494",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506494&tab=4"
+    },
+    {
       "key": "506493",
       "league": "B.PREMIER",
       "date": "2026-10-21 (水)",
@@ -122,6 +191,26 @@
       "verified": true,
       "live_url": "https://basketball.mb.softbank.jp/lives/506486",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506486&tab=4"
+    },
+    {
+      "key": "506480",
+      "league": "B.PREMIER",
+      "date": "2026-10-19 (月)",
+      "match": "A東京 vs 秋田",
+      "venue": "TOYOTA ARENA TOKYO",
+      "crew": "漆間 大吾 ／ 高野 晃平 ／ 西 和馬",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506480",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506480&tab=4"
     },
     {
       "key": "506479",
@@ -202,6 +291,26 @@
       "verified": true,
       "live_url": "https://basketball.mb.softbank.jp/lives/507257",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507257&tab=4"
+    },
+    {
+      "key": "506472",
+      "league": "B.PREMIER",
+      "date": "2026-10-17 (土)",
+      "match": "東京SR vs 長崎",
+      "venue": "TOYOTA ARENA TOKYO",
+      "crew": "漆間 大吾 ／ 高野 晃平 ／ 尾形 美樹",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506472",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506472&tab=4"
     },
     {
       "key": "506471",
@@ -344,6 +453,26 @@
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506445&tab=4"
     },
     {
+      "key": "506442",
+      "league": "B.PREMIER",
+      "date": "2026-10-09 (金)",
+      "match": "仙台 vs 三河",
+      "venue": "ゼビオアリーナ仙台",
+      "crew": "漆間 大吾 ／ 眞榮喜 工 ／ 上山 正智",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506442",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506442&tab=4"
+    },
+    {
       "key": "506440",
       "league": "B.PREMIER",
       "date": "2026-10-08 (木)",
@@ -363,6 +492,46 @@
       "verified": true,
       "live_url": "https://basketball.mb.softbank.jp/lives/506440",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506440&tab=4"
+    },
+    {
+      "key": "506431",
+      "league": "B.PREMIER",
+      "date": "2026-10-07 (水)",
+      "match": "仙台 vs A千葉",
+      "venue": "ゼビオアリーナ仙台",
+      "crew": "漆間 大吾 ／ 眞榮喜 工 ／ 若林 謙作",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506431",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506431&tab=4"
+    },
+    {
+      "key": "506429",
+      "league": "B.PREMIER",
+      "date": "2026-10-04 (日)",
+      "match": "広島 vs 神戸",
+      "venue": "広島グリーンアリーナ",
+      "crew": "漆間 大吾 ／ 西 和馬 ／ 細見 竜太",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506429",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506429&tab=4"
     },
     {
       "key": "506428",
@@ -463,6 +632,26 @@
       "verified": true,
       "live_url": "https://basketball.mb.softbank.jp/lives/506415",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506415&tab=4"
+    },
+    {
+      "key": "506407",
+      "league": "B.PREMIER",
+      "date": "2026-10-02 (金)",
+      "match": "広島 vs 神戸",
+      "venue": "広島グリーンアリーナ",
+      "crew": "漆間 大吾 ／ 北沢 あや子 ／ 皆川 義紀",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506407",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506407&tab=4"
     },
     {
       "key": "506406",

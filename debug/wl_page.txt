@@ -1,8 +1,8 @@
-# ID=wl:8111
-# URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8111
+# ID=wl:8110
+# URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8110
 # TITLE=スケジュール詳細 | WJBL（バスケットボール女子日本リーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/lives/110113?utm_source=wleague&utm_medium=gtog&utm_campaign=wleague_gtog_001']
-# 取得: 2026-11-01T00:26:12+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/lives/110114?utm_source=wleague&utm_medium=gtog&utm_campaign=wleague_gtog_001']
+# 取得: 2026-11-01T01:28:07+09:00
 
 WJBL（バスケットボール女子日本リーグ）公式サイト
 TOP
@@ -24,32 +24,32 @@ TOP
 
 26-27 Wリーグ レギュラーシーズン フューチャー
 
-広島
+山梨QB
 
 -
 
-三菱電機
+アランマーレ
 
-会場：SHOWAグループ総合体育館
+会場：富士北麓公園体育館
 
-●車での来場： 可 駐車場あり。詳細は公式ホームページからご確認ください
+●車での来場： 可
 ●飲食可否： 可
-●飲食出店：あり 両日SHOWAグループ総合体育館の売店・10/31のみ「姫路からあげ本店」キッチンカー
+●飲食出店：あり　キッチンカー（チーズハットグ、ワッフル等）
 ●シャトルバス運行： なし
 ●来場者プレゼント： なし
 ●Ｗ公式グッズ： なし
-●チームグッズ：あり 2階会場入り口付近に設置
+●チームグッズ：あり
 ●その他グッズ：なし
-●ファンサービス： あり 試合終了後ファンクラブ会員限定サイン会・撮影会実施（事前抽選済み）
+●ファンサービス： あり　10月31日山梨QB選手によるサイン会実施
 ●その他： なし
-●前座試合：11/1のみ　14:00～3x3エキシビジョンマッチ　「EMBEERQUEENvsEPIC」
+●前座試合：なし
 
 TEAM	1st	2nd	3rd	4th	TOT
 
-広島イーグレッツ
+山梨クィーンビーズ
 	-	-	-	-	-
 
-三菱電機 コアラーズ
+プレステージインターナショナル アランマーレ
 	-	-	-	-	-
 LIVE
 チケット/体育館

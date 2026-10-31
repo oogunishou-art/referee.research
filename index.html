@@ -157,6 +157,7 @@ body.dark .tag-left.last{background:rgba(180,35,24,.3);color:#fca5a5}
 .gt-top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
 .gt-badge{font-size:11px;font-weight:900;padding:3px 9px;border-radius:6px;letter-spacing:1px;background:var(--red);color:var(--gold);border:1px solid var(--gold);white-space:nowrap}
 .gt-badge.alt,.badge-77.alt{background:#05603a;color:#fff;border-color:#a6f4c5}
+.gt-badge.blue,.badge-77.blue{background:#1d4ed8;color:#fff;border-color:#bfdbfe}
 .gt-label{font-size:17px;font-weight:900;flex:1}
 .gt-arrow{font-size:22px;color:var(--text4);font-weight:700}
 .gt-names{font-size:12px;color:var(--text3);margin:6px 0 10px;line-height:1.5}
@@ -456,6 +457,7 @@ var progKey = null;
 /* レフェリーの分類（games.json の referees が無いときの初期値。実際の設定は referees.json） */
 var DEFAULT_GROUPS = [
   { id: "kato", label: "加藤 誉樹レフェリー", badge: "#77 CC", names: ["加藤 誉樹"] },
+  { id: "urushima", label: "漆間 大吾レフェリー", badge: "FIBA", names: ["漆間 大吾", "漆間 大悟"] },
   { id: "shimane", label: "島根県所属レフェリー", badge: "島根" }
 ];
 var currentGroup = null;   // null = トップページ
@@ -468,6 +470,7 @@ function findGroup(id) {
   for (var i = 0; i < gs.length; i++) if (gs[i].id === id) return gs[i];
   return null;
 }
+function badgeClass(id) { return id === "kato" ? "" : id === "shimane" ? " alt" : " blue"; }
 function gameGroups(g) { return Array.isArray(g.groups) && g.groups.length ? g.groups : ["kato"]; }
 function inGroup(g, id) { return gameGroups(g).indexOf(id) >= 0; }
 function escRe(x) { return x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
@@ -745,7 +748,7 @@ function updateHeader(list) {
   var g = currentGroup ? findGroup(currentGroup) : null;
   $("back-btn").hidden = !g;
   $("hdr-badge").textContent = g ? (g.badge || "REF") : "REF";
-  $("hdr-badge").className = "badge-77" + (g && g.id !== "kato" ? " alt" : "");
+  $("hdr-badge").className = "badge-77" + (g ? badgeClass(g.id) : "");
   $("hdr-title").textContent = g ? g.label : "レフェリー別 試合一覧";
   $("quick-add-row").hidden = !g;
   $("home-view").hidden = !!g;
@@ -774,7 +777,7 @@ function renderHome() {
     var fresh = list.filter(function (x) { return newKeys[x.key]; }).length;
     var soon = unwatched.filter(function (x) { var l = vodLeft(x); return l !== null && l <= 3; }).length;
     html += '<button type="button" class="group-tile" data-group="' + esc(g.id) + '">'
-      + '<div class="gt-top"><span class="gt-badge' + (g.id !== "kato" ? ' alt' : '') + '">' + esc(g.badge || "REF") + '</span>'
+      + '<div class="gt-top"><span class="gt-badge' + badgeClass(g.id) + '">' + esc(g.badge || "REF") + '</span>'
       + '<span class="gt-label">' + esc(g.label) + '</span><span class="gt-arrow">›</span></div>'
       + '<div class="gt-stats">'
       +   '<span class="gt-chip">視聴できる<b>' + list.length + '</b></span>'

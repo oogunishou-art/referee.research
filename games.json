@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-10-31T14:29:42+09:00",
+  "updated": "2026-10-31T20:04:16+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,70 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "507927",
+      "league": "B.NEXT",
+      "date": "2026-10-31 (土)",
+      "match": "三重 vs 山口",
+      "venue": "相好アリーナ四日市",
+      "crew": "中根 俊彦 ／ 土江 翔平 ／ 伊藤 拓未",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "土江 翔平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506527",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507927&tab=4"
+    },
+    {
+      "key": "506531",
+      "league": "B.PREMIER",
+      "date": "2026-10-31 (土)",
+      "match": "琉球 vs 三遠",
+      "venue": "沖縄サントリーアリーナ",
+      "crew": "加藤 誉樹 ／ 橋本 恵一 ／ 長谷川 裕",
+      "groups": [
+        "kato",
+        "shimane"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ],
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506527",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506531&tab=4"
+    },
+    {
+      "key": "506526",
+      "league": "B.PREMIER",
+      "date": "2026-10-31 (土)",
+      "match": "A東京 vs 宇都宮",
+      "venue": "TOYOTA ARENA TOKYO",
+      "crew": "漆間 大吾 ／ 岩井 遥河 ／ 池田 隼人",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506527",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506526&tab=4"
+    },
     {
       "key": "506525",
       "league": "B.PREMIER",
@@ -49,7 +113,7 @@
       },
       "status": "final",
       "verified": true,
-      "live_url": "https://basketball.mb.softbank.jp/lives/506530",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506527",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506525&tab=4"
     },
     {

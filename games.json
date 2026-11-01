@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-01T10:23:40+09:00",
+  "updated": "2026-11-01T21:02:36+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,90 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "507928",
+      "league": "B.NEXT",
+      "date": "2026-11-01 (日)",
+      "match": "三重 vs 山口",
+      "venue": "相好アリーナ四日市",
+      "crew": "中根 俊彦 ／ 土江 翔平 ／ 伊藤 拓未",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "土江 翔平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507928&tab=4"
+    },
+    {
+      "key": "506544",
+      "league": "B.PREMIER",
+      "date": "2026-11-01 (日)",
+      "match": "琉球 vs 三遠",
+      "venue": "沖縄サントリーアリーナ",
+      "crew": "加藤 誉樹 ／ 橋本 恵一 ／ 長谷川 裕",
+      "groups": [
+        "kato",
+        "shimane"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ],
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506544&tab=4"
+    },
+    {
+      "key": "506537",
+      "league": "B.PREMIER",
+      "date": "2026-11-01 (日)",
+      "match": "A東京 vs 宇都宮",
+      "venue": "TOYOTA ARENA TOKYO",
+      "crew": "漆間 大吾 ／ 岩井 遥河 ／ 池田 隼人",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506537&tab=4"
+    },
+    {
+      "key": "506536",
+      "league": "B.PREMIER",
+      "date": "2026-11-01 (日)",
+      "match": "千葉J vs 富山",
+      "venue": "LaLa arena TOKYO-BAY",
+      "crew": "豊田 康平 ／ 松本 究 ／ 一色 渉",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506536&tab=4"
+    },
     {
       "key": "507927",
       "league": "B.NEXT",
@@ -49,7 +133,7 @@
       },
       "status": "final",
       "verified": true,
-      "live_url": "https://basketball.mb.softbank.jp/lives/507927",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507927&tab=4"
     },
     {
@@ -73,7 +157,7 @@
       },
       "status": "final",
       "verified": true,
-      "live_url": "https://basketball.mb.softbank.jp/lives/506531",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506531&tab=4"
     },
     {
@@ -93,7 +177,7 @@
       },
       "status": "final",
       "verified": true,
-      "live_url": "https://basketball.mb.softbank.jp/lives/506526",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506526&tab=4"
     },
     {
@@ -113,7 +197,7 @@
       },
       "status": "final",
       "verified": true,
-      "live_url": "https://basketball.mb.softbank.jp/lives/506525",
+      "live_url": "https://basketball.mb.softbank.jp/lives/506538",
       "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506525&tab=4"
     },
     {

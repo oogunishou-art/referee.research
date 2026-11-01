@@ -1,8 +1,8 @@
 # ID=bl:507928
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=507928&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/01 三重 VS 山口 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-01T10:19:32+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/lives/506538/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_033']
+# 取得: 2026-11-01T20:56:40+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,40 +26,52 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-16:05
+FINAL
 三重
--
+79
 山口
--
+95
 2026.11.01（日）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
 
 ヴィアティン三重
 
 B.NEXT ｜4位
---
+79
 HOME
 
 三重県｜相好アリ
 
 16:05 TIP OFF
 
-VS
+15
+1Q
+22
+26
+2Q
+28
+21
+3Q
+27
+17
+4Q
+18
+
+FINAL
 
 山口パッツファイブ
 
-B.NEXT ｜3位
---
+B.NEXT ｜2位
+95
 AWAY
 会場：相好アリーナ四日市
-
-チケット購入
+人数：1277人
+レフェリー：中根 俊彦／土江 翔平／伊藤 拓未
+見逃し配信
 試合情報
 
 SHARE ON :
 
-放送予定
-バスケットLIVE
 クラブデータ
 試合レポート
 テキスト速報
@@ -71,8 +83,14 @@ SHARE ON :
 関連リンク
 ヴィアティン三重
 HOME
+
+試合レポート
+
 山口パッツファイブ
 AWAY
+
+試合レポート
+
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

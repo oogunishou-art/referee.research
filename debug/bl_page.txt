@@ -1,8 +1,8 @@
-# ID=bl:507928
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507928&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/01 三重 VS 山口 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-03T02:32:27+09:00
+# ID=bl:507322
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507322&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/04 熊本 VS 岩手 | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-11-04T00:32:55+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,48 +22,91 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/01 三重 VS 山口
-2026.11.01（日）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/04 熊本 VS 岩手
+B.PREMIER
+B.ONE
+B.NEXT
+13:05
+香川
+-
+東京U
+-
+19:05
+山形
+-
+東京Z
+-
+19:05
+福島
+-
+新潟
+-
+19:05
+埼玉
+-
+愛媛
+-
+19:05
+立川
+-
+横浜EX
+-
+19:05
+金沢
+-
+八王子
+-
+19:05
+福井
+-
+鹿児島
+-
+19:05
+静岡
+-
+FE名古屋
+-
+19:05
+福岡
+-
+岡山
+-
+19:05
+熊本
+-
+岩手
+-
+2026.11.04（水）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
 
-ヴィアティン三重
+熊本ヴォルターズ
 
-B.NEXT ｜4位
-79
+B.ONE｜南地区 1位
+--
 HOME
 
-三重県｜相好アリ
+熊本県｜益城総合
 
-16:05 TIP OFF
+19:05 TIP OFF
 
-15
-1Q
-22
-26
-2Q
-28
-21
-3Q
-27
-17
-4Q
-18
+VS
 
-FINAL
+岩手ビッグブルズ
 
-山口パッツファイブ
-
-B.NEXT ｜2位
-95
+B.ONE｜北地区 2位
+--
 AWAY
-会場：相好アリーナ四日市
-人数：1277人
-レフェリー：中根 俊彦／土江 翔平／伊藤 拓未
-ハイライト
+会場：ユナイテッドトヨタ キズナアリーナ 益城(益城町総合体育館)
+
+チケット購入
 試合情報
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -73,16 +116,10 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-ヴィアティン三重
+熊本ヴォルターズ
 HOME
-
-試合レポート
-
-山口パッツファイブ
+岩手ビッグブルズ
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

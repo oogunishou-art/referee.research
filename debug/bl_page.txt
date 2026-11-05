@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=507931&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/05 品川 VS 三重 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-05T07:01:09+09:00
+# 取得: 2026-11-05T11:37:01+09:00
 
 SDGs等への取り組み
 グッズ

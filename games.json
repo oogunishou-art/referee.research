@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-06T11:37:10+09:00",
+  "updated": "2026-11-06T22:05:41+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,26 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506549",
+      "league": "B.PREMIER",
+      "date": "2026-11-06 (金)",
+      "match": "滋賀 vs 川崎",
+      "venue": "滋賀ダイハツアリーナ",
+      "crew": "加藤 誉樹 ／ 小畑 治 ／ 野々村 日希",
+      "groups": [
+        "kato"
+      ],
+      "hits": {
+        "kato": [
+          "加藤 誉樹"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506549",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506549&tab=4"
+    },
     {
       "key": "507928",
       "league": "B.NEXT",

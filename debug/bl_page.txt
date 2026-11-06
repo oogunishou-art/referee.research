@@ -1,8 +1,8 @@
 # ID=bl:507932
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=507932&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/06 品川 VS 三重 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-06T11:36:43+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
+# 取得: 2026-11-06T22:04:56+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,39 +26,51 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
+FINAL
 品川
--
+85
 三重
--
+71
 2026.11.06（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
 
 しながわシティバスケットボールクラブ
 
 B.NEXT ｜2位
---
+85
 HOME
 
 東京都｜荒川総合
 
 19:05 TIP OFF
 
-VS
+14
+1Q
+20
+16
+2Q
+15
+31
+3Q
+18
+24
+4Q
+18
+
+FINAL
 
 ヴィアティン三重
 
 B.NEXT ｜4位
---
+71
 AWAY
 会場：荒川総合スポーツセンター
-
-チケット購入
+人数：360人
+レフェリー：青木 紀江／北村 仁／土門 亮太
+見逃し配信
 
 SHARE ON :
 
-放送予定
-バスケットLIVE
 クラブデータ
 試合レポート
 テキスト速報
@@ -70,8 +82,14 @@ SHARE ON :
 関連リンク
 しながわシティバスケットボールクラブ
 HOME
+
+試合レポート
+
 ヴィアティン三重
 AWAY
+
+試合レポート
+
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

@@ -1,8 +1,8 @@
-# ID=bl:507928
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507928&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/01 三重 VS 山口 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:506549
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506549&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/06 滋賀 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-03T02:32:27+09:00
+# 取得: 2026-11-06T22:05:12+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,44 +22,77 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/01 三重 VS 山口
-2026.11.01（日）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/06 滋賀 VS 川崎
+B.PREMIER
+B.ONE
+B.NEXT
+FINAL
+北海道
+123
+秋田
+118
+FINAL
+仙台
+96
+A東京
+69
+FINAL
+千葉J
+89
+A千葉
+87
+FINAL
+三河
+83
+群馬
+90
+FINAL
+滋賀
+81
+川崎
+75
+FINAL
+広島
+80
+長崎
+73
+2026.11.06（金）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-ヴィアティン三重
+滋賀レイクス
 
-B.NEXT ｜4位
-79
+B.PREMIER｜西地区 8位
+81
 HOME
 
-三重県｜相好アリ
+滋賀県｜滋賀DH
 
-16:05 TIP OFF
+19:05 TIP OFF
 
-15
+25
 1Q
-22
-26
-2Q
-28
-21
-3Q
-27
 17
+13
+2Q
+20
+15
+3Q
+16
+28
 4Q
-18
+22
 
 FINAL
 
-山口パッツファイブ
+川崎ブレイブサンダース
 
-B.NEXT ｜2位
-95
+B.PREMIER｜東地区 11位
+75
 AWAY
-会場：相好アリーナ四日市
-人数：1277人
-レフェリー：中根 俊彦／土江 翔平／伊藤 拓未
-ハイライト
+会場：滋賀ダイハツアリーナ
+人数：4162人
+レフェリー：加藤 誉樹／小畑 治／野々村 日希
+見逃し配信
 試合情報
 
 SHARE ON :
@@ -73,12 +106,12 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-ヴィアティン三重
+滋賀レイクス
 HOME
 
 試合レポート
 
-山口パッツファイブ
+川崎ブレイブサンダース
 AWAY
 
 試合レポート

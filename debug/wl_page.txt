@@ -2,7 +2,7 @@
 # URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8114
 # TITLE=スケジュール詳細 | WJBL（バスケットボール女子日本リーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/lives/110121?utm_source=wleague&utm_medium=gtog&utm_campaign=wleague_gtog_001']
-# 取得: 2026-11-07T04:59:52+09:00
+# 取得: 2026-11-07T05:38:59+09:00
 
 WJBL（バスケットボール女子日本リーグ）公式サイト
 TOP
@@ -17,9 +17,6 @@ PLAYER
 選手検索
 HISTORICAL DATA
 成績
-
-LOADING
-
 SCHEDULE/RESULT スケジュール詳細
 TOP
 スケジュール・試合結果
@@ -58,6 +55,9 @@ LIVE
 チケット/体育館
 BOXスコア
 Play by Play
+
+試合開始までお待ち下さい。
+
 戻る
 WJBL概要
 ニュース

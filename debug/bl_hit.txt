@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506549&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/06 滋賀 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-06T22:05:12+09:00
+# 取得: 2026-11-07T00:30:09+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,42 +26,37 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-北海道
-123
-秋田
-118
-FINAL
-仙台
-96
-A東京
-69
-FINAL
-千葉J
-89
-A千葉
-87
-FINAL
-三河
-83
-群馬
-90
-FINAL
-滋賀
-81
-川崎
-75
-FINAL
-広島
-80
-長崎
-73
+15:05
+横浜BC
+-
+神戸
+-
+15:05
+富山
+-
+名古屋D
+-
+16:00
+宇都宮
+-
+琉球
+-
+16:05
+大阪
+-
+茨城
+-
+17:05
+東京SR
+-
+京都
+-
 2026.11.06（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
 滋賀レイクス
 
-B.PREMIER｜西地区 8位
+B.PREMIER｜西地区 7位
 81
 HOME
 
@@ -86,13 +81,13 @@ FINAL
 
 川崎ブレイブサンダース
 
-B.PREMIER｜東地区 11位
+B.PREMIER｜東地区 12位
 75
 AWAY
 会場：滋賀ダイハツアリーナ
 人数：4162人
 レフェリー：加藤 誉樹／小畑 治／野々村 日希
-見逃し配信
+ハイライト
 試合情報
 
 SHARE ON :

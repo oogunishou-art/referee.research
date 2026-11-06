@@ -1,8 +1,8 @@
-# ID=bl:507932
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507932&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/06 品川 VS 三重 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-06T22:04:56+09:00
+# ID=bl:507929
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507929&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/07 山口 VS 湘南 | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-11-07T00:28:38+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,55 +22,43 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/06 品川 VS 三重
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/07 山口 VS 湘南
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-品川
-85
-三重
-71
-2026.11.06（金）
+15:05
+山口
+-
+湘南
+-
+2026.11.07（土）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
 
-しながわシティバスケットボールクラブ
+山口パッツファイブ
 
-B.NEXT ｜2位
-85
+B.NEXT ｜3位
+--
 HOME
 
-東京都｜荒川総合
+山口県｜俵田
 
-19:05 TIP OFF
+15:05 TIP OFF
 
-14
-1Q
-20
-16
-2Q
-15
-31
-3Q
-18
-24
-4Q
-18
+VS
 
-FINAL
+ウォルガ湘南
 
-ヴィアティン三重
-
-B.NEXT ｜4位
-71
+B.NEXT ｜1位
+--
 AWAY
-会場：荒川総合スポーツセンター
-人数：360人
-レフェリー：青木 紀江／北村 仁／土門 亮太
-見逃し配信
+会場：俵田翁記念体育館
+
+チケット購入
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
 クラブデータ
 試合レポート
 テキスト速報
@@ -80,16 +68,10 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-しながわシティバスケットボールクラブ
+山口パッツファイブ
 HOME
-
-試合レポート
-
-ヴィアティン三重
+ウォルガ湘南
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

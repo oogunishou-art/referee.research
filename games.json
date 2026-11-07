@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-07T11:06:51+09:00",
+  "updated": "2026-11-07T20:53:34+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,26 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506552",
+      "league": "B.PREMIER",
+      "date": "2026-11-07 (土)",
+      "match": "東京SR vs 京都",
+      "venue": "TOYOTA ARENA TOKYO",
+      "crew": "橋本 恵一 ／ 尾形 美樹 ／ 嶋崎 貴",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506552",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506552&tab=4"
+    },
     {
       "key": "506549",
       "league": "B.PREMIER",

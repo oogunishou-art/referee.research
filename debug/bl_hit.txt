@@ -1,8 +1,8 @@
-# ID=bl:506549
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506549&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/06 滋賀 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:506552
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506552&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/07 東京SR VS 京都 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-07T11:06:26+09:00
+# 取得: 2026-11-07T20:52:42+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,72 +22,72 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/06 滋賀 VS 川崎
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/07 東京SR VS 京都
 B.PREMIER
 B.ONE
 B.NEXT
-15:05
+FINAL
 横浜BC
--
+70
 神戸
--
-15:05
+87
+FINAL
 富山
--
+80
 名古屋D
--
-16:00
+93
+FINAL
 宇都宮
--
+79
 琉球
--
-16:05
+76
+FINAL
 大阪
--
+68
 茨城
--
-17:05
+86
+FINAL
 東京SR
--
+92
 京都
--
-2026.11.06（金）
+87
+2026.11.07（土）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-滋賀レイクス
+東京サンロッカーズ
 
-B.PREMIER｜西地区 7位
-81
+B.PREMIER｜東地区 4位
+92
 HOME
 
-滋賀県｜滋賀DH
+東京都｜トヨタA
 
-19:05 TIP OFF
+17:05 TIP OFF
 
-25
+20
 1Q
-17
-13
+23
+18
 2Q
 20
-15
+23
 3Q
-16
-28
+23
+31
 4Q
-22
+21
 
 FINAL
 
-川崎ブレイブサンダース
+京都ハンナリーズ
 
-B.PREMIER｜東地区 12位
-75
+B.PREMIER｜西地区 5位
+87
 AWAY
-会場：滋賀ダイハツアリーナ
-人数：4162人
-レフェリー：加藤 誉樹／小畑 治／野々村 日希
-ハイライト
+会場：TOYOTA ARENA TOKYO
+人数：7648人
+レフェリー：橋本 恵一／尾形 美樹／嶋崎 貴
+見逃し配信
 試合情報
 
 SHARE ON :
@@ -101,12 +101,12 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-滋賀レイクス
+東京サンロッカーズ
 HOME
 
 試合レポート
 
-川崎ブレイブサンダース
+京都ハンナリーズ
 AWAY
 
 試合レポート

@@ -1,8 +1,8 @@
-# ID=wl:8117
-# URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8117
+# ID=wl:8116
+# URL=https://www.wjbl.org/schedule_result/detail/boxscore/?locale=SP&command=boxscore&schedule_id=8116
 # TITLE=スケジュール詳細 | WJBL（バスケットボール女子日本リーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/lives/110128?utm_source=wleague&utm_medium=gtog&utm_campaign=wleague_gtog_001']
-# 取得: 2026-11-08T03:06:47+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/lives/110127?utm_source=wleague&utm_medium=gtog&utm_campaign=wleague_gtog_001']
+# 取得: 2026-11-08T04:06:20+09:00
 
 WJBL（バスケットボール女子日本リーグ）公式サイト
 TOP
@@ -24,11 +24,11 @@ TOP
 
 26-27 Wリーグ レギュラーシーズン フューチャー
 
-三菱電機
+アランマーレ
 
 -
 
-新潟
+東京羽田
 
 会場：IRISOアリーナ横手
 
@@ -46,10 +46,10 @@ TOP
 
 TEAM	1st	2nd	3rd	4th	TOT
 
-三菱電機 コアラーズ
+プレステージインターナショナル アランマーレ
 	-	-	-	-	-
 
-新潟アルビレックスBBラビッツ
+東京羽田ヴィッキーズ
 	-	-	-	-	-
 LIVE
 チケット/体育館

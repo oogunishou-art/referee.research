@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506552&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/07 東京SR VS 京都 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-07T23:29:02+09:00
+# 取得: 2026-11-08T00:51:01+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,31 +26,26 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-横浜BC
-70
-神戸
-87
-FINAL
-富山
-80
-名古屋D
-93
-FINAL
-宇都宮
-79
-琉球
-76
-FINAL
-大阪
-68
-茨城
-86
-FINAL
-東京SR
-92
-京都
-87
+14:05
+秋田
+-
+信州
+-
+15:05
+三河
+-
+滋賀
+-
+17:05
+A東京
+-
+三遠
+-
+17:05
+佐賀
+-
+千葉J
+-
 2026.11.07（土）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
@@ -87,7 +82,7 @@ AWAY
 会場：TOYOTA ARENA TOKYO
 人数：7648人
 レフェリー：橋本 恵一／尾形 美樹／嶋崎 貴
-見逃し配信
+ハイライト
 試合情報
 
 SHARE ON :

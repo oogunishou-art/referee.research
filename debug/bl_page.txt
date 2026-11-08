@@ -1,8 +1,8 @@
-# ID=bl:507935
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507935&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/21 三重 VS 山口 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:506565
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506565&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 長崎 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-09T01:06:11+09:00
+# 取得: 2026-11-09T02:21:58+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,7 +22,7 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/21 三重 VS 山口
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 長崎 VS 仙台
 B.PREMIER
 B.ONE
 B.NEXT
@@ -56,34 +56,38 @@ A千葉
 -
 北海道
 -
-2026.11.21（土）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
+2026.11.09（月）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-ヴィアティン三重
+長崎ヴェルカ
 
-B.NEXT ｜4位
+B.PREMIER｜西地区 8位
 --
 HOME
 
-三重県｜AGF
+長崎県｜ハピアリ
 
-14:05 TIP OFF
+19:05 TIP OFF
 
 VS
 
-山口パッツファイブ
+仙台89ERS
 
-B.NEXT ｜3位
+B.PREMIER｜東地区 2位
 --
 AWAY
-会場：AGF鈴鹿体育館
+会場：ハピネスアリーナ
 
 チケット購入
+試合情報
 
 SHARE ON :
 
 放送予定
 バスケットLIVE
+Amazon Prime Video
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -93,9 +97,9 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-ヴィアティン三重
+長崎ヴェルカ
 HOME
-山口パッツファイブ
+仙台89ERS
 AWAY
 おすすめコンテンツ​
 

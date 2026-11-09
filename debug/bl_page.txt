@@ -1,8 +1,8 @@
-# ID=bl:506565
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506565&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 長崎 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-09T23:07:00+09:00
+# ID=bl:506568
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506568&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/10 神戸 VS 東京SR | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-11-10T02:53:54+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,81 +22,56 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 長崎 VS 仙台
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/10 神戸 VS 東京SR
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-茨城
-80
-琉球
-72
-FINAL
-群馬
-87
-名古屋D
-76
-FINAL
-川崎
-76
-A千葉
-85
-FINAL
-島根
-108
-富山
-75
-FINAL
-長崎
-87
-仙台
-107
-FINAL
-京都
-79
-北海道
-85
-2026.11.09（月）
+19:05
+千葉J
+-
+大阪
+-
+19:05
+三河
+-
+信州
+-
+19:05
+神戸
+-
+東京SR
+-
+2026.11.10（火）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-長崎ヴェルカ
+神戸ストークス
 
-B.PREMIER｜西地区 8位
-87
+B.PREMIER｜西地区 11位
+--
 HOME
 
-長崎県｜ハピアリ
+兵庫県｜Gアリ
 
 19:05 TIP OFF
 
-33
-1Q
-28
-26
-2Q
-30
-14
-3Q
-28
-14
-4Q
-21
+VS
 
-FINAL
+東京サンロッカーズ
 
-仙台89ERS
-
-B.PREMIER｜東地区 2位
-107
+B.PREMIER｜東地区 4位
+--
 AWAY
-会場：ハピネスアリーナ
-人数：5377人
-レフェリー：早崎 康祐／上山 正智／池田 隼人
-見逃し配信
-試合情報
+会場：GLION ARENA KOBE
+
+チケット購入
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
+Amazon Prime Video
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -106,16 +81,10 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-長崎ヴェルカ
+神戸ストークス
 HOME
-
-試合レポート
-
-仙台89ERS
+東京サンロッカーズ
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506564&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 島根 VS 富山 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-09T23:07:06+09:00
+# 取得: 2026-11-10T02:54:11+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,42 +26,27 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-茨城
-80
-琉球
-72
-FINAL
-群馬
-87
-名古屋D
-76
-FINAL
-川崎
-76
-A千葉
-85
-FINAL
-島根
-108
-富山
-75
-FINAL
-長崎
-87
-仙台
-107
-FINAL
-京都
-79
-北海道
-85
+19:05
+千葉J
+-
+大阪
+-
+19:05
+三河
+-
+信州
+-
+19:05
+神戸
+-
+東京SR
+-
 2026.11.09（月）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
 島根スサノオマジック
 
-B.PREMIER｜西地区 10位
+B.PREMIER｜西地区 9位
 108
 HOME
 
@@ -92,7 +77,7 @@ AWAY
 会場：バンダイナムコアリーナ松江(松江市総合体育館)
 人数：4129人
 レフェリー：内田 祥平／豊田 康平／甲斐 清
-見逃し配信
+ハイライト
 試合情報
 
 SHARE ON :

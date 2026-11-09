@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-09T10:49:45+09:00",
+  "updated": "2026-11-09T23:09:49+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,26 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506564",
+      "league": "B.PREMIER",
+      "date": "2026-11-09 (月)",
+      "match": "島根 vs 富山",
+      "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
+      "crew": "内田 祥平 ／ 豊田 康平 ／ 甲斐 清",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506564",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506564&tab=4"
+    },
     {
       "key": "506552",
       "league": "B.PREMIER",

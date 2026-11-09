@@ -1,8 +1,8 @@
 # ID=bl:506565
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506565&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 長崎 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-09T10:47:37+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
+# 取得: 2026-11-09T23:07:00+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,68 +26,77 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
+FINAL
 茨城
--
+80
 琉球
--
-19:05
+72
+FINAL
 群馬
--
+87
 名古屋D
--
-19:05
+76
+FINAL
 川崎
--
+76
 A千葉
--
-19:05
+85
+FINAL
 島根
--
+108
 富山
--
-19:05
+75
+FINAL
 長崎
--
+87
 仙台
--
-19:15
+107
+FINAL
 京都
--
+79
 北海道
--
+85
 2026.11.09（月）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
 長崎ヴェルカ
 
 B.PREMIER｜西地区 8位
---
+87
 HOME
 
 長崎県｜ハピアリ
 
 19:05 TIP OFF
 
-VS
+33
+1Q
+28
+26
+2Q
+30
+14
+3Q
+28
+14
+4Q
+21
+
+FINAL
 
 仙台89ERS
 
 B.PREMIER｜東地区 2位
---
+107
 AWAY
 会場：ハピネスアリーナ
-
-チケット購入
+人数：5377人
+レフェリー：早崎 康祐／上山 正智／池田 隼人
+見逃し配信
 試合情報
 
 SHARE ON :
 
-放送予定
-バスケットLIVE
-Amazon Prime Video
-DAZN
-U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -99,8 +108,14 @@ U-NEXT
 関連リンク
 長崎ヴェルカ
 HOME
+
+試合レポート
+
 仙台89ERS
 AWAY
+
+試合レポート
+
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

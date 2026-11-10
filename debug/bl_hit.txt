@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506564&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/09 島根 VS 富山 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-10T22:39:43+09:00
+# 取得: 2026-11-11T00:53:53+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,27 +26,42 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-千葉J
-106
-大阪
-94
-FINAL
-三河
-91
-信州
-86
-FINAL
-神戸
-87
-東京SR
-108
+19:05
+北海道
+-
+三遠
+-
+19:05
+秋田
+-
+茨城
+-
+19:05
+宇都宮
+-
+京都
+-
+19:05
+A東京
+-
+長崎
+-
+19:05
+川崎
+-
+島根
+-
+19:05
+広島
+-
+仙台
+-
 2026.11.09（月）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
 島根スサノオマジック
 
-B.PREMIER｜西地区 9位
+B.PREMIER｜西地区 8位
 108
 HOME
 

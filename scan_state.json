@@ -7796,17 +7796,44 @@
     "bl:506566": {
       "d": "2026-11-10",
       "done": false,
-      "lg": "B.PREMIER"
+      "lg": "B.PREMIER",
+      "rv": 1,
+      "refs": [
+        "伊藤 亮介",
+        "岩月 遼司",
+        "神 魁杜"
+      ],
+      "m": "千葉J vs 大阪",
+      "v": "LaLa arena TOKYO-BAY",
+      "live": "506566"
     },
     "bl:506567": {
       "d": "2026-11-10",
       "done": false,
-      "lg": "B.PREMIER"
+      "lg": "B.PREMIER",
+      "rv": 1,
+      "refs": [
+        "高野 晃平",
+        "坂井 元直",
+        "石榑 芳弘"
+      ],
+      "m": "三河 vs 信州",
+      "v": "刈谷市体育館",
+      "live": "506567"
     },
     "bl:506568": {
       "d": "2026-11-10",
       "done": false,
-      "lg": "B.PREMIER"
+      "lg": "B.PREMIER",
+      "rv": 1,
+      "refs": [
+        "名越 龍男",
+        "林 大貴",
+        "川島 司"
+      ],
+      "m": "神戸 vs 東京SR",
+      "v": "GLION ARENA KOBE",
+      "live": "506568"
     },
     "bl:506569": {
       "d": "2026-11-11",
@@ -7933,7 +7960,7 @@
   },
   "bl_full_scan": "2026-11-10",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-10T13:14:29+09:00",
+  "last_run": "2026-11-10T22:40:07+09:00",
   "wl_complete_on": "2026-11-10",
   "refs_version": 1
 }

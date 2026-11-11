@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-11T11:01:10+09:00",
+  "updated": "2026-11-11T21:51:32+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,26 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506569",
+      "league": "B.PREMIER",
+      "date": "2026-11-11 (水)",
+      "match": "北海道 vs 三遠",
+      "venue": "北海きたえーる",
+      "crew": "漆間 大吾 ／ 西 和馬 ／ 山田 俊",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506569",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506569&tab=4"
+    },
     {
       "key": "506564",
       "league": "B.PREMIER",

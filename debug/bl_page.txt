@@ -1,8 +1,8 @@
 # ID=bl:506578
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506578&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/12 琉球 VS 東京SR | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-12T12:11:13+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
+# 取得: 2026-11-12T22:53:44+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,58 +26,67 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
+FINAL
 A千葉
--
+75
 横浜BC
--
-19:05
+66
+FINAL
 富山
--
+91
 大阪
--
-19:05
+77
+FINAL
 滋賀
--
+87
 千葉J
--
-19:35
+90
+FINAL
 琉球
--
+81
 東京SR
--
+78
 2026.11.12（木）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
 琉球ゴールデンキングス
 
 B.PREMIER｜西地区 6位
---
+81
 HOME
 
 沖縄県｜沖アリ
 
 19:35 TIP OFF
 
-VS
+24
+1Q
+28
+11
+2Q
+16
+23
+3Q
+14
+23
+4Q
+20
+
+FINAL
 
 東京サンロッカーズ
 
 B.PREMIER｜東地区 4位
---
+78
 AWAY
 会場：沖縄サントリーアリーナ
-
-チケット購入
+人数：7850人
+レフェリー：柳田 雅人／前田 隼大／佐久間 飛人
+見逃し配信
 試合情報
 
 SHARE ON :
 
-放送予定
-バスケットLIVE
-Amazon Prime Video
-DAZN
-U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -89,8 +98,14 @@ U-NEXT
 関連リンク
 琉球ゴールデンキングス
 HOME
+
+試合レポート
+
 東京サンロッカーズ
 AWAY
+
+試合レポート
+
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

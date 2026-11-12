@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506569&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/11 北海道 VS 三遠 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-12T12:12:07+09:00
+# 取得: 2026-11-12T22:54:32+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,26 +26,26 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
+FINAL
 A千葉
--
+75
 横浜BC
--
-19:05
+66
+FINAL
 富山
--
+91
 大阪
--
-19:05
+77
+FINAL
 滋賀
--
+87
 千葉J
--
-19:35
+90
+FINAL
 琉球
--
+81
 東京SR
--
+78
 2026.11.11（水）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 

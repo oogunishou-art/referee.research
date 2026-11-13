@@ -1,8 +1,8 @@
-# ID=bl:506569
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506569&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/11 北海道 VS 三遠 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:506584
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506584&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/13 島根 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-13T01:26:49+09:00
+# 取得: 2026-11-13T22:16:53+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,77 +22,77 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/11 北海道 VS 三遠
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/13 島根 VS 仙台
 B.PREMIER
 B.ONE
 B.NEXT
-13:05
+FINAL
 信州
--
+74
 群馬
--
-19:05
+85
+FINAL
 北海道
--
+100
 神戸
--
-19:05
+79
+FINAL
 川崎
--
+90
 佐賀
--
-19:05
+72
+FINAL
 島根
--
+76
 仙台
--
-19:15
+87
+FINAL
 京都
--
+98
 茨城
--
-19:30
+75
+FINAL
 秋田
--
+94
 名古屋D
--
-2026.11.11（水）
+110
+2026.11.13（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-レバンガ北海道
+島根スサノオマジック
 
-B.PREMIER｜東地区 5位
-96
+B.PREMIER｜西地区 7位
+76
 HOME
 
-北海道｜北海きた
+島根県｜BNアリ
 
 19:05 TIP OFF
 
-28
+27
 1Q
-34
+23
 16
 2Q
-27
-31
+22
+16
 3Q
 19
-21
+17
 4Q
-30
+23
 
 FINAL
 
-三遠ネオフェニックス
+仙台89ERS
 
-B.PREMIER｜西地区 4位
-110
+B.PREMIER｜東地区 1位
+87
 AWAY
-会場：北海きたえーる
-人数：5333人
-レフェリー：漆間 大吾／西 和馬／山田 俊
-ハイライト
+会場：バンダイナムコアリーナ松江(松江市総合体育館)
+人数：4506人
+レフェリー：阿部 聖／橋本 恵一／皆川 義紀
+見逃し配信
 試合情報
 
 SHARE ON :
@@ -106,12 +106,12 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-レバンガ北海道
+島根スサノオマジック
 HOME
 
 試合レポート
 
-三遠ネオフェニックス
+仙台89ERS
 AWAY
 
 試合レポート

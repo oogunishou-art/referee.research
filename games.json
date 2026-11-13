@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-13T11:44:15+09:00",
+  "updated": "2026-11-13T22:17:37+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,26 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506584",
+      "league": "B.PREMIER",
+      "date": "2026-11-13 (金)",
+      "match": "島根 vs 仙台",
+      "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
+      "crew": "阿部 聖 ／ 橋本 恵一 ／ 皆川 義紀",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506584",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506584&tab=4"
+    },
     {
       "key": "506569",
       "league": "B.PREMIER",

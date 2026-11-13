@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506584&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/13 島根 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-13T22:16:53+09:00
+# 取得: 2026-11-14T00:48:43+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,36 +26,31 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-信州
-74
-群馬
-85
-FINAL
-北海道
-100
-神戸
-79
-FINAL
-川崎
-90
-佐賀
-72
-FINAL
-島根
-76
-仙台
-87
-FINAL
-京都
-98
-茨城
-75
-FINAL
-秋田
-94
-名古屋D
-110
+13:00
+千葉J
+-
+長崎
+-
+14:05
+A千葉
+-
+三遠
+-
+15:05
+横浜BC
+-
+滋賀
+-
+15:05
+三河
+-
+富山
+-
+17:05
+A東京
+-
+広島
+-
 2026.11.13（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
@@ -92,7 +87,7 @@ AWAY
 会場：バンダイナムコアリーナ松江(松江市総合体育館)
 人数：4506人
 レフェリー：阿部 聖／橋本 恵一／皆川 義紀
-見逃し配信
+ハイライト
 試合情報
 
 SHARE ON :

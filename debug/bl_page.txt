@@ -1,8 +1,8 @@
-# ID=bl:507365
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507365&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/14 香川 VS 八王子 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-14T23:35:56+09:00
+# ID=bl:507366
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507366&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/15 香川 VS 八王子 | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-11-15T00:55:03+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,104 +22,86 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/14 香川 VS 八王子
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/15 香川 VS 八王子
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-東京U
-83
-熊本
-77
-FINAL
-岡山
-82
-静岡
-69
-FINAL
+13:05
 香川
-71
+-
 八王子
-61
-FINAL
+-
+14:05
 岩手
-81
+-
 山形
-71
-FINAL
+-
+14:05
 越谷
-104
+-
 福島
-86
-FINAL
+-
+14:05
 立川
-85
+-
 東京Z
-74
-FINAL
-新潟
-92
-岐阜
-75
-FINAL
+-
+14:05
 金沢
-68
+-
 横浜EX
-76
-FINAL
-奈良
-104
-青森
-75
-FINAL
+-
+14:05
+岡山
+-
+静岡
+-
+15:05
+新潟
+-
+岐阜
+-
+15:35
 FE名古屋
-85
+-
 愛媛
-96
-2026.11.14（土）
+-
+17:05
+奈良
+-
+青森
+-
+2026.11.15（日）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
 
 香川ファイブアローズ
 
 B.ONE｜南地区 4位
-71
+--
 HOME
 
 香川県｜丸亀
 
-14:05 TIP OFF
+13:05 TIP OFF
 
-17
-1Q
-18
-22
-2Q
-14
-12
-3Q
-16
-9
-4Q
-12
-11
-OT1
-1
-
-FINAL
+VS
 
 東京八王子ビートレインズ
 
 B.ONE｜東地区 4位
-61
+--
 AWAY
 会場：丸亀市民体育館
-人数：1217人
-レフェリー：細見 竜太／伊藤 彰二／野田 宏樹
-見逃し配信
+
+チケット購入
 試合情報
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -131,14 +113,8 @@ SHARE ON :
 関連リンク
 香川ファイブアローズ
 HOME
-
-試合レポート
-
 東京八王子ビートレインズ
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

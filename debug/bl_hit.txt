@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506584&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/13 島根 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-14T23:37:47+09:00
+# 取得: 2026-11-15T00:57:27+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,31 +26,31 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-千葉J
-86
-長崎
-80
-FINAL
-A千葉
-69
-三遠
-86
-FINAL
-横浜BC
-88
-滋賀
-98
-FINAL
-三河
-111
-富山
-70
-FINAL
-A東京
-99
-広島
-83
+13:35
+島根
+-
+宇都宮
+-
+14:05
+北海道
+-
+佐賀
+-
+14:05
+秋田
+-
+大阪
+-
+14:05
+信州
+-
+茨城
+-
+19:35
+名古屋D
+-
+東京SR
+-
 2026.11.13（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 

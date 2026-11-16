@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506599&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/16 広島 VS A千葉 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-16T22:51:38+09:00
+# 取得: 2026-11-17T02:34:14+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,36 +26,11 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-群馬
-100
-滋賀
-80
-FINAL
-千葉J
-104
-三遠
-110
-FINAL
-A東京
-104
-神戸
-79
-FINAL
-横浜BC
-66
-川崎
-95
-FINAL
-広島
-85
-A千葉
-63
-FINAL
-琉球
-102
-富山
-96
+19:05
+長崎
+-
+三河
+-
 2026.11.16（月）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
@@ -92,7 +67,7 @@ AWAY
 会場：広島グリーンアリーナ
 人数：3354人
 レフェリー：加藤 誉樹／大倉 哲也／甲斐 清
-見逃し配信
+ハイライト
 試合情報
 
 SHARE ON :

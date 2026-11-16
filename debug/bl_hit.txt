@@ -1,8 +1,8 @@
-# ID=bl:506584
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506584&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/13 島根 VS 仙台 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:506599
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506599&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/16 広島 VS A千葉 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-15T00:57:27+09:00
+# 取得: 2026-11-16T22:51:38+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,72 +22,77 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/13 島根 VS 仙台
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/16 広島 VS A千葉
 B.PREMIER
 B.ONE
 B.NEXT
-13:35
-島根
--
-宇都宮
--
-14:05
-北海道
--
-佐賀
--
-14:05
-秋田
--
-大阪
--
-14:05
-信州
--
-茨城
--
-19:35
-名古屋D
--
-東京SR
--
-2026.11.13（金）
+FINAL
+群馬
+100
+滋賀
+80
+FINAL
+千葉J
+104
+三遠
+110
+FINAL
+A東京
+104
+神戸
+79
+FINAL
+横浜BC
+66
+川崎
+95
+FINAL
+広島
+85
+A千葉
+63
+FINAL
+琉球
+102
+富山
+96
+2026.11.16（月）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-島根スサノオマジック
+広島ドラゴンフライズ
 
-B.PREMIER｜西地区 8位
-76
+B.PREMIER｜西地区 2位
+85
 HOME
 
-島根県｜BNアリ
+広島県｜グリアリ
 
 19:05 TIP OFF
 
-27
+25
 1Q
-23
-16
+9
+24
 2Q
-22
+18
 16
 3Q
 19
-17
+20
 4Q
-23
+17
 
 FINAL
 
-仙台89ERS
+アルティーリ千葉
 
-B.PREMIER｜東地区 1位
-87
+B.PREMIER｜東地区 11位
+63
 AWAY
-会場：バンダイナムコアリーナ松江(松江市総合体育館)
-人数：4506人
-レフェリー：阿部 聖／橋本 恵一／皆川 義紀
-ハイライト
+会場：広島グリーンアリーナ
+人数：3354人
+レフェリー：加藤 誉樹／大倉 哲也／甲斐 清
+見逃し配信
 試合情報
 
 SHARE ON :
@@ -101,12 +106,12 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-島根スサノオマジック
+広島ドラゴンフライズ
 HOME
 
 試合レポート
 
-仙台89ERS
+アルティーリ千葉
 AWAY
 
 試合レポート

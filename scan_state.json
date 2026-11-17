@@ -8476,7 +8476,7 @@
     },
     "bl:506595": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8490,7 +8490,7 @@
     },
     "bl:506596": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8504,7 +8504,7 @@
     },
     "bl:506597": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8518,7 +8518,7 @@
     },
     "bl:506598": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8532,7 +8532,7 @@
     },
     "bl:506599": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8546,7 +8546,7 @@
     },
     "bl:506600": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8560,7 +8560,7 @@
     },
     "bl:507367": {
       "d": "2026-11-16",
-      "done": false,
+      "done": true,
       "lg": "B.ONE",
       "rv": 1,
       "refs": [
@@ -8603,77 +8603,136 @@
     "bl:506602": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506603": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506604": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506605": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506606": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506607": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506608": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506610": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506611": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:506609": {
       "d": "2026-11-18",
       "done": false,
-      "lg": "B.PREMIER",
-      "hint": true
+      "lg": "B.PREMIER"
     },
     "bl:507371": {
-      "d": "2026-11-18",
+      "d": "2026-11-20",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507377": {
-      "d": "2026-11-18",
+      "d": "2026-11-20",
+      "done": false,
+      "lg": "B.ONE"
+    },
+    "bl:507389": {
+      "d": "2026-11-20",
+      "done": false,
+      "lg": "B.ONE"
+    },
+    "bl:507378": {
+      "d": "2026-11-21",
       "done": false,
       "lg": "B.ONE",
       "hint": true
     },
-    "bl:507389": {
-      "d": "2026-11-18",
+    "bl:507385": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507390": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507369": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507372": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507373": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507381": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507383": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507387": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507391": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507375": {
+      "d": "2026-11-21",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507379": {
+      "d": "2026-11-21",
       "done": false,
       "lg": "B.ONE",
       "hint": true
@@ -8705,9 +8764,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-11-17",
+  "bl_full_scan": "2026-11-18",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-17T23:44:16+09:00",
-  "wl_complete_on": "2026-11-17",
+  "last_run": "2026-11-18T02:13:42+09:00",
+  "wl_complete_on": "2026-11-18",
   "refs_version": 1
 }

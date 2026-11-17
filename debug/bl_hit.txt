@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506599&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/16 広島 VS A千葉 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-17T23:43:55+09:00
+# 取得: 2026-11-18T02:10:39+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,11 +26,56 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-長崎
-86
-三河
-69
+19:05
+仙台
+-
+三遠
+-
+19:05
+宇都宮
+-
+北海道
+-
+19:05
+群馬
+-
+島根
+-
+19:05
+千葉J
+-
+秋田
+-
+19:05
+東京SR
+-
+A東京
+-
+19:05
+横浜BC
+-
+佐賀
+-
+19:05
+名古屋D
+-
+琉球
+-
+19:05
+大阪
+-
+広島
+-
+19:05
+神戸
+-
+川崎
+-
+19:15
+京都
+-
+信州
+-
 2026.11.16（月）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 

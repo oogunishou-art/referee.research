@@ -1,8 +1,8 @@
-# ID=bl:507368
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507368&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/17 福岡 VS 徳島 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-17T23:43:35+09:00
+# ID=bl:507389
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507389&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/20 愛媛 VS 岡山 | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-11-18T02:09:38+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,56 +22,91 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/17 福岡 VS 徳島
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/20 愛媛 VS 岡山
 B.PREMIER
 B.ONE
 B.NEXT
-FINAL
-福岡
-96
-徳島
-74
-2026.11.17（火）
+19:05
+仙台
+-
+三遠
+-
+19:05
+宇都宮
+-
+北海道
+-
+19:05
+群馬
+-
+島根
+-
+19:05
+千葉J
+-
+秋田
+-
+19:05
+東京SR
+-
+A東京
+-
+19:05
+横浜BC
+-
+佐賀
+-
+19:05
+名古屋D
+-
+琉球
+-
+19:05
+大阪
+-
+広島
+-
+19:05
+神戸
+-
+川崎
+-
+19:15
+京都
+-
+信州
+-
+2026.11.20（金）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
 
-ライジングゼファー福岡
+愛媛オレンジバイキングス
 
-B.ONE｜南地区 3位
-96
+B.ONE｜南地区 4位
+--
 HOME
 
-福岡県｜照葉積水
+愛媛県｜コミセン
 
 19:05 TIP OFF
 
-29
-1Q
-19
-19
-2Q
-22
-25
-3Q
-19
-23
-4Q
-14
+VS
 
-FINAL
+トライフープ岡山
 
-徳島ガンバロウズ
-
-B.ONE｜西地区 1位
-74
+B.ONE｜西地区 2位
+--
 AWAY
-会場：照葉積水ハウスアリーナ
-人数：2384人
-レフェリー：皆川 義紀／茅野 修司／猪股 祐介
-見逃し配信
+会場：松山市総合コミュニティセンター
+
+チケット購入
 試合情報
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -81,16 +116,10 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-ライジングゼファー福岡
+愛媛オレンジバイキングス
 HOME
-
-試合レポート
-
-徳島ガンバロウズ
+トライフープ岡山
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

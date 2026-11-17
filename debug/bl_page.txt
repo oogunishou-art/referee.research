@@ -1,8 +1,8 @@
-# ID=bl:507389
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507389&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/20 愛媛 VS 岡山 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:506611
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506611&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 神戸 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-18T02:09:38+09:00
+# 取得: 2026-11-18T03:39:46+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,7 +22,7 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/20 愛媛 VS 岡山
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 神戸 VS 川崎
 B.PREMIER
 B.ONE
 B.NEXT
@@ -76,35 +76,35 @@ A東京
 -
 信州
 -
-2026.11.20（金）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
+2026.11.18（水）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
-愛媛オレンジバイキングス
+神戸ストークス
 
-B.ONE｜南地区 4位
+B.PREMIER｜西地区 11位
 --
 HOME
 
-愛媛県｜コミセン
+兵庫県｜Gアリ
 
 19:05 TIP OFF
 
 VS
 
-トライフープ岡山
+川崎ブレイブサンダース
 
-B.ONE｜西地区 2位
+B.PREMIER｜東地区 12位
 --
 AWAY
-会場：松山市総合コミュニティセンター
+会場：GLION ARENA KOBE
 
 チケット購入
-試合情報
 
 SHARE ON :
 
 放送予定
 バスケットLIVE
+Amazon Prime Video
 DAZN
 U-NEXT
 クラブデータ
@@ -116,9 +116,9 @@ U-NEXT
 テキスト速報
 ボックススコア
 関連リンク
-愛媛オレンジバイキングス
+神戸ストークス
 HOME
-トライフープ岡山
+川崎ブレイブサンダース
 AWAY
 おすすめコンテンツ​
 

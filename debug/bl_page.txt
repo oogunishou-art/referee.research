@@ -1,8 +1,8 @@
 # ID=bl:507368
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=507368&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/17 福岡 VS 徳島 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-17T13:39:19+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
+# 取得: 2026-11-17T23:43:35+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,43 +26,52 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
+FINAL
 福岡
--
+96
 徳島
--
+74
 2026.11.17（火）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
 
 ライジングゼファー福岡
 
-B.ONE｜南地区 4位
---
+B.ONE｜南地区 3位
+96
 HOME
 
 福岡県｜照葉積水
 
 19:05 TIP OFF
 
-VS
+29
+1Q
+19
+19
+2Q
+22
+25
+3Q
+19
+23
+4Q
+14
+
+FINAL
 
 徳島ガンバロウズ
 
 B.ONE｜西地区 1位
---
+74
 AWAY
 会場：照葉積水ハウスアリーナ
-
-チケット購入
+人数：2384人
+レフェリー：皆川 義紀／茅野 修司／猪股 祐介
+見逃し配信
 試合情報
 
 SHARE ON :
 
-放送予定
-バスケットLIVE
-ケーブルテレビ徳島
-DAZN
-U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -74,8 +83,14 @@ U-NEXT
 関連リンク
 ライジングゼファー福岡
 HOME
+
+試合レポート
+
 徳島ガンバロウズ
 AWAY
+
+試合レポート
+
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

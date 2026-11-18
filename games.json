@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-18T12:45:50+09:00",
+  "updated": "2026-11-18T23:23:02+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,66 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "506610",
+      "league": "B.PREMIER",
+      "date": "2026-11-18 (水)",
+      "match": "大阪 vs 広島",
+      "venue": "Asueアリーナ大阪(大阪市中央体育館)",
+      "crew": "橋本 恵一 ／ 高野 晃平 ／ 浅野 祐樹",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "橋本 恵一"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506610",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506610&tab=4"
+    },
+    {
+      "key": "506607",
+      "league": "B.PREMIER",
+      "date": "2026-11-18 (水)",
+      "match": "横浜BC vs 佐賀",
+      "venue": "横浜BUNTAI",
+      "crew": "東條 輝正 ／ 豊田 康平 ／ 前田 隼大",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506607",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506607&tab=4"
+    },
+    {
+      "key": "506604",
+      "league": "B.PREMIER",
+      "date": "2026-11-18 (水)",
+      "match": "群馬 vs 島根",
+      "venue": "オープンハウスアリーナ太田",
+      "crew": "漆間 大吾 ／ 熊谷 久美子 ／ 松井 龍斗",
+      "groups": [
+        "urushima"
+      ],
+      "hits": {
+        "urushima": [
+          "漆間 大吾"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/506604",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=506604&tab=4"
+    },
     {
       "key": "506599",
       "league": "B.PREMIER",

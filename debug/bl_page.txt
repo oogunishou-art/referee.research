@@ -1,8 +1,8 @@
 # ID=bl:506611
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506611&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 神戸 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-18T12:45:12+09:00
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
+# 取得: 2026-11-18T23:21:49+09:00
 
 SDGs等への取り組み
 グッズ
@@ -26,87 +26,96 @@ B.LEAGUE
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
+FINAL
 仙台
--
+91
 三遠
--
-19:05
+84
+FINAL
 宇都宮
--
+98
 北海道
--
-19:05
+71
+FINAL
 群馬
--
+92
 島根
--
-19:05
+90
+FINAL
 千葉J
--
+89
 秋田
--
-19:05
+84
+FINAL
 東京SR
--
+75
 A東京
--
-19:05
+69
+FINAL
 横浜BC
--
+97
 佐賀
--
-19:05
+88
+FINAL
 名古屋D
--
+93
 琉球
--
-19:05
+76
+FINAL
 大阪
--
+59
 広島
--
-19:05
+92
+FINAL
 神戸
--
+77
 川崎
--
-19:15
+84
+FINAL
 京都
--
+78
 信州
--
+76
 2026.11.18（水）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 
 神戸ストークス
 
 B.PREMIER｜西地区 11位
---
+77
 HOME
 
 兵庫県｜Gアリ
 
 19:05 TIP OFF
 
-VS
+13
+1Q
+26
+17
+2Q
+20
+23
+3Q
+23
+24
+4Q
+15
+
+FINAL
 
 川崎ブレイブサンダース
 
 B.PREMIER｜東地区 12位
---
+84
 AWAY
 会場：GLION ARENA KOBE
-
-チケット購入
+人数：5715人
+レフェリー：早崎 康祐／柳田 雅人／岸本 祥也
+見逃し配信
 
 SHARE ON :
 
-放送予定
-バスケットLIVE
-Amazon Prime Video
-DAZN
-U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -118,8 +127,14 @@ U-NEXT
 関連リンク
 神戸ストークス
 HOME
+
+試合レポート
+
 川崎ブレイブサンダース
 AWAY
+
+試合レポート
+
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

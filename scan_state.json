@@ -8574,7 +8574,7 @@
     },
     "bl:506601": {
       "d": "2026-11-17",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8588,7 +8588,7 @@
     },
     "bl:507368": {
       "d": "2026-11-17",
-      "done": false,
+      "done": true,
       "lg": "B.ONE",
       "rv": 1,
       "refs": [
@@ -8826,6 +8826,72 @@
       "done": false,
       "lg": "B.ONE",
       "hint": true
+    },
+    "bl:507392": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507382": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507386": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507388": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507370": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507374": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507376": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507380": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507384": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507934": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
+    },
+    "bl:507936": {
+      "d": "2026-11-22",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
     }
   },
   "retry": {
@@ -8854,9 +8920,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-11-18",
+  "bl_full_scan": "2026-11-19",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-18T23:23:02+09:00",
-  "wl_complete_on": "2026-11-18",
+  "last_run": "2026-11-19T01:51:27+09:00",
+  "wl_complete_on": "2026-11-19",
   "refs_version": 1
 }

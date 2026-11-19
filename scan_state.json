@@ -8602,7 +8602,7 @@
     },
     "bl:506602": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8616,7 +8616,7 @@
     },
     "bl:506603": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8630,7 +8630,7 @@
     },
     "bl:506604": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8644,7 +8644,7 @@
     },
     "bl:506605": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8658,7 +8658,7 @@
     },
     "bl:506606": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8672,7 +8672,7 @@
     },
     "bl:506607": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8686,7 +8686,7 @@
     },
     "bl:506608": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8700,7 +8700,7 @@
     },
     "bl:506610": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8714,7 +8714,7 @@
     },
     "bl:506611": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8728,7 +8728,7 @@
     },
     "bl:506609": {
       "d": "2026-11-18",
-      "done": false,
+      "done": true,
       "lg": "B.PREMIER",
       "rv": 1,
       "refs": [
@@ -8892,6 +8892,30 @@
       "done": false,
       "lg": "B.NEXT",
       "hint": true
+    },
+    "bl:507403": {
+      "d": "2026-11-23",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507413": {
+      "d": "2026-11-23",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507937": {
+      "d": "2026-11-23",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
+    },
+    "bl:507939": {
+      "d": "2026-11-23",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
     }
   },
   "retry": {
@@ -8920,9 +8944,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-11-19",
+  "bl_full_scan": "2026-11-20",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-19T23:34:40+09:00",
-  "wl_complete_on": "2026-11-19",
+  "last_run": "2026-11-20T01:58:08+09:00",
+  "wl_complete_on": "2026-11-20",
   "refs_version": 1
 }

@@ -1,8 +1,8 @@
-# ID=bl:506611
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506611&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 神戸 VS 川崎 | B.LEAGUE（Bリーグ）公式サイト
-# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-19T23:33:53+09:00
+# ID=bl:507389
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507389&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/20 愛媛 VS 岡山 | B.LEAGUE（Bリーグ）公式サイト
+# LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
+# 取得: 2026-11-20T01:54:11+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,47 +22,56 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 神戸 VS 川崎
-2026.11.18（水）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/20 愛媛 VS 岡山
+B.PREMIER
+B.ONE
+B.NEXT
+19:05
+山形
+-
+金沢
+-
+19:05
+八王子
+-
+福島
+-
+19:05
+愛媛
+-
+岡山
+-
+2026.11.20（金）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
 
-神戸ストークス
+愛媛オレンジバイキングス
 
-B.PREMIER｜西地区 11位
-77
+B.ONE｜南地区 4位
+--
 HOME
 
-兵庫県｜Gアリ
+愛媛県｜コミセン
 
 19:05 TIP OFF
 
-13
-1Q
-26
-17
-2Q
-20
-23
-3Q
-23
-24
-4Q
-15
+VS
 
-FINAL
+トライフープ岡山
 
-川崎ブレイブサンダース
-
-B.PREMIER｜東地区 12位
-84
+B.ONE｜西地区 2位
+--
 AWAY
-会場：GLION ARENA KOBE
-人数：5715人
-レフェリー：早崎 康祐／柳田 雅人／岸本 祥也
-ハイライト
+会場：松山市総合コミュニティセンター
+
+チケット購入
+試合情報
 
 SHARE ON :
 
+放送予定
+バスケットLIVE
+DAZN
+U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -72,16 +81,10 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-神戸ストークス
+愛媛オレンジバイキングス
 HOME
-
-試合レポート
-
-川崎ブレイブサンダース
+トライフープ岡山
 AWAY
-
-試合レポート
-
 おすすめコンテンツ​
 
 はじめてのB.LEAGUE

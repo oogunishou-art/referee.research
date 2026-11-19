@@ -2,7 +2,7 @@
 # URL=https://www.bleague.jp/game_detail/?ScheduleKey=506610&tab=4
 # TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 大阪 VS 広島 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-19T23:33:57+09:00
+# 取得: 2026-11-20T01:54:29+09:00
 
 SDGs等への取り組み
 グッズ
@@ -23,6 +23,24 @@ B.LEAGUE
 
 チケット購入
 日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 大阪 VS 広島
+B.PREMIER
+B.ONE
+B.NEXT
+19:05
+山形
+-
+金沢
+-
+19:05
+八王子
+-
+福島
+-
+19:05
+愛媛
+-
+岡山
+-
 2026.11.18（水）
 りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
 

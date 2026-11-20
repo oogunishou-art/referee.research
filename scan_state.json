@@ -8785,74 +8785,62 @@
     "bl:507378": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507385": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507390": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507369": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507372": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507373": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507381": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507383": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507387": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507391": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507375": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507379": {
       "d": "2026-11-21",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507392": {
       "d": "2026-11-22",
@@ -8971,9 +8959,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-11-20",
+  "bl_full_scan": "2026-11-21",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-20T23:12:36+09:00",
-  "wl_complete_on": "2026-11-20",
+  "last_run": "2026-11-21T01:33:42+09:00",
+  "wl_complete_on": "2026-11-21",
   "refs_version": 1
 }

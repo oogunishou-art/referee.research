@@ -8760,7 +8760,7 @@
     },
     "bl:507371": {
       "d": "2026-11-20",
-      "done": false,
+      "done": true,
       "lg": "B.ONE",
       "rv": 1,
       "refs": [
@@ -8774,7 +8774,7 @@
     },
     "bl:507377": {
       "d": "2026-11-20",
-      "done": false,
+      "done": true,
       "lg": "B.ONE",
       "rv": 1,
       "refs": [
@@ -8788,7 +8788,7 @@
     },
     "bl:507389": {
       "d": "2026-11-20",
-      "done": false,
+      "done": true,
       "lg": "B.ONE",
       "rv": 1,
       "refs": [
@@ -8971,68 +8971,57 @@
     "bl:507392": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507382": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507386": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507388": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507370": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507374": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507376": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507380": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507384": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507934": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.NEXT",
-      "hint": true
+      "lg": "B.NEXT"
     },
     "bl:507936": {
       "d": "2026-11-22",
       "done": false,
-      "lg": "B.NEXT",
-      "hint": true
+      "lg": "B.NEXT"
     },
     "bl:507403": {
       "d": "2026-11-23",
@@ -9085,9 +9074,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-11-21",
+  "bl_full_scan": "2026-11-22",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-21T22:38:52+09:00",
-  "wl_complete_on": "2026-11-21",
+  "last_run": "2026-11-22T00:49:32+09:00",
+  "wl_complete_on": "2026-11-22",
   "refs_version": 1
 }

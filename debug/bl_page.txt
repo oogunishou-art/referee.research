@@ -1,8 +1,8 @@
-# ID=bl:507413
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507413&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/27 福岡 VS 越谷 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:507939
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507939&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/28 山口 VS 湘南 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=227']
-# 取得: 2026-11-27T13:21:34+09:00
+# 取得: 2026-11-28T00:26:01+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,51 +22,48 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦 2026/11/27 福岡 VS 越谷
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/28 山口 VS 湘南
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
-横浜EX
+14:05
+三重
 -
-岐阜
+品川
 -
-19:05
-福岡
+15:05
+山口
 -
-越谷
+湘南
 -
-2026.11.27（金）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE ONE リーグ戦
+2026.11.28（土）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
 
-ライジングゼファー福岡
+山口パッツファイブ
 
-B.ONE｜南地区 2位
+B.NEXT ｜2位
 --
 HOME
 
-福岡県｜照葉積水
+山口県｜下関
 
-19:05 TIP OFF
+15:05 TIP OFF
 
 VS
 
-越谷アルファーズ
+ウォルガ湘南
 
-B.ONE｜北地区 1位
+B.NEXT ｜1位
 --
 AWAY
-会場：照葉積水ハウスアリーナ
+会場：J:comアリーナ下関
 
 チケット購入
-試合情報
 
 SHARE ON :
 
 放送予定
 バスケットLIVE
-DAZN
-U-NEXT
 クラブデータ
 試合レポート
 テキスト速報
@@ -76,9 +73,9 @@ U-NEXT
 テキスト速報
 ボックススコア
 関連リンク
-ライジングゼファー福岡
+山口パッツファイブ
 HOME
-越谷アルファーズ
+ウォルガ湘南
 AWAY
 おすすめコンテンツ​
 

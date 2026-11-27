@@ -9125,12 +9125,30 @@
     "bl:507403": {
       "d": "2026-11-27",
       "done": false,
-      "lg": "B.ONE"
+      "lg": "B.ONE",
+      "rv": 1,
+      "refs": [
+        "竹田 雄介",
+        "林 大貴",
+        "石嶺 良方"
+      ],
+      "m": "横浜EX vs 岐阜",
+      "v": "横浜武道館",
+      "live": "507403"
     },
     "bl:507413": {
       "d": "2026-11-27",
       "done": false,
-      "lg": "B.ONE"
+      "lg": "B.ONE",
+      "rv": 1,
+      "refs": [
+        "有澤 重行",
+        "小畑 治",
+        "堤 健太郎"
+      ],
+      "m": "福岡 vs 越谷",
+      "v": "照葉積水ハウスアリーナ",
+      "live": "507413"
     },
     "bl:507937": {
       "d": "2026-11-28",
@@ -9145,68 +9163,57 @@
     "bl:507395": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507405": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507411": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507414": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507393": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507397": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507399": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507404": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507409": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507415": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507401": {
       "d": "2026-11-28",
       "done": false,
-      "lg": "B.ONE",
-      "hint": true
+      "lg": "B.ONE"
     },
     "bl:507410": {
       "d": "2026-11-29",
@@ -9285,6 +9292,114 @@
       "done": false,
       "lg": "B.ONE",
       "hint": true
+    },
+    "bl:506612": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506613": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506615": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506616": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506617": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:506614": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.PREMIER",
+      "hint": true
+    },
+    "bl:507419": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507431": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507435": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507437": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507417": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507421": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507423": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507427": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507429": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507433": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507439": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.ONE",
+      "hint": true
+    },
+    "bl:507941": {
+      "d": "2026-12-01",
+      "done": false,
+      "lg": "B.NEXT",
+      "hint": true
     }
   },
   "retry": {
@@ -9313,9 +9428,9 @@
     "wl:8210": 3,
     "wl:8211": 3
   },
-  "bl_full_scan": "2026-11-27",
+  "bl_full_scan": "2026-11-28",
   "wl_max_seen": 8221,
-  "last_run": "2026-11-27T13:21:39+09:00",
-  "wl_complete_on": "2026-11-27",
+  "last_run": "2026-11-28T00:29:30+09:00",
+  "wl_complete_on": "2026-11-28",
   "refs_version": 1
 }

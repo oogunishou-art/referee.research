@@ -23,7 +23,7 @@
       "badge": "島根"
     }
   ],
-  "updated": "2026-11-28T13:03:26+09:00",
+  "updated": "2026-11-28T23:25:01+09:00",
   "status": "ok",
   "sources": [
     "B.PREMIER",
@@ -32,6 +32,46 @@
     "Wリーグ"
   ],
   "games": [
+    {
+      "key": "507939",
+      "league": "B.NEXT",
+      "date": "2026-11-28 (土)",
+      "match": "山口 vs 湘南",
+      "venue": "J:comアリーナ下関",
+      "crew": "野田 宏樹 ／ 荒木 晋之 ／ 土江 翔平",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "土江 翔平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/507939",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507939&tab=4"
+    },
+    {
+      "key": "507411",
+      "league": "B.ONE",
+      "date": "2026-11-28 (土)",
+      "match": "香川 vs 奈良",
+      "venue": "善通寺市民体育館",
+      "crew": "豊田 康平 ／ 佐藤 浩太 ／ 山田 佳奈",
+      "groups": [
+        "shimane"
+      ],
+      "hits": {
+        "shimane": [
+          "豊田 康平"
+        ]
+      },
+      "status": "final",
+      "verified": true,
+      "live_url": "https://basketball.mb.softbank.jp/lives/507411",
+      "source_url": "https://www.bleague.jp/game_detail/?ScheduleKey=507411&tab=4"
+    },
     {
       "key": "506610",
       "league": "B.PREMIER",

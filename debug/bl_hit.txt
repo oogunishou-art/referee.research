@@ -1,8 +1,8 @@
-# ID=bl:506610
-# URL=https://www.bleague.jp/game_detail/?ScheduleKey=506610&tab=4
-# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 大阪 VS 広島 | B.LEAGUE（Bリーグ）公式サイト
+# ID=bl:507939
+# URL=https://www.bleague.jp/game_detail/?ScheduleKey=507939&tab=4
+# TITLE=りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/28 山口 VS 湘南 | B.LEAGUE（Bリーグ）公式サイト
 # LIVEリンク=['https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/?utm_source=bleague&utm_medium=bleague&utm_campaign=bleague_bleague_021', 'https://basketball.mb.softbank.jp/', 'https://www.bleague.jp/basketlive/']
-# 取得: 2026-11-20T01:54:29+09:00
+# 取得: 2026-11-28T23:23:44+09:00
 
 SDGs等への取り組み
 グッズ
@@ -22,63 +22,57 @@ B.LEAGUE
 ライブ配信
 
 チケット購入
-日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦 2026/11/18 大阪 VS 広島
+日程・結果  りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦 2026/11/28 山口 VS 湘南
 B.PREMIER
 B.ONE
 B.NEXT
-19:05
-山形
--
-金沢
--
-19:05
-八王子
--
-福島
--
-19:05
-愛媛
--
-岡山
--
-2026.11.18（水）
-りそなグループ B.LEAGUE 2026-27 B.LEAGUE PREMIER リーグ戦
+FINAL
+三重
+79
+品川
+92
+FINAL
+山口
+68
+湘南
+63
+2026.11.28（土）
+りそなグループ B.LEAGUE 2026-27 B.LEAGUE NEXT リーグ戦
 
-大阪エヴェッサ
+山口パッツファイブ
 
-B.PREMIER｜西地区 13位
-59
+B.NEXT ｜2位
+68
 HOME
 
-大阪府｜大阪中央
+山口県｜下関
 
-19:05 TIP OFF
+15:05 TIP OFF
 
-20
+17
 1Q
-15
-10
+22
+17
 2Q
-30
+8
 19
 3Q
-22
-10
+21
+15
 4Q
-25
+12
 
 FINAL
 
-広島ドラゴンフライズ
+ウォルガ湘南
 
-B.PREMIER｜西地区 2位
-92
+B.NEXT ｜1位
+63
 AWAY
-会場：Asueアリーナ大阪(大阪市中央体育館)
-人数：3579人
-レフェリー：橋本 恵一／高野 晃平／浅野 祐樹
-ハイライト
-試合情報
+会場：J:comアリーナ下関
+人数：1565人
+レフェリー：野田 宏樹／荒木 晋之／土江 翔平
+見逃し配信
 
 SHARE ON :
 
@@ -91,12 +85,12 @@ SHARE ON :
 テキスト速報
 ボックススコア
 関連リンク
-大阪エヴェッサ
+山口パッツファイブ
 HOME
 
 試合レポート
 
-広島ドラゴンフライズ
+ウォルガ湘南
 AWAY
 
 試合レポート
